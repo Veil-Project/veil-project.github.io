@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/4x13
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.veil-project.com
+  * I am 4x13 (https://keybase.io/4x13) on keybase.
+  * I have a public key ASDfq8wtXQTZvdc2WdAin_GcVLSvBmpWZq0RD4QX4_QwSQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204aa396dc0fff10c9bba706d66ddafefd9dfbbeface4e660a737b75b484375b700a",
+      "host": "keybase.io",
+      "kid": "0120dfabcc2d5d04d9bdd73659d0229ff19c54b4af066a5666ad110f8417e3f430490a",
+      "uid": "919dd581b54274e5f9c22b7aa251df19",
+      "username": "4x13"
+    },
+    "merkle_root": {
+      "ctime": 1541735296,
+      "hash": "2cdf5268dbb0f2e1ed8f6bebee592dc5b94f52874e0f9c603e12a2db0a72079e051855660a8db4d6df71a25eb78701a9bf1f555867a64b7b5239167400a0e670",
+      "hash_meta": "b8c52a892a413438432952d35ca542a2c287c206575fe79b10eb7701de1c5483",
+      "seqno": 3924873
+    },
+    "service": {
+      "entropy": "itaFEXHgPOQ3N0bYaRV0Fe59",
+      "hostname": "www.veil-project.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.8.0"
+  },
+  "ctime": 1541735330,
+  "expire_in": 504576000,
+  "prev": "6d5b8e33fa9a8c51a589989f7fd07057ff1f21eb0620792cc317dc98c8d0326e",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg36vMLV0E2b3XNlnQIp/xnFS0rwZqVmatEQ+EF+P0MEkKp3BheWxvYWTESpcCIMQgbVuOM/qajFGliZiff9BwV/8fIesGIHkswxfcmMjQMm7EIMLMye8kxUVE1XdsjHIadcqmny7WRErWhhhmlhKyoyzzAgHCo3NpZ8RASNxUTsxIH7bgqJfS9XiHNQwtCmUyr62Oj8dif9jkl6G/HY7XqQKimKYWR6ghho9T8rusLfu0qxxxSIR3PMd5D6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGLXYRy8eoJ0OyqeUsz44Rv5JmlwKJbUPhnf6L6sf/S1o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/4x13
+
+==================================================================

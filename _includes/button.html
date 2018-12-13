@@ -1,0 +1,6 @@
+<a up-dash href="{{ include.href }}" class="inline-block leading-none text-center pt-4 pb-3 px-6 rounded-full border border-teal bg-teal hover:bg-white hover:border-white text-blue-dark text-sm font-medium uppercase tracking-wide">
+  {{ include.label }}
+  {% if include.icon %}
+    {% include icon.html name=include.icon class="w-3 h-3" %}
+  {% endif %}
+</a>

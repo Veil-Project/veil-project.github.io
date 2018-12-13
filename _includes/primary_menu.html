@@ -1,0 +1,30 @@
+{% assign pages = site.pages | where:"ref", "home" | where:"lang", page.lang %}
+{% assign home = pages[0] %}
+
+<header class="bg-black fixed pin w-full flex justify-between h-16 px-6">
+  <a href="{{ home.url }}" class="text-white flex justify-center items-center">
+    VEIL
+  </div>
+  <nav class="flex">
+    <a
+      href="{{ home.url }}#overview"
+      class="flex justify-center items-center px-6 text-grey hover:text-white"
+    >
+      Overview
+    </a>
+    {% for link in site.data.primary_menu %}
+    {% assign target_page = site.pages | where:"ref", link.ref | where:"lang", page.lang %}
+    {% if target_page[0] %}
+      <a
+        up-dash
+        href="{{ target_page[0].url }}"
+        class="flex justify-center items-center px-6 text-grey hover:text-white"
+      >
+        {{ link.title[page.lang] }}
+      </a>
+    {% endif %}
+    {% endfor %}
+
+    <a href="" class="flex justify-center items-center text-white">{{ site.data.languages[page.lang] }}</a>
+  </nav>
+</header>
