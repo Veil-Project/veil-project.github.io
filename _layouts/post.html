@@ -1,0 +1,54 @@
+---
+layout: base
+---
+{% if page.collection == "news" %}
+  {% include header.html title="<a href='/news/' class='text-white'>News</a>" %}
+{% else %}
+  {% include header.html title="<a href='/blog/' class='text-white'>Veil Blog</a>" %}
+{% endif %}
+{% assign authors = site.team | where:"ref", page.author %}
+{% assign author = authors[0] %}
+<main class="flex-1 bg-white">
+  <div class="container py-12 md:py-16">
+    <article>
+      <header class="border-b pb-12 mb-12">
+        <div class="leading-tight font-medium uppercase tracking-wide text-sm">
+          <div>{{ page.date | date:"%b %d, %Y" }}</div>
+          {% if author %}
+            by
+            <a href="{{ author.url }}" up-modal=".MemberContent" up-history="false" class="text-black hover:text-blue">
+              {{ author.name | default:author.username }}
+            </a>
+          {% endif %}
+        </div>
+        <div class="mt-2 mb-8 w-10 border-t-4 border-black"></div>
+        <h1 class="text-3xl md:text-4xl mb-4 text-blue">
+          <span class="Veil bg-clip-text">{{ page.title }}</span>
+        </h1>
+        <p class="text-lg md:text-xl opacity-75">{{ page.excerpt }}</p>
+      </header>
+      <div class="flex flex-col md:flex-row relative">
+        <div class="flex-1 content">
+          {{ content }}
+        </div>
+        <div class="flex-none mt-8 md:mt-0 md:w-1/4 md:pl-8 text-center">
+          <div class="sticky pin-t">
+            <div class="uppercase font-medium text-sm tracking-wide mb-4">Share</div>
+            <div class="flex items-center md:flex-col">
+              <a href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" class="flex-1 p-2 text-black opacity-66 hover:opacity-100 hover:text-blue">
+                {% include icon.html name="reddit" class="w-auto h-6" %}
+              </a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="flex-1 p-2 text-black opacity-66 hover:opacity-100 hover:text-blue">
+                {% include icon.html name="facebook" class="w-6 h-6" %}
+              </a>
+              <a href="https://twitter.com/home?status={{ site.url }}{{ page.url }}" class="flex-1 p-2 text-black opacity-66 hover:opacity-100 hover:text-blue">
+                {% include icon.html name="twitter" class="w-6 h-6" %}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</main>
+{% include footer.html %}

@@ -1,0 +1,20 @@
+<div class="flex">
+{% for lang in site.data.languages %}
+  {% assign posts = site.posts | where:"ref", page.ref | where:"lang", lang[0] %}
+  {% assign pages = site.pages | where:"ref", page.ref | where:"lang", lang[0] %}
+  {% assign translated_post = posts[0] %}
+  {% assign translated_page = pages[0] %}
+  {% if translated_post or translated_page %}
+    <a
+      up-follow
+      up-preload
+      href="{{ translated_page.url | default:translated_post.url }}"
+      class="{{ lang[0] }} text-grey hover:text-white px-6"
+    >
+      {{ lang[1] }}
+    </a>
+  {% else %}
+    <span class="text-grey-dark px-6">{{ lang[1] }}</span>
+  {% endif %}
+{% endfor %}
+</div>

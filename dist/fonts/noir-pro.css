@@ -1,0 +1,44 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3677692, 2018-11-24T00:52:45-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: NoirPro-Bold by Mindburger Studio
+ * URL: https://www.myfonts.com/fonts/mindburger-studio/noir/pro-bold/
+ *
+ * Webfont: NoirPro-Heavy by Mindburger Studio
+ * URL: https://www.myfonts.com/fonts/mindburger-studio/noir/pro-heavy/
+ *
+ * Webfont: NoirPro-Light by Mindburger Studio
+ * URL: https://www.myfonts.com/fonts/mindburger-studio/noir/pro-light/
+ *
+ * Webfont: NoirPro-Medium by Mindburger Studio
+ * URL: https://www.myfonts.com/fonts/mindburger-studio/noir/pro-medium/
+ *
+ * Webfont: NoirPro-Regular by Mindburger Studio
+ * URL: https://www.myfonts.com/fonts/mindburger-studio/noir/pro-regular/
+ *
+ * Webfont: NoirPro-SemiBold by Mindburger Studio
+ * URL: https://www.myfonts.com/fonts/mindburger-studio/noir/pro-semi-bold/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3677692
+ * Licensed pageviews: 100,000
+ * Webfonts copyright: Copyright (c) Milos Mitrovic, 2016. All rights reserved.
+ *
+ * © 2018 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/381dfc");
+@font-face {font-family:'NoirPro';font-weight:300;src: url('../fonts/noir-pro/381DFC_2_0.eot');src: url('../fonts/noir-pro/381DFC_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/noir-pro/381DFC_2_0.woff2') format('woff2'),url('../fonts/noir-pro/381DFC_2_0.woff') format('woff'),url('../fonts/noir-pro/381DFC_2_0.ttf') format('truetype');}
+@font-face {font-family:'NoirPro';font-weight:400;src: url('../fonts/noir-pro/381DFC_4_0.eot');src: url('../fonts/noir-pro/381DFC_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/noir-pro/381DFC_4_0.woff2') format('woff2'),url('../fonts/noir-pro/381DFC_4_0.woff') format('woff'),url('../fonts/noir-pro/381DFC_4_0.ttf') format('truetype');}
+@font-face {font-family:'NoirPro';font-weight:500;src: url('../fonts/noir-pro/381DFC_3_0.eot');src: url('../fonts/noir-pro/381DFC_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/noir-pro/381DFC_3_0.woff2') format('woff2'),url('../fonts/noir-pro/381DFC_3_0.woff') format('woff'),url('../fonts/noir-pro/381DFC_3_0.ttf') format('truetype');}
+@font-face {font-family:'NoirPro';font-weight:600;src: url('../fonts/noir-pro/381DFC_5_0.eot');src: url('../fonts/noir-pro/381DFC_5_0.eot?#iefix') format('embedded-opentype'),url('../fonts/noir-pro/381DFC_5_0.woff2') format('woff2'),url('../fonts/noir-pro/381DFC_5_0.woff') format('woff'),url('../fonts/noir-pro/381DFC_5_0.ttf') format('truetype');}
+@font-face {font-family:'NoirPro';font-weight:700;src: url('../fonts/noir-pro/381DFC_0_0.eot');src: url('../fonts/noir-pro/381DFC_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/noir-pro/381DFC_0_0.woff2') format('woff2'),url('../fonts/noir-pro/381DFC_0_0.woff') format('woff'),url('../fonts/noir-pro/381DFC_0_0.ttf') format('truetype');}
+@font-face {font-family:'NoirPro';font-weight:800;src: url('../fonts/noir-pro/381DFC_1_0.eot');src: url('../fonts/noir-pro/381DFC_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/noir-pro/381DFC_1_0.woff2') format('woff2'),url('../fonts/noir-pro/381DFC_1_0.woff') format('woff'),url('../fonts/noir-pro/381DFC_1_0.ttf') format('truetype');}

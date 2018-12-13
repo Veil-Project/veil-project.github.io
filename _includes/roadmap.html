@@ -1,0 +1,24 @@
+<div class="Roadmap md:-mb-16 md:max-w-xl md:mx-auto" data-carousel up-data='{ "watchCSS": true, "selectedAttraction": 0.2, "friction": 0.8, "wrapAround": false, "adaptiveHeight": false, "cellAlign": "left", "prevNextButtons": false, "pageDots": true }'>
+  {% assign rows = site.data.milestones.size | divided_by: 4.0 | ceil %}
+  {% for i in (1..rows) %}
+    {% assign offset = forloop.index0 | times: 4 %}
+    <div class="Roadmap-row w-full flex">
+      {% for milestone in site.data.milestones limit:4 offset:offset %}
+        <div class="Roadmap-milestone flex-none w-1/4 px-2 pt-16 md:pb-16 md:px-8 text-center" data-date="{{ milestone.date | date: '%Y-%m-%d' }}">
+          <div class="h-10 mb-2 text-teal text-sm font-medium leading-tight">
+            {% if milestone.date %}
+              {{ milestone.date | date: "%b %d, %Y" }}
+            {% else %}
+              TBD
+            {% endif %}
+          </div>
+          <div {% if milestone.desc %}up-tooltip="{{ milestone.desc[page.lang] }}"{% endif %} class="Roadmap-dot block w-6 h-6 bg-teal rounded-full mx-auto border-8 border-blue"></div>
+          <div style="width:1px" class="h-12 mb-2 mx-auto border-l border-dashed border-blue"></div>
+          <div class="text-white text-sm md:text-base opacity-75 leading-tight">
+            {{ milestone.title[page.lang] }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,49 @@
+---
+layout: base
+---
+{% assign latest_news = site.documents | where:"lang", page.lang | sort:"date" | reverse | first %}
+{% capture header %}
+  <div class="min-h-screen pt-24 flex items-center">
+    <div class="container py-12 md:pt-0">
+      <a href="{{ latest_news.url }}" class="hidden md:inline-flex leading-none pt-3 pb-2 px-4 items-center mb-8 bg-blue-darker hover:bg-blue-darkest rounded-full text-sm font-medium text-white">
+        <span class="text-teal mr-2">
+          {{ latest_news.date | date:"%b %d" }}
+        </span>
+        <span class="mr-2">{{ latest_news.title }}</span>
+        <span>{% include icon.html name="chevron-right" class="w-2 h-2" %}</span>
+      </a>
+
+      <h1 class="text-3xl md:text-5xl uppercase text-white">
+        {{ page.title }}
+      </h1>
+      <p class="my-4 text-lg md:text-xl text-white opacity-75 leading-tight max-w-md">
+        {{ page.lead }}
+      </p>
+      <p class="mt-8 flex flex-col md:mt-16 md:flex-row items-start md:items-center">
+        <!--
+        <a href="/video/" up-history="false" up-modal=".video" class="relative inline-block text-center py-3 px-6 pl-12 mb-4 md:mb-0 md:mr-4 rounded-full border-2 border-teal hover:border-white text-teal hover:text-white text-sm font-medium uppercase tracking-wide">
+          {% include icon.html name="video" class="w-5 h-5 absolute pin-l pin-t m-3 ml-4" %} Watch the Video
+        </a>
+        -->
+        <a href="#overview" class="relative inline-block leading-none text-center pt-4 pb-3 px-6 mb-4 md:mb-0 md:mr-4 rounded-full border-2 border-teal hover:border-white text-teal hover:text-white text-sm font-medium uppercase tracking-wide">
+          Learn more
+        </a>
+        {% include button.html label="Get Started" href="/get-started/" icon="chevron-right" %}
+      </p>
+
+      <div class="w-48 mt-12">
+        <div class="mb-1 opacity-75 uppercase text-sm font-medium tracking-wide">Participate & Follow:</div>
+        {% include social_links.html %}
+      </div>
+
+      <a href="#overview" class="ScrollArrow absolute text-white opacity-50 hover:opacity-100 pin-x-center pin-b flex justify-center items-center mb-3 md:mb-6">
+        {% include icon.html name="scroll-arrow" class="w-10 h-10" %}
+      </a>
+    </div>
+  </div>
+{% endcapture %}
+{% include header.html content=header %}
+<main class="flex-1 w-full overflow-x-hidden bg-blue-darker text-white">
+  {{ content }}
+</main>
+{% include footer.html %}

@@ -1,0 +1,11 @@
+{% if page.lang == 'en' %}
+  {{ include.date | date: "%d/%m/%Y" }}
+{% endif %}
+
+{% if page.lang == 'fr' %}
+  {{ include.date | date: "%Y-%m-%d" }}
+{% endif %}
+
+{% if page.lang == 'zh' %}
+  {{ include.date | date: "%Y年%-m月%-d号" }}
+{% endif %}

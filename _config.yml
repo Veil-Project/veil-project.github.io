@@ -1,0 +1,59 @@
+title: Veil
+description: The first Zerocoin-based cryptocurrency with always-on privacy.
+url: https://veil-project.com
+logo: /icons/logo.pngs
+social:
+  links:
+    - https://www.facebook.com/projectveil/
+    - https://www.reddit.com/r/veil
+    - https://twitter.com/projectveil
+    - https://www.github.com/veil-project
+    - https://discord.gg/Ywyb9hs
+    - https://t.me/VEILProject
+
+# webmaster_verifications:
+#   google: 1234
+
+twitter:
+  username: projectveil
+  card: summary
+
+# facebook:
+#   app_id: 1234
+#   publisher: 1234
+#   admins: 1234
+
+collections_dir: collections
+collections:
+  faqs:
+    output: false
+  team:
+    output: true
+  news:
+    output: true
+
+feed:
+  collections:
+    - news
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /icons/logo.png
+
+permalink: /:categories/:year/:month/:day/:title/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE.md
+  - tailwind.js
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

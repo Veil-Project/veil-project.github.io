@@ -1,0 +1,41 @@
+- ref: technology
+  title:
+    en: Technology
+    de:
+    es:
+    fr:
+    jp:
+    kr:
+    zh:
+    ru:
+- ref: resources
+  title:
+    en: Resources
+    de:
+    es:
+    fr:
+    jp:
+    kr:
+    zh:
+    ru:
+- ref: about
+  title:
+    en: About
+    de:
+    es:
+    fr:
+    jp:
+    kr:
+    zh:
+    ru:
+- ref: get-started
+  title:
+    en: Get started
+    de:
+    es:
+    fr:
+    jp:
+    kr:
+    zh:
+    ru:
+
