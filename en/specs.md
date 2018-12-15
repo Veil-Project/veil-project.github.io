@@ -11,7 +11,7 @@ The following table captures the detailed technical specifications relevant to V
 | Development Data | |
 | --- | --- | --- |
 | Genesis Block Date | Jan 1, 2019 |
-| Code Repository | [https://github.com/4x13/VEIL-PROJECT](https://github.com/4x13/VEIL-PROJECT) |
+| Code Repository | [https://github.com/Veil-Project/veil](https://github.com/Veil-Project/veil) |
 | Codebase | Bitcoin Core version 0.17.1 |
 | Supported OSs | Windows, macOS, Linux, paper wallet |
 | Source Model | Open Source |
