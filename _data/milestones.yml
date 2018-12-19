@@ -14,12 +14,12 @@
     en: Implement Dandelion
   desc:
     en: Dandelion helps to prevent source node traceback.
-- date: 2019-01-26
+- date: 
   title:
     en: Wallet chain pruning
   desc:
     en: By removing unnecessary transactions from the local blockchain, pruning can dramatically reduce the storage space needed by a wallet.
-- date: 2019-01-26
+- date: 
   title:
     en: Elastic blocks
   desc:

@@ -9,7 +9,7 @@
             {% if milestone.date %}
               {{ milestone.date | date: "%b %d, %Y" }}
             {% else %}
-              TBD
+              <!-- TBD -->
             {% endif %}
           </div>
           <div {% if milestone.desc %}up-tooltip="{{ milestone.desc[page.lang] }}"{% endif %} class="Roadmap-dot block w-6 h-6 bg-teal rounded-full mx-auto border-8 border-blue"></div>
