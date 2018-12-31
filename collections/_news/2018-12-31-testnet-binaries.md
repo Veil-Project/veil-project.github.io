@@ -31,7 +31,7 @@ The source code can be accessed in the [Veil GitHub public repository](https://g
 3. If you have no connection to peers, go to Settings icon > Advanced Options > Peers tab and block peers for an hour. Click the Console tab and enter the following: addnode veil.suprnova.cc add
 
 
-Pre-registration is also available for x16rt mining on [Suprnova](https://veil.suprnova.cc/index.php?page=gettingstarted). For those interested in testing mining, [Suprminer 2.0 miner](https://github.com/ocminer/suprminer/releases) for NVIDIA cards and [WildRig Multi miner](https://bitcointalk.org/index.php?topic=5023676) for AMD graphics cards will let you test mining on the Suprnova pool.
+Pre-registration is also available for x16rt mining on [Suprnova](https://veil.suprnova.cc/index.php?page=gettingstarted). For those interested in testing mining, [Suprminer 2.0 miner](https://github.com/ocminer/suprminer/releases) for NVIDIA cards and [WildRig Multi miner](https://bitcointalk.org/index.php?topic=5023676) (may release later today) for AMD graphics cards will let you test mining on the Suprnova pool.
 
 Special thanks to OCminer of Suprnova and Andrucrypt from WildRig for making NVIDIA and AMD x16rt support possible!
 
