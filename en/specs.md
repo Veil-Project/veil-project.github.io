@@ -20,7 +20,7 @@ The following table captures the detailed technical specifications relevant to V
 
 | Blockchain Data | |
 | --- | --- | --- |
-| Concensus Mechanism | Hybrid Proof-of-Work and Proof-of-Stake model beginning on Jan 1, 2018 to a minimum of Jan 1, 2019. This phase will not be extended if ASICs are created for the algorithm. PoW and PoS are competing for the block rewards. | 
+| Concensus Mechanism | Hybrid Proof-of-Work and Proof-of-Stake model beginning on Jan 1, 2019 to a minimum of Jan 1, 2020. This phase will not be extended if ASICs are created for the algorithm. PoW and PoS are competing for the block rewards. | 
 | Proof-of- Work | [X16RT Mining Algorithm](/faqs/#x16rt) |
 | Proof-of-Stake | PoS will be the consensus model after the hybrid consensus period ends. Staking is done exclusively with Zerocoin. | 
 | Block time | 60 seconds, retargeting every block. |
