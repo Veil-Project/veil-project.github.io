@@ -8,7 +8,7 @@ title: Veil Mainnet Launches on Schedule!
 description: 'On January 1, 2019, the Veil Mainnet launched on schedule.'
 ---
 
-Having worked non-stop since August 2018, the team at Veil Project couldn’t be more excited to announce that **as of January 1, 2019m the Veil Mainnet has officially launched!**.
+Having worked non-stop since August 2018, the team at Veil Project couldn’t be more excited to announce that **as of January 1, 2019 the Veil Mainnet has officially launched!**.
 
 Although there is still much work to be done:
 
