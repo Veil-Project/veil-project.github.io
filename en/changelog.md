@@ -3,7 +3,7 @@ layout: page
 ref: changelog
 lang: en
 permalink: /changelog/
-title: Changelog & Major Issues
+title: Changelog
 description: 'This page contains a changelog and list of major open issues with the Veil core wallet.'
 lead: 'This page contains a changelog and list of major open issues with the Veil core wallet.'
 ---
