@@ -7,9 +7,7 @@ title: Changelog & Major Issues
 description: 'This page contains a changelog and list of major open issues with the Veil core wallet.'
 lead: 'This page contains a changelog and list of major open issues with the Veil core wallet.'
 ---
-All notable changes to this project will be documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Major Open Issues
