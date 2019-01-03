@@ -16,6 +16,8 @@ Although there is still much work to be done:
 
 - You can [download miner software](https://veil-project.com/mining/) for NVIDIA and AMD, and [start mining at one of the available pools](https://veil-project.com/mining/).
 
+**Important** — While all wallet issues are canonically tracked in GitHub Issues are of our repository, there is a condensed list of the most important issues new users should be aware of in our [Changelog document](/changelog/). Be sure to review this list before downloading and installing the wallet.
+
 We’ll have more announcements and documentation online soon, but as always, if you need any support, don’t hesitate to reach out in the [Official Veil Discord](https://discord.veil-project.com).
 
 Best regards,
