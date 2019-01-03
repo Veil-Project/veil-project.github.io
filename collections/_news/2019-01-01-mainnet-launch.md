@@ -12,7 +12,7 @@ Having worked non-stop since August 2018, the team at Veil Project couldn’t be
 
 Although there is still much work to be done:
 
-- You can [download the core wallet for Linux and Windows](https://veil-project.com/get-started/) immediately. (MacOS X will soon follow.)
+- You can [download the core wallet for Linux, Windows and MacOS X](https://veil-project.com/get-started/) immediately.
 
 - You can [download miner software](https://veil-project.com/mining/) for NVIDIA and AMD, and [start mining at one of the available pools](https://veil-project.com/mining/).
 
