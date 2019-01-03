@@ -26,4 +26,4 @@ While all issues are canonically tracked in our [GitHub Issues List](https://git
 
 ## [1.0.0] - 2019-01-01
 
-- ADDED: Initial wallet release for Windows and Linux
+- ADDED: Initial wallet release for Windows, MacOS X and Linux
