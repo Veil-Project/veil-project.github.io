@@ -3,11 +3,10 @@ layout: page
 ref: changelog
 lang: en
 permalink: /changelog/
-title: Change Log & Major Open Issues
+title: Changelog & Major Issues
 description: 'This page contains a changelog and list of major open issues with the Veil core wallet.'
 lead: 'This page contains a changelog and list of major open issues with the Veil core wallet.'
 ---
-# Veil Changelog & Major Open Issues
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
@@ -27,6 +26,6 @@ While all issues are canonically tracked in our [GitHub Issues List](https://git
 - GENERAL: Funds and fees are displayed incorrectly.
 - GENERAL: The wallet auto-populates the Address book with new addresses.
 
-## [1.0.0] - 2019-01-03
+## [1.0.0] - 2019-01-01
 
 - ADDED: Initial wallet release for Windows and Linux
