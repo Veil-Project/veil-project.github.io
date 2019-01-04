@@ -15,7 +15,7 @@ The original privacy coin, Monero, with its RingCT technology, provides “full-
 
 Finally, a drawback shared by many privacy-focused projects is a dependance on outside expertise and external software developments to improve their networks.
 
-The Veil Project improves the state of privacy-focused cryptocurrencies by creating a secure, anonymous coin and by providing full-time privacy. Veil offers a user experience suited to the masses with self-funding to support long-term research and development by a dedicated team of cryptographers and blockchain developers.
+The Veil Project improves the state of privacy-focused cryptocurrencies by creating a secure, anonymous coin and by providing full-time privacy. Veil offers a user experience suited to the masses with self-funding to support long-term research and development by a dedicated team of researchers and blockchain developers.
 
 This document introduces the project, its technologies and its approach to long-term sustainability.
 

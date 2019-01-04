@@ -6,7 +6,7 @@ date:   2018-11-11
 author: cryptymike
 permalink: /blog/welcome-to-veil/
 categories: test
-excerpt: Veil is a privacy-focused blockchain project with a simple mission - to offer the most private and user-friendly digital currency. With an experienced team of over 25 members, including top cryptographers and developers, we are implementing and improving upon thoroughly vetted privacy protocols, pushing the technical boundaries for privacy and anonymity.
+excerpt: Veil is a privacy-focused blockchain project with a simple mission - to offer the most private and user-friendly digital currency. With an experienced team of over 25 members, including top developers, we are implementing and improving upon thoroughly vetted privacy protocols, pushing the technical boundaries for privacy and anonymity.
 description: 'Welcome to the Veil Project. This article discusses our philosophy, technology and more.'
 ---
 ## Our Philosophy
