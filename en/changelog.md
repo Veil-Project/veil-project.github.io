@@ -15,10 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 While all issues are canonically tracked in our [GitHub Issues List](https://github.com/Veil-Project/veil/issues), following are major open wallet issues users should be aware of. If the issue is OS-specific, it will be indicated as such. Otherwise, GENERAL will be used.
 
 - GENERAL: Address book/Contacts show the wrong address type.
+- GENERAL: Three periods “…” in the address being copied to clipboard.
 - GENERAL: “This is a pre-release test build” warning has not been removed from the mainnet binaries. Please disregard the warning if you are using the mainnet binaries (version 1.0.0 and above).
-- GENERAL: Mining rewards are not viewable (the rewards are still there) when sent to a stealth address starts with (“sv”)., i.e. addresses starting with “sv” Please use a basecoin address (starts with “bv”) by going to Settings > Advanced Options > Console tab > enter: getnewbasecoinaddress.
+- GENERAL: Mining rewards are not viewable (the rewards are still there) when sent to a stealth address starts with (“sv”). Please use a basecoin address (starts with “bv”) by going to Settings > Advanced Options > Console tab > enter: getnewbasecoinaddress.
 - GENERAL: Every time the wallet is restarted new addresses are shown.
-- GENERAL: Addresses from getnewbasecoinaddress don’t appear in Address book.
 - GENERAL: Funds are display late or not displayed (still visible on block explorer).
 - GENERAL: Balances and fees are displayed incorrectly.
 - GENERAL: The wallet auto-populates the Address book with new addresses.
@@ -34,3 +34,4 @@ While all issues are canonically tracked in our [GitHub Issues List](https://git
 - FIXED: Three periods “…” in the address being copied to clipboard.
 - FIXED: “This is a pre-release test build” warning has not been removed from the mainnet binaries.
 - FIXED: Addresses from getnewbasecoinaddress don’t appear in Address book.
+
