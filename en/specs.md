@@ -17,6 +17,7 @@ The following table captures the detailed technical specifications relevant to V
 | Source Model | Open Source |
 | License | MIT License |
 | Website | [https://veil-project.com/](https://veil-project.com/) |
+| Explorer | [https://explorer.veil-project.com](https://explorer.veil-project.com) |
 
 | Blockchain Data | |
 | --- | --- | --- |
