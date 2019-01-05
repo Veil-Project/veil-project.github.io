@@ -17,13 +17,21 @@ While all issues are canonically tracked in our [GitHub Issues List](https://git
 - GENERAL: Address book/Contacts show the wrong address type.
 - GENERAL: Three periods “…” in the address being copied to clipboard.
 - GENERAL: “This is a pre-release test build” warning has not been removed from the mainnet binaries. Please disregard the warning if you are using the mainnet binaries (version 1.0.0 and above).
-- GENERAL: Mining rewards are not viewable (the rewards are still there) when sent to a stealth address, i.e. addresses starting with “sv”.
+- GENERAL: Mining rewards are not viewable (the rewards are still there) when sent to a stealth address starts with (“sv”)., i.e. addresses starting with “sv” Please use a basecoin address (starts with “bv”) by going to Settings > Advanced Options > Console tab > enter: getnewbasecoinaddress.
 - GENERAL: Every time the wallet is restarted new addresses are shown.
 - GENERAL: Addresses from getnewbasecoinaddress don’t appear in Address book.
-- GENERAL: Funds are display late or not displayed (still visible on [block explorer](https://explorer.veil-project.com)).
-- GENERAL: Funds and fees are displayed incorrectly.
+- GENERAL: Funds are display late or not displayed (still visible on block explorer).
+- GENERAL: Balances and fees are displayed incorrectly.
 - GENERAL: The wallet auto-populates the Address book with new addresses.
+- GENERAL: Sending Veil to stealth addresses (starts with “sv”) is met with the error “The amount exceeds your balance” despite having sufficient balance.
+- GENERAL: Sending Veil to basecoin addresses (starts with “bv”) is met with the error “Invalid data”.
+- GENERAL: Sending Veil to stealth addresses (starts with “sv”) makes the wallet freeze and requires forced termination of the program.
+- WINDOWS: Random wallet crashes.
+- WINDOWS: In some cases, can’t open the wallet on Windows 10.
 
 ## [1.0.0] - 2019-01-01
 
 - ADDED: Initial wallet release for Windows, MacOS X and Linux
+- FIXED: Three periods “…” in the address being copied to clipboard.
+- FIXED: “This is a pre-release test build” warning has not been removed from the mainnet binaries.
+- FIXED: Addresses from getnewbasecoinaddress don’t appear in Address book.
