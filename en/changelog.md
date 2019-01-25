@@ -24,6 +24,11 @@ While all issues are canonically tracked in our [GitHub Issues List](https://git
 - GENERAL: Transaction list shows some transactions as "Basecoin received with anonymous" or "Basecoin received with *(unknown bv address)*".
 - GENERAL: Unable to convert CT into Zerocoin.
 
+## [1.0.1] - 2019-01-25
+
+- ADDED: Support for VIP-1 Soft Fork
+- ADDED: Increased Spam and Denial of Service Protection
+
 ## [1.0.0] - 2019-01-01
 
 - ADDED: Initial wallet release for Windows, MacOS X and Linux
