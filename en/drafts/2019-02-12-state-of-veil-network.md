@@ -22,7 +22,7 @@ In its initial release, however, complete anonymity in Veil is unavailable in tw
 
 1. We had to include support for fully transparent Basecoin transactions, to support our fair-distribution Proof-of-Work mining phase. 
 
-2. A full RingCT implementation wasn't fully possible, requiring CT transactions for certain scenarios.
+2. A full RingCT implementation wasn't possible, requiring CT transactions for certain scenarios.
 
 Over time, we will remove both Basecoin and CT transactions altogether, achieving our goal of providing "always-on" full anonymity. In the meantime, however, it's important for Veil users to understand the implications of the *current* state of the network. 
 
