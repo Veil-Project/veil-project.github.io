@@ -49,7 +49,7 @@ This complexity creates a number of scenarios which are important to be aware of
 
 - Transactions currently can not combine multiple inputs. For example, if you had 10 Veil Zerocoin, and 4 Veil RingCT in your wallet, you currently could not make a *12 Veil* transaction, since that would require input from both Zerocoin and RingCT.
 
-- In this same example, if you tried to send 2 Veil, you currently can not specify from which "bucket" it comes from. By default, the current wallet prioritize sending from Zerocoin, then RingCT, then CT, and finally, Basecoin.
+- In this same example, if you tried to send 2 Veil, you currently can not specify from which "bucket" it comes from. By default, the current wallet prioritizes sending from Zerocoin, then RingCT, then CT, and finally, Basecoin.
 
 ## Looking forward
 
