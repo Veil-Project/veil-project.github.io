@@ -41,7 +41,7 @@ At present there a *four* types of transactions supported and in use on the Veil
 
 This complexity creates a number of scenarios which are important to be aware of, and need some explanation.
 
-- We see from the above table, for example, that when Zerocoin is spent, change will be received in CT, since Zerocoin can not currently spent to RingCT transactions.
+- We see from the above table, for example, that when Zerocoin is spent, change will be received in CT, since Zerocoin can not currently spend to RingCT transactions.
 
 - When would one have RingCT? Change from CT transactions are returned in RingCT.
 
