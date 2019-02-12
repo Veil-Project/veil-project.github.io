@@ -10,9 +10,13 @@ excerpt: 'In this article, we’re going to take a look at the current state of 
 description: 'In this article, we’re going to take a look at the current state of the Veil network.'
 ---
 
+## Launch of the world's most ambitious network
+
 In January of 2019, we launched Veil, one of the most ambitious and complex blockchain network protocols in existence.
 
 The Veil launch represented the first step towards our ultimate aim of providing "always-on" anonymity, meaning that in addition to the privacy provided by its Zerocoin implementation, its non-Zerocoin transactions, unlike other networks, are also protected with RingCT.
+
+## Current shortcomings
 
 In its initial release, however, complete anonymity in Veil is unavailable in two types of transactions. 
 
@@ -22,6 +26,8 @@ In its initial release, however, complete anonymity in Veil is unavailable in tw
 
 Over time, we will remove both Basecoin and CT transactions altogether, achieving our goal of providing "always-on" full anonymity. In the meantime, however, it's important for Veil users to understand the implications of the *current* state of the network. 
 
+## Summary of the current network transaction types
+
 At present there a *four* types of transactions supported and in use on the Veil network, as summarized in the following table.
 
 | Transaction Type | What it is | Can not send to |
@@ -30,6 +36,8 @@ At present there a *four* types of transactions supported and in use on the Veil
 | CT | Hides the output amounts | None |
 | RingCT | Hides amounts & obfuscates sources | None |
 | Zerocoin | Users spend from one common pool of coins without revealing any information about their inputs. | RingCT |
+
+## Implications
 
 This complexity creates a number of scenarios which are important to be aware of, and need some explanation.
 
@@ -43,5 +51,10 @@ This complexity creates a number of scenarios which are important to be aware of
 
 - In this same example, if you tried to send 2 Veil, you currently can not specify from which "bucket" it comes from. By default, the current wallet prioritize sending from Zerocoin, then RingCT, then CT, and finally, Basecoin.
 
+## Looking forward
+
+Since August of 2017, the Veil team has been working non-stop in the creation of what we believe will become the world's leading privacy cryptocurrency, and we couldn't be prouder of having reaching our first milestone, with our launch in January.
+
+The current priorities of the development team are removing Basecoin and CT transaction types from the network, to achieve our goal of providing "always-on" privacy, as well as completing the feature set of our Core Wallet.
 
 
