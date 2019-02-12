@@ -3,7 +3,7 @@ layout: post
 lang: en
 author: gabrielnergaard
 permalink: /news/release-wallet-1-0-1-5/
-date: 2019-02-12
+date: 2019-02-11
 title: Release of Veil Core Wallet Version 1.0.1.5
 description: 'Release of Veil Core Wallet Version 1.0.1.5'
 ---
