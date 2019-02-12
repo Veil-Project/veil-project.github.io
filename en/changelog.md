@@ -15,12 +15,12 @@ While all issues are canonically tracked in our [GitHub Issues List](https://git
 
 - GENERAL: Address book/Contacts show the wrong address type.
 - GENERAL: Mining rewards can only be received through basecoin "bv" addresses which can be generated with console command: getnewbasecoinaddress
-- GENERAL: Funds are display late or not displayed (still visible on block explorer).
+- GENERAL: Funds are displayed late or not displayed (still visible on block explorer).
 - GENERAL: Balances and fees are displayed incorrectly.
-- GENERAL: Send Veil screen is not functional. Refer to [this article](https://veil.freshdesk.com/support/solutions/articles/43000474291-different-methods-sending-coins-from-debug-console-) for the various console commands to send funds.
 - GENERAL: Transaction list shows some transactions as "Basecoin received with anonymous" or "Basecoin received with *(unknown bv address)*".
+- GENERAL: In some cases, CT can't be minted or sent.
 - GENERAL: A display issue where Zerocoin Mint transactions show a send amount equal to the basecoin minted plus the 0.01 minting fee (i.e. -100.010000000 VEIL), instead of just the 0.01 minting fee.
-- MacOS X: The wallet sometimes crashes on startup.
+- Windows: Autominting denomination resets to 10 after restarting the wallet. Set your preferred automint denomination by setting nautomintdenom=X (where X is 10, 100, 1000, or 10,000) in the veil.conf file.
 
 ## [1.0.1] - 2019-01-25
 - ADDED: Support for VIP-1 Soft Fork.
@@ -30,6 +30,8 @@ While all issues are canonically tracked in our [GitHub Issues List](https://git
 - FIXED: In some cases, the wallet can't be opened on Windows 10.
 - FIXED: Sending RingCT/CT to Basecoin does not display correctly in the balance.
 - FIXED: Unable to convert RingCT/CT into Zerocoin.
+- FIXED: Send Veil screen is sometimes not functional.
+- FIXED: The wallet sometimes crashes on startup on MacOS X.
 
 ## [1.0.0] - 2019-01-01
 
