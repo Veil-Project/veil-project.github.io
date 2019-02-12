@@ -4,7 +4,7 @@ lang: en
 title:  State of the Veil Network
 date:   2019-02-12
 author: gabrielnergaard
-permalink: /blog/2019-02-state-of-the-veil-network/
+permalink: /drafts/2019-02-state-of-the-veil-network/
 categories: test
 excerpt: 'In this article, we’re going to take a look at the current state of the Veil network.'
 description: 'In this article, we’re going to take a look at the current state of the Veil network.'
