@@ -30,7 +30,7 @@ Over time, we will remove both Basecoin and CT transactions altogether, achievin
 At present there a *four* types of transactions supported and in use on the Veil network, as summarized in the following table.
 
 | Transaction Type | What it is | Can not send to |
-| -----------|-----------|-----------|
+|----------|-----------|-----------|
 | Basecoin | Typical bitcoin protocol transactions using UTXO model | RingCT |
 | CT | Hides the output amounts | None |
 | RingCT | Hides amounts & obfuscates sources | None |
