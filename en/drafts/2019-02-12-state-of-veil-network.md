@@ -16,7 +16,7 @@ In January of 2019, we launched Veil, one of the most ambitious and complex bloc
 
 The Veil launch represented the first step towards our ultimate aim of providing "always-on" anonymity, meaning that in addition to the privacy provided by its Zerocoin implementation, its non-Zerocoin transactions, unlike other networks, are also protected with RingCT.
 
-## Current shortcomings
+## Current limitations
 
 In its initial release, however, complete anonymity in Veil is unavailable in two types of transactions. 
 
