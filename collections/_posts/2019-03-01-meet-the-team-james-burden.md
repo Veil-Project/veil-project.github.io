@@ -9,7 +9,7 @@ categories: test
 excerpt: 'In this article, we will get to know the Veil founder, James Burden'
 description: 'In this article, we will get to know the Veil founder, James Burden'
 ---
-This article is the first in a series of interviews with members of the Veil team, starting naturally with our project's founder, Mr. James Burden.
+This article is the first in a series of interviews with members of the Veil team, starting naturally with our project's founder, **Mr. James Burden**.
 
 ![](/uploads/team/4x13.jpg)
 
