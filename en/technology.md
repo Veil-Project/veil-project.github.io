@@ -39,9 +39,11 @@ Finally, **Bulletproofs** technology will be adopted to ensure minimal transacti
 
 ## Consensus algorithms
 
-The Veil network will operate a **Proof-of-Stake** consensus algorithm to ensure maximum decentralization, energy efficiency and provide a mechanism for all Veil holders to **earn rewards in Veil** through the process of *staking*. To further enhance the coin’s privacy, staking will only be available through **Zerocoin denominations**, and for that reason, all Veil balances (with the exception of exchanges) will *auto-mint* to these denominations.
+The Veil network will operate a hybrid **Proof-of-Work** (PoW) and **Proof-of-Stake** (PoS) consensus system. 
 
-In at least its first year, however, the Veil network will supplement its Proof-of-Stake algorithm, in a hybrid approach, with **Proof-of-Work** mining, in order to guarantee a fair distribution of the coin, and avoid the necessity of an ICO or pre-mine. To promote fairness of mining, the Proof-of-Work segment will utilize the **ASIC-resistant X16RT hashing algorithm**, an improved version of X16R introduced by the Ravencoin project.
+The **Proof-of-Stake** consensus system will ensure maximum decentralization, energy efficiency and provide a mechanism for all Veil holders to **earn rewards in Veil** through the process of *staking*. To further enhance the coin’s privacy, staking will only be available through **Zerocoin denominations**, and for that reason, all Veil balances (with the exception of exchanges) will *auto-mint* to these denominations.
+
+The **Proof-of-Work** mining system, guarantees a fair distribution of the coin, avoids the necessity of an ICO or pre-mine, and adds security to the overall network. To promote fairness of mining, Proof-of-Work mining will utilize the **ASIC-resistant X16RT hashing algorithm**, an improved version of X16R introduced by the Ravencoin project.
 
 ## User experience
 
