@@ -22,7 +22,7 @@ The following table captures the detailed technical specifications relevant to V
 | Blockchain Data | |
 | --- | --- | --- |
 | Concensus Mechanism | Hybrid Proof-of-Work and Proof-of-Stake model. | 
-| Proof-of- Work | [X16RT Mining Algorithm](/faqs/#x16rt) |
+| Proof-of-Work | [X16RT Mining Algorithm](/faqs/#x16rt) |
 | Proof-of-Stake | Exclusively with Zerocoin. | 
 | Block time | 60 seconds, retargeting every block. |
 | Block Schedule | Block rewards will stop in approximately 2037, when a max coin supply of 300 million VEIL is reached. After this hard cap is reached, network fees will continue to incentivize the network. | 
