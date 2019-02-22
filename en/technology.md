@@ -31,7 +31,7 @@ Veil combines the world’s most secure blockchain software, **Bitcoin version 0
 
 ## Providing always-on privacy, efficiently
 
-Those familiar with Zerocoin-based networks know that the protocol involves a non-private transaction state known as Basecoin to account for the fact that zero-knowledge proof transaction happen between discrete coin denomination sizes. In such networks, like PIVX for example, anonymous discrete denomination coins enter a publicly visible “Basecoin” state, from which smaller anonymous denominations may then be recreated in a process called “minting”, with any remaining Basecoins considered to be “change” in the coin’s wallet.
+Those familiar with Zerocoin-based networks know that the protocol involves a non-private transaction state known as Basecoin to account for the fact that zero-knowledge proof transactions happen between discrete coin denomination sizes. In such networks, like PIVX for example, anonymous discrete denomination coins enter a publicly visible “Basecoin” state, from which smaller anonymous denominations may then be recreated in a process called “minting”, with any remaining Basecoins considered to be “change” in the coin’s wallet.
 
 In order to provide for “always-on” privacy, Veil will add **RingCT** privacy from Particl to its Basecoin transactions, such that all transaction components in the Veil network will be as anonymous as technology today provides for.
 
@@ -41,7 +41,7 @@ Finally, **Bulletproofs** technology will be adopted to ensure minimal transacti
 
 The Veil network will operate a hybrid **Proof-of-Work** (PoW) and **Proof-of-Stake** (PoS) consensus system. 
 
-The **Proof-of-Stake** consensus system will ensure maximum decentralization, energy efficiency and provide a mechanism for all Veil holders to **earn rewards in Veil** through the process of *staking*. To further enhance the coin’s privacy, staking will only be available through **Zerocoin denominations**, and for that reason, all Veil balances (with the exception of exchanges) will *auto-mint* to these denominations.
+The **Proof-of-Stake** consensus system will ensure maximum decentralization, energy efficiency and provide a mechanism for all Veil holders to **earn rewards in Veil** through the process of *staking*. To further enhance the coin’s privacy, staking will only be available through **Zerocoin denominations**, and for that reason, all Veil balances (with the exception of exchanges) will *auto-mint* to these denominations: 10, 100, 1000 and 10000 Zerocoin Veil.
 
 The **Proof-of-Work** mining system, guarantees a fair distribution of the coin, avoids the necessity of an ICO or pre-mine, and adds security to the overall network. To promote fairness of mining, Proof-of-Work mining will utilize the **ASIC-resistant X16RT hashing algorithm**, an improved version of X16R introduced by the Ravencoin project.
 
