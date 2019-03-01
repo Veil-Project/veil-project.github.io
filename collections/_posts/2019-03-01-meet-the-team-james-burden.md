@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title:  Meet the team — James Burden
-date:   2019-03-01
+date:   2019-02-28
 author: gabrielnergaard
 permalink: /blog/meet-the-team-james-burden/
 categories: test
