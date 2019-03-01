@@ -14,13 +14,15 @@ All notable changes to this project will be documented in this file. The format 
 While all issues are canonically tracked in our [GitHub Issues List](https://github.com/Veil-Project/veil/issues), the following are major open wallet issues users should be aware of. If the issue is OS-specific, it will be indicated as such. Otherwise, GENERAL will be used.
 
 - GENERAL: Address book/Contacts show the wrong address type.
-- GENERAL: Mining rewards can only be received through basecoin "bv" addresses which can be generated with console command: getnewbasecoinaddress
+- GENERAL: Mining rewards can only be received through basecoin "bv" addresses which can be generated with console command: `getnewbasecoinaddress`
 - GENERAL: Funds are displayed late or not displayed (still visible on block explorer).
 - GENERAL: Balances and fees are displayed incorrectly.
 - GENERAL: Transaction list shows some transactions as "Basecoin received with anonymous" or "Basecoin received with *(unknown bv address)*".
-- GENERAL: In some cases, CT can't be minted or sent.
 - GENERAL: A display issue where Zerocoin Mint transactions show a send amount equal to the basecoin minted plus the 0.01 minting fee (i.e. -100.010000000 VEIL), instead of just the 0.01 minting fee.
-- Windows: Autominting denomination resets to 10 after restarting the wallet. Set your preferred automint denomination by setting nautomintdenom=X (where X is 10, 100, 1000, or 10,000) in the veil.conf file.
+- GENERAL: Autominting denomination resets to 10 after restarting the wallet. Set your preferred automint denomination by setting `nautomintdenom=X` (where `X` is 10, 100, 1000, or 10,000) in the veil.conf file.
+
+## [1.0.2] - 2019-02-28
+- FIXED: In some cases, CT can't be minted or sent.
 
 ## [1.0.1] - 2019-01-25
 - ADDED: Support for VIP-1 Soft Fork.
