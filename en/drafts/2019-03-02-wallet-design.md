@@ -29,8 +29,8 @@ My brother's choice was one of function over form. He was not part of the
 existing market for whom the products were designed. He had no special
 consideration for any ingredient or trait. He simply entered the unfamiliar
 situation intent on achieving a comprehensible goal. In psychology terms, he
-used satisficing \<https://en.wikipedia.org/wiki/Satisficing\> to navigate
-choice overload \<https://en.wikipedia.org/wiki/Overchoice\>, *i.e*. he drew a
+used [satisficing](https://en.wikipedia.org/wiki/Satisficing) to navigate
+choice [overload](https://en.wikipedia.org/wiki/Overchoice), *i.e*. he drew a
 *good enough* conclusion when faced with overwhelming choice.
 
 Knowing the circumstances, my brother's behaviour above is actually rather
@@ -79,7 +79,7 @@ A well designed UX identifies the objective of the user, and
 provides only information and options relevant to the immediate task in ways
 that feel intuitive. While this may seem obvious once said, it's not uncommon as
 a user to run a new wallet application and find yourself reading through pages
-of jargon\<https://en.wikipedia.org/wiki/Jargon\>—terminology or definitions
+of [jargon](https://en.wikipedia.org/wiki/Jargon)—terminology or definitions
 applicable only to a limited field or area—and supplemental feature descriptions
 prematurely. The experience is not unlike having a flyer shoved at you while
 crossing at a busy intersection; it annoys most people, even if the content fits
