@@ -1,7 +1,7 @@
 title: Veil
 description: The first Zerocoin-based cryptocurrency with always-on privacy.
 url: https://veil-project.com
-logo: /icons/logo.pngs
+logo: /icons/logo.jpg
 social:
   links:
     - https://www.facebook.com/projectveil/
@@ -40,7 +40,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /icons/logo.png
+      image: /icons/logo.jpg
 
 permalink: /:categories/:year/:month/:day/:title/
 exclude:
