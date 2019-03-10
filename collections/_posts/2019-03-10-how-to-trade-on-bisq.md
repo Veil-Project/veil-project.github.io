@@ -9,7 +9,7 @@ categories: test
 excerpt: 'In this article, we will detail the process for trading Veil on the Bisq decentralized exchange.'
 description: 'In this article, we will detail the process for trading Veil on the Bisq decentralized exchange.'
 ---
-We are pleased to announce that Veil is now listed on the decentralized exchange [Bisq] (https://bisq.network/). We are excited to work with Bisq because they offer what we view as one of the simplest and most user-friendly DEXs to date. 
+We are pleased to announce that Veil is now listed on the decentralized exchange [Bisq](https://bisq.network/). We are excited to work with Bisq because they offer what we view as one of the simplest and most user-friendly DEXs to date. 
 
 Given that Bisq is our first decentralized exchange listing, we want to provide the Veil community with a simple, step-by-step guide to begin trading.
 
@@ -17,7 +17,7 @@ Let’s dive in.
 
 ## Step 1: Install Bisq
 
-To install Bisq, go to their website: https://bisq.network/ and click on the download link at the center of the homepage. Make sure the correct operating system is selected, but this should be done for you automatically upon landing on the site. 
+To install Bisq, go to their website: [https://bisq.network/](https://bisq.network/) and click on the download link at the center of the homepage. Make sure the correct operating system is selected, but this should be done for you automatically upon landing on the site. 
 
 ![](/uploads/blog/bisq1.png)
 
