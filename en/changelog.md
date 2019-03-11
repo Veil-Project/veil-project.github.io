@@ -17,9 +17,8 @@ While all issues are canonically tracked in our [GitHub Issues List](https://git
 - GENERAL: Mining rewards can only be received through basecoin "bv" addresses which can be generated with console command: `getnewbasecoinaddress`
 - GENERAL: Funds are displayed late or not displayed (still visible on block explorer).
 - GENERAL: Balances and fees are displayed incorrectly.
-- GENERAL: Transaction list shows some transactions as "Basecoin received with anonymous" or "Basecoin received with *(unknown bv address)*".
-- GENERAL: A display issue where Zerocoin Mint transactions show a send amount equal to the basecoin minted plus the 0.01 minting fee (i.e. -100.010000000 VEIL), instead of just the 0.01 minting fee.
-- GENERAL: Autominting denomination resets to 10 after restarting the wallet. Set your preferred automint denomination by setting `nautomintdenom=X` (where `X` is 10, 100, 1000, or 10,000) in the veil.conf file.
+- GENERAL: Autominting denomination resets to 10 after restarting the wallet. Set your preferred automint denomination by setting `nautomintdenom=X` (where `X` is 10, 100, 1000, or 10000) in the veil.conf file.
+- GENERAL: Wallet transaction overview sometimes displays incorrect labels and transaction amounts. For accurate amount information, check transaction ID on the [Veil Block Explorer](https://explorer.veil-project.com/).
 
 ## [1.0.2] - 2019-02-28
 - FIXED: In some cases, CT can't be minted or sent.
@@ -40,7 +39,7 @@ While all issues are canonically tracked in our [GitHub Issues List](https://git
 - ADDED: Initial wallet release for Windows, MacOS X and Linux.
 - FIXED: Three periods “…” in the address being copied to clipboard.
 - FIXED: “This is a pre-release test build” warning has not been removed from the mainnet binaries.
-- FIXED: Addresses from getnewbasecoinaddress don’t appear in Address book.
+- FIXED: Addresses from `getnewbasecoinaddress` don’t appear in Address book.
 - FIXED: Sending Veil to stealth "sv" addresses through the Send Veil screen makes the wallet freeze and requires forced termination of the program.
 - FIXED: Sending Veil to stealth "sv" addresses through the Send Veil screen is met with the error “The amount exceeds your balance” despite having sufficient balance.
 - FIXED: Every time the wallet is restarted new addresses are shown.
