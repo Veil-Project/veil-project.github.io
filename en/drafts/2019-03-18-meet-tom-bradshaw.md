@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title:  Meet the team — Tom Bradshaw (aka @presstab)
-date:   2019-02-28
+date:   2019-03-18
 author: gabrielnergaard
 permalink: /drafts/meet-tom-bradshaw/
 categories: test
