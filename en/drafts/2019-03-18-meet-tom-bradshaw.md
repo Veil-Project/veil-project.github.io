@@ -1,13 +1,13 @@
 ---
 layout: post
 lang: en
-title:  Meet the team — Tom Bradshaw (aka @presstab)
+title:  Meet the team — Tom Bradshaw
 date:   2019-03-18
 author: gabrielnergaard
 permalink: /drafts/meet-tom-bradshaw/
 categories: test
-excerpt: 'In this article, we will get to know the Chief Architect of the Veil network, Tom Bradshaw.'
-description: 'In this article, we will get to know the Chief Architect of the Veil network, Tom Bradshaw.'
+excerpt: 'In this article, we will get to know the Chief Architect of the Veil network, Tom Bradshaw (aka @presstab).'
+description: 'In this article, we will get to know the Chief Architect of the Veil network, Tom Bradshaw (aka @presstab).'
 ---
 
 ![](/uploads/team/presstab.jpg)
