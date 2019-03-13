@@ -62,7 +62,7 @@ Mondays start off with a mandatory company meeting that everyone attends. Every 
 
 Tuesday through Thursday are ordinary workdays for me. I am able to get through a lot of development tasks during those days, as well as help team members with their development.
 
-Fridays are another mandatory meeting day for us. If the Friday is mid sprint then we review the first week and the tasks that are completed and analyze whether any adjustments need to be made to our plans. If the Friday is at sprint end then we have a sprint ÒretrospectiveÓ meeting where we view the changes and progress we made and compare them to our original sprint goals.
+Fridays are another mandatory meeting day for us. If the Friday is mid sprint then we review the first week and the tasks that are completed and analyze whether any adjustments need to be made to our plans. If the Friday is at sprint end then we have a sprint “retrospective” meeting where we view the changes and progress we made and compare them to our original sprint goals.
 
 I try to take it easy on Saturday and Sunday, but usually do work 4-5 hours each of those days. If there is a delivery coming up that we are behind on, I will usually not take much of a weekend at all.
 
