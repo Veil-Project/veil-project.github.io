@@ -5,7 +5,7 @@ layout: base
   {% include header.html title="<a href='/news/' class='text-white'>News</a>" %}
 {% elsif page.collection == "lori" %}
   {% include header.html title="<a href='/loris-corner/' class='text-white'>Lori's Corner</a>" %}
-{% elsif page.collection == "posts" %}
+{% else %}
   {% include header.html title="<a href='/blog/' class='text-white'>Veil Blog</a>" %}
 {% endif %}
 {% assign authors = site.team | where:"ref", page.author %}
