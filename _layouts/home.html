@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-{% assign latest_news = site.documents | where:"lang", page.lang | sort:"date" | reverse | first %}
+{% assign latest_news = site.documents | where:"lang", page.lang | where_exp:"item", "item.collection != 'lori'" | sort:"date" | reverse | first %}
 {% capture header %}
   <div class="min-h-screen pt-24 flex items-center">
     <div class="container py-12 md:pt-0">

@@ -3,7 +3,9 @@ layout: base
 ---
 {% if page.collection == "news" %}
   {% include header.html title="<a href='/news/' class='text-white'>News</a>" %}
-{% else %}
+{% elsif page.collection == "lori" %}
+  {% include header.html title="<a href='/loris-corner/' class='text-white'>Lori's Corner</a>" %}
+{% elsif page.collection == "posts" %}
   {% include header.html title="<a href='/blog/' class='text-white'>Veil Blog</a>" %}
 {% endif %}
 {% assign authors = site.team | where:"ref", page.author %}

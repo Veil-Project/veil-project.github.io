@@ -31,6 +31,8 @@ collections:
     output: true
   news:
     output: true
+  lori:
+    output: true
 
 feed:
   collections:

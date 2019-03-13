@@ -1,0 +1,31 @@
+---
+layout: default
+lang: en
+ref: lori
+permalink: /loris-corner/
+title: Lori's Corner
+lead: 'Lead goes here'
+description: 'Description goes here'
+---
+<div class="bg-blue-lighter">
+  <div class="container py-container md:py-16">
+    <div class="md:flex flex-wrap -m-2">
+      {% assign posts = site.lori | where:"lang", page.lang | sort:"date" | reverse %}
+      {% for post in posts %}
+      <div class="flex-none md:w-1/2 p-2 flex">
+        <article up-expand class="p-8 bg-white">
+          <div class="font-medium text-xs opacity-66 uppercase mb-1">
+            {{ post.date | date:"%b %d, %Y" }}
+          </div>
+          <div class="flex flex-col">
+            <h2 class="flex-none text-xl font-bold leading-tight">
+              <a up-dash href="{{ post.url }}" class="text-blue-dark hover:text-blue">{{ post.title }}</a>
+            </h2>
+            <p class="mt-2">{{ post.excerpt }}</p>
+          </div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
