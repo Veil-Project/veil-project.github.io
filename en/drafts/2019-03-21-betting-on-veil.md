@@ -1,8 +1,8 @@
 ---
 layout: post
 lang: en
-title:  Betting on the future of Veil
-date:   2019-03-21
+title: Betting on the future of Veil
+date: 2019-03-21
 author: gabrielnergaard
 permalink: /drafts/betting-on-the-future-of-veil/
 categories: test
@@ -12,7 +12,7 @@ description: 'In this article, we are going to explore why the Veil team members
 
 ![](/uploads/team/asdf1.png)
 
-The Veil project currently has a dedicated team of 30 staff, most of whom are working full-time, and all of whom are being paid salaries in the project’s native currency, $VEIL. Given that Veil is a brand new crypto project, this means our team members are currently earning less in *fiat terms* than we could in traditional opportunities.
+The Veil project currently has a dedicated team of 30 staff, most of whom are working full-time, and all of whom are being paid salaries in the project’s native currency, VEIL. Given that Veil is a brand new crypto project, this means our team members are currently earning less in *fiat terms* than we could in traditional opportunities.
 
 In this article, we’re going to explore the fundamentals reasons our team members believe in the **long-term** value proposition of Veil, and are not only willing, but excited, about making such a significant personal bet on the project.
 
