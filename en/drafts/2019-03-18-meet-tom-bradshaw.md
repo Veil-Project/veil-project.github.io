@@ -72,7 +72,7 @@ I see cryptocurrency differently than most others do. I am impressed with projec
 
 This is not a list of "what to invest in", "what I have invested in", or "what has the fairest launch with the best specs", but is purely looking at project development.
 
-Projects I Actively Contribute To:
+Projects I actively contribute to:
 
 - [zDEX](https://zdex.exchange) – masternode based decentralized exchange.
 - [Divitia](https://www.apkmonk.com/app/com.Mob.divitiaapp/) – A social cryptocurrency portfolio tracker that will have its own blockchain (expecting a public beta in the next couple of months).
