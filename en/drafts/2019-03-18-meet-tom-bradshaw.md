@@ -46,7 +46,19 @@ The business is called Consensus Engineering (recently renamed). We currently ha
 
 **Still projected 10 years into the future, let's imagine that Veil has become a top privacy currency. Looking from that point backwards to today, what are the aspects that were core to its success? How did it become a success?**
 
-[TBD]
+*Excited*
+
+There are quite a few things I really like about Veil. First and foremost, I specifically decided to start from Bitcoin 0.17 as the base and add all features (PoS, Zerocoin, RingCT, etc.) on top of that instead of cloning an older coin such as PIVX (which already has Zerocoin and PoS). The benefit is that the codebase is much more up to date in quite a few spots and much more modularized which makes it easier to work with.
+
+Another thing about Veil that gets me excited is how much potential there is to expand from where we are now. Veil currently is in a sort of bare bones state. It has all of the basic functionality and cryptography systems in place that we need, but it does not have a lot of additional features that will make Veil stand out against the competition. 
+
+We have a team and community that are looking forward to improvements being made rather than a team and community that are resistant to change. I personally get a lot of satisfaction when given the opportunity to design, implement, and incorporate new features (rather than borrowing from a different library or cryptocurrency) and I feel like Veil is giving the development team the opportunity to do that.
+
+*Success*
+
+I think the core of Veil’s success will be mixture of a core technology that is superior to others. Veil offers superior privacy to any competing digital currencies, and offers a variety of features most competitors do not (Proof of Stake for example). 
+
+But the other item I see as being key to Veil’s success is the hard work that Veil’s team is putting in to make using Veil simple and effective for users. Right now Veil requires a level of figuring out and learning. Behind the scenes we have many people working on improved user experience that will make transacting with Veil very intuitive and easy for the first time user. When thinking about mass adoption, it will never happen if a new user can’t do things quickly, effectively, and without much thought.
 
 **What are your non-crypto hobbies and interests?**
 
