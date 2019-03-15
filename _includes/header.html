@@ -2,7 +2,7 @@
 {% assign home = pages[0] %}
 
 <div class="VeilNav VeilNav--sm md:hidden fixed z-50 pin-t pin-x" up-nav>
-  <div data-price class="flex-none p-4 font-medium text-sm"><span class="text-white opacity-25">Loading…</span></div>
+  <div data-price up-keep up-id="marketprice1" class="flex-none p-4 font-medium text-sm"><span class="text-white opacity-25">Loading…</span></div>
 
   <a up-dash href="{{ home.url }}" class="VeilNav-logo flex flex-col items-center justify-center">
     <span class="VeilNav-logo-icon"><img src="/dist/img/logo-icon.png" class="w-16" alt=""></span>
@@ -112,7 +112,7 @@
       </div>
     </nav>
     <div class="px-8">
-      <div data-price><span class="text-white opacity-25">Loading…</span></div>
+      <div data-price up-keep up-id="marketprice2"><span class="text-white opacity-25">Loading…</span></div>
     </div>
   </div>
 </div>
