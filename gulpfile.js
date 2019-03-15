@@ -40,7 +40,7 @@ gulp.task('styles', function() {
     .pipe(postcss([atimport(), nested(), tailwindcss('tailwind.js')]))
     .pipe(
       purgecss({
-        content: ["_site/**/*.html", "_site/**/*.md"],
+        content: ["_site/**/*.html", "_site/**/*.md", "_site/**/*.js"],
         whitelistPatterns: [/up-/, /flickity-/, /is-/],
         extractors: [
           { extractor: TailwindExtractor, extensions: ["html", "md", "js"] }
@@ -98,7 +98,7 @@ gulp.task('production', function(done) {
   process.env.JEKYLL_ENV = 'production';
   done();
 })
-gulp.task('build', gulp.series('assets', 'jekyll'));
+gulp.task('build', gulp.series('jekyll', 'assets'));
 
 gulp.task('browser-sync', gulp.series('build', function(done) {
   browserSync.init({
