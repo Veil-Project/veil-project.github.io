@@ -42,6 +42,33 @@ up.compiler('[data-price]', function($element) {
   })
 });
 
+up.compiler('[data-bounties]', function($element) {
+  $.get("https://api.github.com/repos/veil-project/veil/issues?labels=Bounty").done(function(data) {
+    console.log(data);
+    output = "";
+    for (var i = 0; i < data.length; i++) {
+      var bounty = data[i];
+      var priceLabel = bounty.labels.find(function(label) {
+        return label.name.toLowerCase().indexOf("price:") > -1;
+      })
+      if (priceLabel) {
+        var price = priceLabel.name.split(":")[1].trim();
+        output +=
+          '<a href="' + bounty.html_url + '" class="mb-4 flex justify-between items-center no-underline" target="_blank">' +
+            '<div class="flex-auto">' +
+              '<div class="font-medium text-md">' + bounty.title + '</div>' +
+              '<div class="text-sm text-grey-darker">#' + bounty.number + ' ' + new Date(bounty.created_at).toLocaleDateString() + '</div>' +
+            '</div>' +
+            '<div class="text-md">' +
+              price +
+            '</div>' +
+          '</a>';
+      }
+    }
+    $element.html(output)
+  })
+});
+
 up.compiler('[data-date]', function($element) {
   var date = Date.parse($element.data('date'));
   var today = new Date();

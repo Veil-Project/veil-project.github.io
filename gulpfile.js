@@ -108,10 +108,10 @@ gulp.task('browser-sync', gulp.series('build', function(done) {
   done();
 }));
 gulp.task('watch', function() {
+  gulp.watch(['**/*.html', '**/*.yml', '**/*.md', '!_site'], gulp.series('jekyll-rebuild'));
   gulp.watch(['_assets/css/**/*.css'], gulp.series('styles'));
   gulp.watch(['_assets/js/**/*.js'], gulp.series('scripts'));
   gulp.watch(['_assets/icons/*.svg'], gulp.series('icons'));
   gulp.watch(['_assets/img/*'], gulp.series('images'));
-  gulp.watch(['**/*.html', '**/*.yml', '**/*.md', '!_site'], gulp.series('jekyll-rebuild'));
 });
 gulp.task('default', gulp.series('browser-sync', 'watch'));
