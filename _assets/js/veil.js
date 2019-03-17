@@ -51,19 +51,20 @@ up.compiler('[data-bounties]', function($element) {
       var priceLabel = bounty.labels.find(function(label) {
         return label.name.toLowerCase().indexOf("price:") > -1;
       })
-      if (priceLabel) {
-        var price = priceLabel.name.split(":")[1].trim();
-        output +=
-          '<a href="' + bounty.html_url + '" class="mb-4 flex justify-between items-center no-underline" target="_blank">' +
-            '<div class="flex-auto">' +
-              '<div class="font-medium text-md">' + bounty.title + '</div>' +
-              '<div class="text-sm text-grey-darker">#' + bounty.number + ' ' + new Date(bounty.created_at).toLocaleDateString() + '</div>' +
+      var price = priceLabel && priceLabel.name.split(":")[1].trim();
+      output +=
+        '<div class="flex-none w-full md:w-1/2 p-2">' +
+          '<a href="' + bounty.html_url + '" class="block p-6 text-black hover:text-blue no-underline bg-grey-lighter rounded" target="_blank">' +
+            '<div class="font-medium leading-none mb-2 text-md">' + bounty.title + '</div>' +
+            '<div class="text-sm text-black opacity-75 leading-none">' +
+              [
+                '#' + bounty.number,
+                new Date(bounty.created_at).toLocaleDateString(),
+                price ? 'Reward: ' + price + ' Veil' : null
+              ].filter(function(obj) { return obj }).join(' &middot; ') +
             '</div>' +
-            '<div class="text-md">' +
-              price +
-            '</div>' +
-          '</a>';
-      }
+          '</a>' +
+        '</div>';
     }
     $element.html(output)
   })
