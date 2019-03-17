@@ -509,6 +509,10 @@ a {
       filter: blur(10px);
     }
   }
+
+  .Tabs & {
+    @apply border-blue border-b-4;
+  }
 }
 
 .up-tooltip {
