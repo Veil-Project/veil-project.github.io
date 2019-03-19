@@ -26,6 +26,9 @@ up.compiler('[data-price]', function($element) {
             '<li class="">' +
               '<div class="text-xs uppercase opacity-75 leading-loose">Market cap:</div>' +
               '<div class="text-base">$' + market.cap.toFixed(2) + 'M</div>' +
+              '<a href="https://www.coingecko.com/en/coins/veil" target="_blank" style="font-size:.6rem" class="block mt-2 text-grey-dark hover:text-black">' +
+                'Powered by CoinGecko' +
+              '</a>' +
             '</li>' +
             '<li class="my-2 py-2 border-t border-b">' +
               '<div class="text-xs uppercase opacity-75 leading-loose">Total supply:</div>' +

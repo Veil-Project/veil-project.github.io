@@ -160,7 +160,7 @@ a {
     @apply .rounded;
     background: #fff;
     box-shadow: rgba(0,0,0,.1) 0 2px 15px;
-    a {
+    > a {
       display: block;
       white-space: nowrap;
       @apply .px-8;
