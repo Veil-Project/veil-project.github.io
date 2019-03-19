@@ -60,4 +60,4 @@ This means that spending 40 zerocoin, of similar age and the same amount of deno
 
 All in all, we are excited about this development because not only do people have a right to privacy, but also a positive user experience. We expect precomputing to be ready during this Q2 of 2019, so stay tuned for announcements in the near future!
 
-If you have any questions in the meantime, be sure to join our [Discord](https://discordapp.com/invite/Ywyb9hs) or [Telegram}(https://t.me/VEILProject) to chat with the team. 
+If you have any questions in the meantime, be sure to join our [Discord](https://discordapp.com/invite/Ywyb9hs) or [Telegram](https://t.me/VEILProject) to chat with the team. 
