@@ -4,7 +4,7 @@ ref: marsmensch
 name: Florian
 username: marsmensch
 portrait: marsmensch.jpg
-role: Advisor/IT Architect
+role: Lead Advisor
 keybase_url: https://keybase.io/marsmensch
 keybase_key: 5BEF 5180 BBE0 BF7B
 intro: Marsmensch is known as an Open Source Evangelist with advanced abilities in the world of blockchain technology. He is a supremely patient developer and his knowledge is highly valued.
