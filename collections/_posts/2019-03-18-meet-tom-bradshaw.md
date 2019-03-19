@@ -87,7 +87,7 @@ This is not a list of "what to invest in", "what I have invested in", or "what h
 Projects I actively contribute to:
 
 - [zDEX](https://zdex.exchange) – masternode based decentralized exchange.
-- [Divitia](https://www.apkmonk.com/app/com.Mob.divitiaapp/) – A social cryptocurrency portfolio tracker that will have its own blockchain (expecting a public beta in the next couple of months).
+- Divitia – A social cryptocurrency portfolio tracker that will have its own blockchain (expecting a public beta in the next couple of months).
 -  [PIVX](https://pivx.org) – masternodes, Proof-of-Stake, zerocoin, good devs, good community.
 - [Crown](https://crown.tech) – PoW Dash clone that will phase out PoW with a new staking masternode protocol my team developed.
 
