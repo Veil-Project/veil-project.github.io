@@ -3,7 +3,7 @@ layout: post
 lang: en
 author: gabrielnergaard
 permalink: /news/bounty-program-starts/
-date: 2019-03-01
+date: 2019-03-21
 title: Start of the Veil Bounty Program
 description: 'The Veil Bounty Program starts March 26, 2019.'
 ---
