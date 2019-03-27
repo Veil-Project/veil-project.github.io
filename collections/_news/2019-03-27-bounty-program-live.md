@@ -7,6 +7,7 @@ date: 2019-03-27
 title: The Veil Bounty Program is Live!
 description: 'We have partnered with top bounty management team BountyCloud for the program and hope to provide bounty hunters with a fair and seamless way to contribute and earn veil.'
 ---
+We have partnered with top bounty management team BountyCloud for the program and hope to provide bounty hunters with a fair and seamless way to contribute and earn veil.
 
 ![](/uploads/blog/2019-03-27-bounty.png)
 
