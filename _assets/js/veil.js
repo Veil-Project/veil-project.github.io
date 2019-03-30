@@ -46,31 +46,44 @@ up.compiler('[data-price]', function($element) {
 });
 
 up.compiler('[data-bounties]', function($element) {
-  $.get("https://api.github.com/repos/veil-project/veil/issues?labels=Bounty").done(function(data) {
-    console.log(data);
-    output = "";
+  $.get(encodeURI("https://api.github.com/repos/veil-project/veil/issues?labels=Bounty: Open")).done(function(data) {
+    $element.html("");
     for (var i = 0; i < data.length; i++) {
       var bounty = data[i];
-      var priceLabel = bounty.labels.find(function(label) {
-        return label.name.toLowerCase().indexOf("price:") > -1;
+      var statusLabel = bounty.labels.find(function(label) {
+        return label.name.toLowerCase().indexOf("dev status:") > -1;
       })
-      var price = priceLabel && priceLabel.name.split(":")[1].trim();
-      output +=
+      var status = statusLabel && statusLabel.name.split(":")[1].trim();
+      $element.append(
         '<div class="flex-none w-full md:w-1/2 p-2">' +
           '<a href="' + bounty.html_url + '" class="block p-6 text-black hover:text-blue no-underline bg-grey-lighter rounded" target="_blank">' +
             '<div class="font-medium leading-none mb-2 text-md">' + bounty.title + '</div>' +
             '<div class="text-sm text-black opacity-75 leading-none">' +
               [
-                '<span class="font-medium">Available</span>',
+                '<span class="font-medium">' + status + ' </span>',
                 '#' + bounty.number,
                 new Date(bounty.created_at).toLocaleDateString(),
-                price ? 'Reward: ' + price + ' Veil' : null
+                'Reward: <span id="reward_' + bounty.number + '"></span> Veil',
               ].filter(function(obj) { return obj }).join(' &middot; ') +
             '</div>' +
           '</a>' +
-        '</div>';
+        '</div>'
+      );
+      (function(bounty) {
+        $.get(bounty.comments_url).done(function(data) {
+          var price;
+          for (var i = 0; i < data.length; i++) {
+            var comment = data[i];
+            var priceMatch = comment.body.match(/bounty price: ([0-9.]*)/i);
+            if (priceMatch) {
+              price = priceMatch[1];
+              break;
+            }
+          }
+          $('#reward_' + bounty.number).html(price || 'TBD');
+        })
+      })(bounty)
     }
-    $element.html(output)
   })
 });
 
