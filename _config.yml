@@ -42,7 +42,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /icons/logo.jpg
+      image: /icons/preview.png
 
 permalink: /:categories/:year/:month/:day/:title/
 exclude:
