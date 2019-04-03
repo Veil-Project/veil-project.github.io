@@ -2,9 +2,9 @@
 layout: post
 lang: en
 title: Veil Announces the 2019 Security Audits
-date: 2019-03-16
-author: gabrielnergaard
-permalink: /drafts/security-audits/
+date: 2019-04-03
+author: dango
+permalink: /news/security-audits/
 categories: test
 excerpt: 'In this article, we discuss our forthcoming security audit.'
 description: 'In this article, we discuss our forthcoming security audit.'
