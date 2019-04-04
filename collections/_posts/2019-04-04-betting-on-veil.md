@@ -2,9 +2,9 @@
 layout: post
 lang: en
 title: Betting on the future of Veil
-date: 2019-03-21
+date: 2019-04-04
 author: gabrielnergaard
-permalink: /drafts/betting-on-the-future-of-veil/
+permalink: /blog/betting-on-the-future-of-veil/
 categories: test
 excerpt: 'In this article, we are going to explore why the Veil team members have made such personal commitments to the long-term success of the project.'
 description: 'In this article, we are going to explore why the Veil team members have made such personal commitments to the long-term success of the project.'
