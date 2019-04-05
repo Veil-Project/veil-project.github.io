@@ -3,7 +3,7 @@ layout: post
 lang: en
 title: Veil Announces the 2019 Security Audits
 date: 2019-04-03
-author: dango
+author: alexandros
 permalink: /news/security-audits/
 categories: test
 excerpt: 'In this article, we discuss our forthcoming security audit.'
@@ -14,7 +14,7 @@ Veil is the first cryptocurrency utilizing Zerocoin with the goal of achieving a
  
 As a privacy-centric cryptocurrency, we at Veil are committed to the security and freedom of our community, and for our users to retain power and control over their own data.
  
-The security and stability of the Veil network is our main priority so we have engaged Least Authority, a leading industry expert firm, to conduct comprehensive security audits starting mid-late April 2019.
+The security and stability of the Veil network is our main priority so we have engaged Least Authority, a leading industry expert firm, to conduct comprehensive security audits starting early May, 2019.
  
 With years of experience and a solid track of record in conducting cryptocurrency audits, Least Authority will start analyzing the stability of Veil codebase with further audits already planned for the future, such as trustless accumulator and RingCT w/bulletproofs. 
  
