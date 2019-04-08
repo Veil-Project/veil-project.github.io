@@ -97,3 +97,5 @@ Projects I don’t contribute to but seem to have decent development:
 - [Dash](https://www.dash.org) – I like that Dash has consistent development and have found some of the developers that I have interacted with to be extremely talented.
 - [Particl](https://particl.io) – A project with unique development that Veil was able to bootstrap some of its cryptography from.
 
+**Closing note** — If you'd be interested in joining the Veil development team, either full- or part-time, be sure to visit the [Veil Development Bounty](https://veil-project.com/bounties/) page at our website.
+
