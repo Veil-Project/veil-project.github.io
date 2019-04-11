@@ -2,7 +2,7 @@
 layout: member
 ref: hort
 username: Hort
-name: Mark Fortenberry
+name: Marc Fortenberry
 role: Technical Support
 portrait: hort.jpg
 keybase_url: https://keybase.io/hort
