@@ -14,6 +14,6 @@ past_contributions:
 - PIVX
 - libzerocoin
 - HyperStake
-- Crown.
+- Crown
 description: 'Veil Project Tom Bradshaw—Lead blockchain architect Tom Bradshaw, aka presstab, long-time crypto developer, has previously worked on Hyperstake, Crown, PIVX, zDEX, and libzerocoin. Read more here.'
 ---
