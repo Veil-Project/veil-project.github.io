@@ -7,7 +7,7 @@ role: Advisor
 portrait: dicemaster.jpg
 keybase_url: https://keybase.io/dice_master
 keybase_key:
-intro: Tony Kim is an iconic figure in blockchain circles and he is a skillful trendsetter. Tony in an expert in cross-border negotiations, and an experienced cryptocurrency investor. He promotes the world's most cutting edge technology in Korea, and he is known, globally.
+intro: Tony Kim is an iconic figure in blockchain circles and he is a skillful trendsetter. Tony is an expert in cross-border negotiations, and an experienced cryptocurrency investor. He promotes the world's most cutting edge technology in Korea, and he is known, globally.
 past_contributions:
 - Served in S. Korean military
 - BS Computer Science
