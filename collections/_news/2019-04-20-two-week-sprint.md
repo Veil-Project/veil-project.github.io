@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-author: dango
+author: CryptyMike
 permalink: /news/2019-04-20-two-week-sprint/
 date: 2019-04-20
 title: 2019-04-20 Two week sprint
