@@ -7,6 +7,9 @@ date: 2019-04-20
 title: 2019-04-20 Two week sprint
 description: 'This article describes our plans for the next two-week sprint.'
 ---
+
+![](/uploads/blog/2019-04-26-sprint.png)
+
 Greetings Veil community! Welcome to this month’s Veil roundup where we provide quick updates on short-term technical focuses over the next 2-3 weeks. 
 
 In this piece, we’ll list the specific GitHub issues that are on our radar to relieve common user pain points and continue making Veil a smoother experience. We’ll even include some recent issues we closed!
