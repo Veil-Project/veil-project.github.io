@@ -32,4 +32,4 @@ From a functional perspective, however, the usage of the wallet in terms of send
 
 We will be working within our own team, and the broader Zerocoin community on the long-term solution, in support of our mission and philosophy of providing full-time privacy, without compromise. 
 
-- The Veil Team
+— The Veil Team
