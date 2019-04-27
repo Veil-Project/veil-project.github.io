@@ -24,7 +24,7 @@ As relates to Veil, the good news is that there isn't any evidence of this attac
 
 However, it is important that we do take immediate measures to protect against this vulnerability, and in that regard we intend to release a **critical** and **mandatory** update to the Veil wallet today, April 27, 2019. The wallet is ready for self-compilers and all builds will be available within several hours.
 
-**[Download mandatory wallet v1.0.3.0](https://github.com/Veil-Project/veil/releases/tag/v1.0.3.0)**
+**[→ Download mandatory wallet v1.0.3.0](https://github.com/Veil-Project/veil/releases/tag/v1.0.3.0)**
 
 The updated wallet will be a **temporary** measure, that immediately protects the network against the announced vulnerability, but removes the **anonymity** feature of Zerocoin, in that Zerocoin mints will temporarily be linked from their original spends on the blockchain. Past Zerocoin transactions will not be deanonymized.
 
