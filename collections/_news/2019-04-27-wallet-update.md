@@ -4,7 +4,7 @@ lang: en
 title: New Zerocoin vulnerability and mandatory wallet update v1.0.3.0
 date: 2019-04-27
 author: gabrielnergaard
-permalink: /blog/wallet-1-0-3-0/
+permalink: /news/wallet-1-0-3-0/
 categories: test
 excerpt: 'Mandatory update of Veil Core Wallet Version 1.0.3.0'
 description: 'Mandatory update of Veil Core Wallet Version 1.0.3.0'
