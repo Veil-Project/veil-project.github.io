@@ -12,7 +12,7 @@ description: 'Mandatory update of Veil Core Wallet Version 1.0.3.0'
 
 A new wallet update has been released to ensure the network remains safe and unaffected from the new Zerocoin vulnerability.
 
-![](2019-04-27-wallet.jpg)
+![](/uploads/blog/2019-04-27-wallet.jpg)
 
 As followers of the privacy-coin space are aware, the Zcoin project recently made a public announcement regarding a vulnerability that affects all projects using the Zerocoin protocol, including Veil. They contacted us earlier this month and disclosed the issues associated to the libzerocoin library.
 
