@@ -22,7 +22,7 @@ For more detailed information about the vulnerability, please see:
 
 As relates to Veil, the good news is that there isn't any evidence of this attack on our network.
 
-However, it is important that we do take immediate measures to protect against this vulnerability, and in that regard we intend to release a **critical** and **mandatory** update to the Veil wallet today, April 27, 2019. The wallet is ready for self-compilers and all builds will be available within several hours.
+However, it is important that we do take immediate measures to protect against this vulnerability, and in that regard we have released a **critical** and **mandatory** update to the Veil wallet today, April 27, 2019. 
 
 **[→ Download mandatory wallet v1.0.3.0](https://github.com/Veil-Project/veil/releases/tag/v1.0.3.0)**
 
