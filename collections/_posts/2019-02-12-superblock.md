@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-title:  superblock milestone triggers emission of Veil budget 
+title:  Superblock milestone triggers emission of Veil budget 
 date:   2019-02-12
 author: lorilikes
 permalink: /blog/superblock/
@@ -20,7 +20,7 @@ A perfect opportunity to share the Veil budget has presented itself in the 43,20
 
 The superblock contained a sum of veil which served as the first emission of the Veil budget.  
 
-For the Veil team, this type of periodically planned blocks will include salaries and an operations budget to continue serving the community of users with a full, attentive staff.  
+For the Veil team, this type of periodically-planned block will include salaries and an operations budget to continue serving the community of users with a full, attentive staff.  
 
 For the founder, the superblock granted the first return on his own seed capital. Often in crypto projects the users will gather up their funds in a pool or a collective investment, such as in an ICO or crowdfund. This is why many crypto enthusiasts are accustomed to an “investors reward” of some type. Since our founder represents the entirety of the initial investment funding, the “Founders Reward” is much like a rebate or a reimbursement for the backing that he provided. This payment will repeat in intervals as shown on Veil’s public documentation.
 
