@@ -8,12 +8,17 @@
   title:
     en: Anonymize Basecoin with RingCT
   desc:
-    en: 'By complementing Veil’s Zerocoin anonymity with RingCT protection of Basecoin transactions, Veil achieves "always-on" privacy.'
+    en: 
 - date: 2019-01-01
   title:
     en: Implement Dandelion
   desc:
     en: Dandelion helps to prevent source node traceback.
+- date: 
+  title:
+    en: Full-time Anonymity
+  desc:
+    en: Veil will integrate a core protocol that provides for always-on private transactions.
 - date: 
   title:
     en: Wallet chain pruning
