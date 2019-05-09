@@ -14,7 +14,7 @@ On April 27th, a critical vulnerability in the libzerocoin library [was discover
 
 In order to protect our users, the Veil project immediately [released a wallet update](https://veil-project.com/news/wallet-1-0-3-0/). Furthermore, an internal analysis did not reveal any indication that the vulnerability was exploited on the Veil network prior to our wallet update.
 
-The downside of the wallet update, is that it **removes the anonymity feature of Zerocoin**, in that Zerocoin mints will temporarily be linked from their original spends on the blockchain. Past Zerocoin transactions will not be deanonymized.
+The downside of the wallet update, is that it **removes the anonymity feature of Zerocoin**, in that Zerocoin spends will temporarily be linked from their original mints on the blockchain. Past Zerocoin transactions will not be deanonymized.
 
 From a functional perspective, the usage of the wallet in terms of sending, receiving, and staking remain the same. The privacy characteristics of RingCT and CT are unaffected. **Zerocoin minting, spending, and staking, however, are no longer unlinkable**. 
 
