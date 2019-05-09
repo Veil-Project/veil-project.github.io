@@ -282,7 +282,7 @@ a {
     &::before {
       content: '';
       position: absolute;
-      z-index: 0;
+      z-index: 1;
       top: 7.75rem;
       left: -50%;
       right: 50%;
