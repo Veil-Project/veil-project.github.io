@@ -22,7 +22,7 @@ From a functional perspective, the usage of the wallet in terms of sending, rece
 
 This was the **second such Zerocoin vulnerability** discovered in a short period of time, and this second one was far more serious than the first. After an extensive internal review and discussion with the Zerocoin community, and in the context of our long-term mission, the Veil project has concluded that **we can no longer rely on Zerocoin as the core of our protocol**. 
 
-As such, we are currently assessing a number of alternative protocols that would satisfy our original set of requirements for Veil:
+As such, we are currently assessing a number of alternative protocols that would satisfy our requirements for Veil:
 
 - Full-time privacy
 - Only private transactions (one coin type)
