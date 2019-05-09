@@ -4,7 +4,7 @@ lang: en
 title: 2019-05-09 State of the Veil Network
 date: 2019-05-09
 author: gabrielnergaard
-permalink: /drafts/2019-05-09-state-of-veil/
+permalink: /blog/2019-05-09-state-of-veil/
 categories: test
 excerpt: 'In this article, we are going to discuss the state of the Veil network, including our decision to replace Zerocoin with a new privacy protocol.'
 description: 'In this article, we are going to discuss the state of the Veil network, including our decision to replace Zerocoin with a new privacy protocol.'
@@ -16,7 +16,7 @@ In order to protect our users, the Veil project immediately [released a wallet u
 
 The downside of the wallet update, is that it **removes the anonymity feature of Zerocoin**, in that Zerocoin mints will temporarily be linked from their original spends on the blockchain. Past Zerocoin transactions will not be deanonymized.
 
-From a functional perspective, the usage of the wallet in terms of sending, receiving, and staking remain the same. The privacy characteristics of RingCT and CT are unaffected. **Zerocoin minting, spending, and staking, however, are no longer anonymous**.
+From a functional perspective, the usage of the wallet in terms of sending, receiving, and staking remain the same. The privacy characteristics of RingCT and CT are unaffected. **Zerocoin minting, spending, and staking, however, are no longer “unlinkable”**.
 
 This was the **second such Zerocoin vulnerability** discovered in a short period of time, and this second one was far more serious than the first. After an extensive internal review and discussion with the Zerocoin community, and in the context of our long-term mission, the Veil project has concluded that **we can no longer rely on Zerocoin as the core of our protocol**. 
 
