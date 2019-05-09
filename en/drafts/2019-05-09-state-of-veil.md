@@ -22,9 +22,16 @@ This was the **second such Zerocoin vulnerability** discovered in a short period
 
 As such, we are currently assessing a number of alternative protocols that would satisfy our original set of requirements for Veil. 
 
-![](https://clipz.in/g7zub.png)
+- Full-time privacy
+- Only private transactions (one coin type)
+- Private mining via the X16RT algorithm
+- Private staking
+- IP privacy (Dandelion)
+- Fast transaction validation
+- Minimized transaction sizes
+- No denominations
 
-Identifying a privacy protocol that meets our requirements, developing and testing the associated network protocol, creating a new wallet, and developing & testing the software necessary to migrate coins from the existing to new network is complex endeavor, that will take time. We estimate at least six months.
+Identifying a privacy protocol that meets our requirements, developing and testing the associated network protocol, creating a new wallet, and developing & testing the software necessary to migrate coins from the existing to new network is complex endeavor, that will take time. **We estimate at least six months.**
 
 Where does that leave the project in the meantime?
 
@@ -36,7 +43,7 @@ What should potential acquirers of Veil consider in the meantime?
 
 Owning Veil now allows you to earn staking rewards while the new network is under development, and would be of interest to those who trust and have confidence in the team behind Veil.
 
-Migrating away from our core technology is a difficult decision, particularly as it means the loss of a good portion of the project's seed investment, and a requirement for additional capital to fund the activity of developing a new protocol. We started Veil with the mission to create an anonymous cryptocurrency that can serve the privacy needs of its users for generations to come. 
+Migrating away from our core technology is a difficult decision, particularly as it means the loss of a good portion of the project's seed investment, and a requirement for additional capital to fund the activity of developing a new protocol. We started Veil with the mission to create an anonymous cryptocurrency that can serve the privacy needs of its users for generations to come. **Our mission has not changed.** 
 
 Privacy will only increase in importance and necessary as we move forward, and so we are confident the temporary setback we experience today will be more than compensated in the long-term by the benefits of a more reliable anonymity protocol at the core of our network.
 
