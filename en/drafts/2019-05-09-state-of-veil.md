@@ -16,11 +16,11 @@ In order to protect our users, the Veil project immediately [released a wallet u
 
 The downside of the wallet update, is that it **removes the anonymity feature of Zerocoin**, in that Zerocoin mints will temporarily be linked from their original spends on the blockchain. Past Zerocoin transactions will not be deanonymized.
 
-From a functional perspective, the usage of the wallet in terms of sending, receiving, and staking remain the same. The privacy characteristics of RingCT and CT are unaffected. **Zerocoin minting, spending and staking, however, are no longer anonymous**.
+From a functional perspective, the usage of the wallet in terms of sending, receiving, and staking remain the same. The privacy characteristics of RingCT and CT are unaffected. **Zerocoin minting, spending, and staking, however, are no longer anonymous**.
 
 This was the **second such Zerocoin vulnerability** discovered in a short period of time, and this second one was far more serious than the first. After an extensive internal review and discussion with the Zerocoin community, and in the context of our long-term mission, the Veil project has concluded that **we can no longer rely on Zerocoin as the core of our protocol**. 
 
-As such, we are currently assessing a number of alternative protocols that would satisfy our original set of requirements for Veil. 
+As such, we are currently assessing a number of alternative protocols that would satisfy our original set of requirements for Veil:
 
 - Full-time privacy
 - Only private transactions (one coin type)
@@ -31,7 +31,9 @@ As such, we are currently assessing a number of alternative protocols that would
 - Minimized transaction sizes
 - No denominations
 
-Identifying a privacy protocol that meets our requirements, developing and testing the associated network protocol, creating a new wallet, and developing & testing the software necessary to migrate coins from the existing to new network is complex endeavor, that will take time. **We estimate at least six months.**
+To reiterate our message since the beginning—Veil is not seeking to simply replicate existing technology. Rather, we are working towards a complete solution that addresses the collective trade-offs and shortcomings of all current privacy protocol implementations.
+
+Implementing the privacy protocol that meets our needs, creating a new wallet, and migrate coins over to the new network will be complex and will take time. But we are confident in our stellar development team and their ability to deliver the next generation in privacy technology. We estimate that this will take **at least six months**, and we will keep the community updated along the way.
 
 Where does that leave the project in the meantime?
 
