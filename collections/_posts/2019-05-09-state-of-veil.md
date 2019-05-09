@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-title: 2019-05-09 State of the Veil Network
+title: 2019-05-09 State of the Veil network
 date: 2019-05-09
 author: gabrielnergaard
 permalink: /blog/2019-05-09-state-of-veil/
