@@ -9,39 +9,47 @@ lead: 'Discover how the Veil Project is leveraging state-of-the-art technologies
 ---
 ## Introduction & objectives
 
-Across the landscape of privacy-focused cryptocurrencies, two general approaches have been taken—one providing full time privacy, and the other providing superior anonymity. Each of these approaches have benefits and trade-offs.
+Across the landscape of privacy-focused cryptocurrencies, a number of general approaches have been taken, each with its own benefits and trade-offs.
 
-The original privacy coin, Monero, with its RingCT technology, provides “full-time” privacy. RingCT, however, based on sophisticated mixing, has been surpassed in terms of strength of anonymity by advanced cryptographic methods. Coins like Zcoin are based on the Zerocoin protocol, providing superior anonymity, but with the drawback that only certain types of transactions in the network are private—making it possible to inadvertently transact publicly. To emphasize the magnitude of this problem, in the networks of some of today’s most visible privacy coins, less than one percent of all transactions are private.
+The original privacy coin, Monero, with its RingCT technology, provides “full-time” privacy. RingCT, however, is based on sophisticated mixing. It is unclear whether an adversary with sufficient resources could de-anonymize Monero transactions. 
+
+An alternative approach appeared, called Zerocoin, based on advanced cryptographic methods and implemented around a fixed set of standard-sized coin “denominations”. Coins like Zcoin are based on the Zerocoin protocol, but have the drawback that only certain types of transactions in the network are private—making it possible to inadvertently transact publicly. To emphasize the magnitude of this problem, in the networks of some of today’s most visible privacy coins, less than one percent of all transactions are private.
 
 Finally, a drawback shared by many privacy-focused projects is a dependance on outside expertise and external software developments to improve their networks.
 
-The Veil Project improves the state of privacy-focused cryptocurrencies by creating a secure, anonymous coin and by providing full-time privacy. Veil offers a user experience suited to the masses with self-funding to support long-term research and development by a dedicated team of researchers and blockchain developers.
+The Veil Project is working to improve the state of privacy-focused cryptocurrencies by creating a secure, highly anonymous coin that provides full-time privacy. In addition, Veil offers a user experience suited to the masses with self-funding to support long-term research and development by a dedicated team of researchers and blockchain developers.
 
 This document introduces the project, its technologies and its approach to long-term sustainability.
 
-## Core privacy technology
+## Core network technology
 
-Veil combines the world’s most secure blockchain software, **Bitcoin version 0.17.1**, with the advanced, cryptography-based privacy protocol, **Zerocoin**.
+In its first implementation, Veil combined the world’s most secure blockchain software, **Bitcoin version 0.17.1**, with the cryptography-based privacy protocol, **Zerocoin** and the Particl project's **RingCT** implementation.
 
 - Over a decade in operation, the **Bitcoin** core software has demonstrated itself to be the most secure and battle-tested blockchain software in existence.
+
+- In order to provide for “always-on” privacy, Veil added **RingCT** privacy from Particl to its Basecoin transactions, such that all transaction components in the Veil network as anonymous as technology today can provide for.
 
 - The **Zerocoin** protocol is based on **zero-knowledge proofs**, a cryptographic method which allows a computation to be proven to have taken place, without knowledge of its inputs and outputs. In the case of a cryptocurrency, this computation would be a value transaction, in which the sender, receiver and amount transacted can remain anonymous.
 
 - Support for the **Dandelion protocol** makes it nearly impossible to trace a transaction back to its source node on the network.
 
-## Providing always-on privacy, efficiently
+- Finally, **Bulletproofs** technology will be adopted to ensure minimal transaction sizes.
 
-Those familiar with Zerocoin-based networks know that the protocol involves a non-private transaction state known as Basecoin to account for the fact that zero-knowledge proof transactions happen between discrete coin denomination sizes. In such networks, like PIVX for example, anonymous discrete denomination coins enter a publicly visible “Basecoin” state, from which smaller anonymous denominations may then be recreated in a process called “minting”, with any remaining Basecoins considered to be “change” in the coin’s wallet.
+## Replacing Zerocoin as a core technology
 
-In order to provide for “always-on” privacy, Veil will add **RingCT** privacy from Particl to its Basecoin transactions, such that all transaction components in the Veil network will be as anonymous as technology today provides for.
+Half a year after the launch of Veil in 2019, a series of vulnerabilities were discovered in the Zerocoin library which sits at the core of most Zerocoin-based protocol implementations, including Veil’s. In order to immediately protect Veil user funds, the project released an update that preserves the functional characterics of Zerocoin, but removes its unlinkability to original mints. 
 
-Finally, **Bulletproofs** technology will be adopted to ensure minimal transaction sizes.
+After review, and community discussion, the Veil project, along with a number of others, concluded that Zerocoin can not be relied upon to form the anonymity core of the protocol, and at the time of this writing, the project is [assessing a number of alternatives](https://veil-project.com/blog/2019-05-09-state-of-veil/).
+
+Zerocoins minted in Veil from RingCT, still carry the anonymity inherent in RingCT, and so during the interim Veil users have some level of anonymity in spending and staking with Zerocoin if originally minted from RingCT.
+
+The remainder of this technology overview describes how Zerocoin is used in the Veil network *today*, but the reader should be aware that at some point, likely during 2019, Zerocoin will be replaced.
 
 ## Consensus algorithms
 
-The Veil network will operate a hybrid **Proof-of-Work** (PoW) and **Proof-of-Stake** (PoS) consensus system. 
+The Veil network operates a hybrid **Proof-of-Work** (PoW) and **Proof-of-Stake** (PoS) consensus system. 
 
-The **Proof-of-Stake** consensus system will ensure maximum decentralization, energy efficiency and provide a mechanism for all Veil holders to **earn rewards in Veil** through the process of *staking*. To further enhance the coin’s privacy, staking will only be available through **Zerocoin denominations**, and for that reason, all Veil balances (with the exception of exchanges) will *auto-mint* to these denominations: 10, 100, 1000 and 10000 Zerocoin Veil.
+The **Proof-of-Stake** consensus system ensures maximum decentralization, energy efficiency and provide a mechanism for all Veil holders to **earn rewards in Veil** through the process of *staking*. To further enhance the coin’s privacy, staking will only be available through **Zerocoin denominations**, and for that reason, all Veil balances (with the exception of exchanges) will *auto-mint* to these denominations: 10, 100, 1000 and 10000 Zerocoin Veil.
 
 The **Proof-of-Work** mining system, guarantees a fair distribution of the coin, avoids the necessity of an ICO or pre-mine, and adds security to the overall network. To promote fairness of mining, Proof-of-Work mining will utilize the **ASIC-resistant X16RT hashing algorithm**, an improved version of X16R introduced by the Ravencoin project.
 
