@@ -18,7 +18,7 @@ The downside of the wallet update, is that it **removes the anonymity feature of
 
 From a functional perspective, the usage of the wallet in terms of sending, receiving, and staking remain the same. The privacy characteristics of RingCT and CT are unaffected. **Zerocoin minting, spending, and staking, however, are no longer unlinkable**. 
 
-(Why do we use the term “unlinkable” here, rather than “anonymous”? Because if you mint Zerocoins from RingCT, spends and staking rewards to those Zerocoins benefit from the pass-through privacy inherent in RingCT.)
+(Why do we use the term “unlinkable” here, rather than “anonymous”? Because if you mint zerocoins from RingCT, spends and staking rewards to those zerocoins benefit from the pass-through privacy inherent in RingCT.)
 
 This was the **second such Zerocoin vulnerability** discovered in a short period of time, and this second one was far more serious than the first. After an extensive internal review and discussion with the Zerocoin community, and in the context of our long-term mission, the Veil project has concluded that **we can no longer rely on Zerocoin as the core of our protocol**. 
 
