@@ -4,7 +4,7 @@ lang: en
 ref: technology
 permalink: /technology/
 title: Veil Technology
-description: 'Veil cryptocurrency is a secure, anonymous coin providing full-time privacy. Read about Zerocoin and RingCT protocols, to Veil’s X16RT mining algorithm.'
+description: 'Veil is working towards a secure, anonymous coin providing full-time privacy.'
 lead: 'Discover how the Veil Project is leveraging state-of-the-art technologies to set a new standard in the field of privacy-focused cryptocurrencies.'
 ---
 ## Introduction & objectives
