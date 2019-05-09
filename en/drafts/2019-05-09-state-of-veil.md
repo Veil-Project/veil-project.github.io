@@ -4,7 +4,7 @@ lang: en
 title: 2019-05-09 State of the Veil Network
 date: 2019-05-09
 author: gabrielnergaard
-permalink: /drafts/2019-05-09-state-of-the-veil-network/
+permalink: /drafts/2019-05-09-state-of-veil/
 categories: test
 excerpt: 'In this article, we are going to discuss the state of the Veil network, including our decision to replace Zerocoin with a new privacy protocol.'
 description: 'In this article, we are going to discuss the state of the Veil network, including our decision to replace Zerocoin with a new privacy protocol.'
