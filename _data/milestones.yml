@@ -32,13 +32,3 @@
     en: Delegated staking
   desc:
     en: Delegated staking allows staked Veil to be held offline in a hardware wallet.
-- date:
-  title:
-    en: User-to-user Zerocoin transactions
-  desc:
-    en: User-to-user Zerocoin transactions provides for even greater anonymity through bypassing the Basecoin transition altogether.
-- date:
-  title:
-    en: RingCT support for Zerocoin spends
-  desc:
-    en: Basecoin stealth addresses will be available at launch, with Zerocoin support to be added later.
