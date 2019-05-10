@@ -10,11 +10,11 @@ excerpt: Veil is a privacy-focused blockchain project with a simple mission - to
 description: 'Welcome to the Veil Project. This article discusses our philosophy, technology and more.'
 ---
 
-**Important update**
+## Important notice:
 
 *In May 2019, after this article was originally published, a series of vulnerabilities were discovered in the Zerocoin library which sits at the core of most Zerocoin-based protocol implementations, including Veil’s.*
 
-*After extensive review, and discussion with the Zerocoin community, the Veil project, along with a number of others, concluded that Zerocoin can not be relied upon to form the anonymity core of the protocol, and at the time of this writing, the project is working to [implement a new core privacy protocol](https://veil-project.com/blog/2019-05-09-state-of-veil/).**
+*After extensive review, and discussion with the Zerocoin community, the Veil project, along with a number of others, concluded that Zerocoin can not be relied upon to form the anonymity core of the protocol, and at the time of this writing, the project is working to [implement a new core privacy protocol](https://veil-project.com/blog/2019-05-09-state-of-veil/).*
 
 ## Welcome to Veil
 
