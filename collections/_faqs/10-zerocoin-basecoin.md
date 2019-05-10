@@ -8,4 +8,4 @@ For example, say you had one 100 Zerocoin veil, and purchased something that cos
 
 In Veil your wallet will automatically mint your available balance into zerocoins, the standard denomination for autominting is 10, but can be changed to 100, 1,000 or 10,000 based on user preferences. Any amount below 10 is not eligible to be minted into zerocoins, and must be held as basecoin until at least 10 basecoins are acquired.
 
-Something important to remember is that in Veil, contrary to other Zerocoin-based networks, the Basecoin state is also anonymized; in our case, with the use of RingCT technology. This results in what we call “always-on” privacy—such that the spending of both Zerocoin and Basecoin veil are protected.
+Something important to remember is that in Veil, contrary to other Zerocoin-based networks, the Basecoin state is also anonymized; in our case, with the use of RingCT technology.
