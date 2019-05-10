@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-title: Spend Zerocoins in Seconds Thanks to Veil’s Precompute Functionality
+title: Spend zerocoins in seconds thanks to Veil’s precompute functionality
 date: 2019-03-19
 author: cryptymike
 permalink: /blog/veil-precompute/
