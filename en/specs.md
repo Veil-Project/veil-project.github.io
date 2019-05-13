@@ -33,7 +33,7 @@ The remainder of this page describes how Zerocoin is used in the Veil network *t
 
 | Blockchain Data | |
 | --- | --- | --- |
-| Concensus dechanism | Hybrid Proof-of-Work and Proof-of-Stake model. | 
+| Concensus mechanism | Hybrid Proof-of-Work and Proof-of-Stake model. | 
 | Proof-of-Work | [X16RT Mining Algorithm](/faqs/#x16rt) |
 | Proof-of-Stake | Exclusively with Zerocoin. | 
 | Block time | 60 seconds, retargeting every block. |
