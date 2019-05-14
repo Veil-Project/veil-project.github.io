@@ -10,49 +10,47 @@ excerpt: 'In this article, we are going to discuss the state of the Veil network
 description: 'In this article, we are going to discuss the state of the Veil network, including our decision to replace Zerocoin with a new privacy protocol.'
 ---
 
-## Launch of the world’s most ambitious network
+On April 27th, a critical vulnerability in the libzerocoin library [was discovered](https://zcoin.io/further-disclosure-on-zerocoin-vulnerability) by the Zcoin project. This library is used by most Zerocoin-based projects, including Veil.
 
-In January of 2019, we launched Veil, one of the most ambitious and complex blockchain network protocols in existence.
+In order to protect our users, the Veil project immediately [released a wallet update](https://veil-project.com/news/wallet-1-0-3-0/). Furthermore, an internal analysis did not reveal any indication that the vulnerability was exploited on the Veil network prior to our wallet update.
 
-The Veil launch represented the first step towards our ultimate goal of providing “always-on” anonymity, meaning that in addition to the privacy provided by its Zerocoin implementation, its non-zerocoin transactions, unlike other networks, are also protected with RingCT.
+The downside of the wallet update, is that it **removes the anonymity feature of Zerocoin**, in that Zerocoin spends will temporarily be linked from their original mints on the blockchain. Past Zerocoin transactions will not be deanonymized.
 
-## Current limitations
+From a functional perspective, the usage of the wallet in terms of sending, receiving, and staking remain the same. The privacy characteristics of RingCT and CT are unaffected. **Zerocoin minting, spending, and staking, however, are no longer unlinkable**. 
 
-In its initial release, however, complete anonymity in Veil is unavailable in two types of transactions. 
+(Why do we use the term “unlinkable” here, rather than “anonymous”? Because if you mint zerocoins from RingCT, spends and staking rewards to those zerocoins benefit from the pass-through privacy inherent in RingCT.)
 
-1. We had to include support for fully transparent basecoin transactions to better empower miners and mining pools for our fair-distribution Proof-of-Work mining phase. 
+This was the **second such Zerocoin vulnerability** discovered in a short period of time, and this second one was far more serious than the first. After an extensive internal review and discussion with the Zerocoin community, and in the context of our long-term mission, the Veil project has concluded that **we can no longer rely on Zerocoin as the core of our protocol**. 
 
-2. Direct conversion to RingCT is not yet available from zerocoin and basecoin, requiring CT transactions for certain scenarios.
+As such, we are currently assessing a number of alternative protocols that would satisfy our requirements for Veil:
 
-Over time, we will remove both basecoin and CT transactions altogether, achieving our goal of providing “always-on” full anonymity. In the meantime, however, it’s important for Veil users to understand the implications of the *current* state of the network. 
+- Full-time privacy
+- Only private transactions (one coin type)
+- Private mining via the X16RT algorithm
+- Private staking
+- IP privacy (Dandelion)
+- Fast transaction validation
+- Minimized transaction sizes
+- No denominations
 
-## Summary of the current network transaction types
+To reiterate our message since the beginning—Veil is not seeking to simply replicate existing technology. Rather, we are working towards a complete solution that addresses the collective trade-offs and shortcomings of all current privacy protocol implementations.
 
-At present there a *four* types of transactions supported and in use on the Veil network, as summarized in the following table.
+Implementing the privacy protocol that meets our needs, creating a new wallet, and migrate coins over to the new network will be complex and will take time. But we are confident in our stellar development team and their ability to deliver the next generation in privacy technology. We estimate that this will take **at least six months**, and we will keep the community updated along the way.
 
-| Transaction Type | What it is | Can not send to |
-|----------|-----------|-----------|
-| Basecoin | Typical Bitcoin protocol transactions using UTXO model | RingCT |
-| CT | Hides the output amounts | None |
-| RingCT | Hides amounts & obfuscates sources | None |
-| Zerocoin | Users spend from one common pool of coins without revealing any information about their inputs. | RingCT |
+Where does that leave the project in the meantime?
 
-## Implications
+- Veil users can still earn staking rewards, non-anonymously, in the interim. 
+- We will continue to push out wallet updates as necessary. 
+- The development bounty program will likely continue unaffected; however, the community bounty program may in certain areas be suspended.
 
-This complexity creates a number of scenarios which are important to be aware of and need further explanation.
+What should potential acquirers of Veil consider in the meantime?
 
-- We see from the above table, for example, that when zerocoin is spent, change will be received in CT, since zerocoin can not currently spend to RingCT transactions.
+Owning Veil now allows you to earn staking rewards while the new network is under development, and would be of interest to those who trust and have confidence in the team behind Veil.
 
-- When would one have RingCT? The change from CT transactions is returned in RingCT.
+Migrating away from our core technology is a difficult decision, particularly as it means the loss of a good portion of the project's seed investment, and a requirement for additional capital to fund the activity of developing a new protocol. We started Veil with the mission to create an anonymous cryptocurrency that can serve the privacy needs of its users for generations to come. **Our mission has not changed.** 
 
-- Your total wallet balance is  comprised of *four* different coin balances. 
+Privacy will only increase in importance and necessity as we move forward, and so we are confident the temporary setback we experience today will be more than compensated in the long-term by the benefits of a more reliable anonymity protocol at the core of our network.
 
-- Transactions currently cannot combine multiple input types. For example, if you had 10 veil zerocoin, and 4 veil RingCT in your wallet, you currently could not, for instance, make a *12 veil* transaction, since that would require inputs from both zerocoin and RingCT balances.
+As we move forward, we will continue to keep you, the Veil community, up to date with frequent updates. And as always, if you have any questions, please do not hesitate to reach out to us in Discord or Telegram.
 
-- In this same example, if you tried to send 2 veil, you currently cannot specify from which “bucket” it comes from, unless using console commands. By default, the current wallet prioritizes sending from your zerocoin, then RingCT, and finally CT balances (basecoin can only be spent through an RPC command from the Console in the Advanced options area of the wallet).
-
-## Looking forward
-
-Since August of 2018, the Veil team has been working non-stop in the creation of what we believe will become the world’s leading privacy cryptocurrency, and we couldn’t be prouder of having reached our first milestone, with our launch in January.
-
-The current priorities of the development team are removing Basecoin and CT transaction types from the network to achieve our goal of providing “always-on” privacy, as well as completing the feature set of our Core Wallet.
+Onwards!

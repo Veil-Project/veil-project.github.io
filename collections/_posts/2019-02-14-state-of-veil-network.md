@@ -10,27 +10,21 @@ excerpt: 'In this article we’re going to take a look at the current state of t
 description: 'In this article we’re going to take a look at the current state of the Veil network.'
 ---
 
-## Important notice:
-
-*In May 2019, after this article was originally published, a series of vulnerabilities were discovered in the Zerocoin library which sits at the core of most Zerocoin-based protocol implementations, including Veil’s.*
-
-*After extensive review, and discussion with the Zerocoin community, the Veil project, along with a number of others, concluded that Zerocoin can not be relied upon to form the anonymity core of the protocol, and at the time of this writing, the project is working to [implement a new core privacy protocol](https://veil-project.com/blog/2019-05-09-state-of-veil/).*
-
 ## Launch of the world’s most ambitious network
 
 In January of 2019, we launched Veil, one of the most ambitious and complex blockchain network protocols in existence.
 
-The Veil launch represented the first step towards our ultimate goal of providing “always-on” anonymity, meaning that in addition to the privacy provided by its Zerocoin implementation, its non-Zerocoin transactions, unlike other networks, are also protected with RingCT.
+The Veil launch represented the first step towards our ultimate goal of providing “always-on” anonymity, meaning that in addition to the privacy provided by its Zerocoin implementation, its non-zerocoin transactions, unlike other networks, are also protected with RingCT.
 
 ## Current limitations
 
 In its initial release, however, complete anonymity in Veil is unavailable in two types of transactions. 
 
-1. We had to include support for fully transparent Basecoin transactions to better empower miners and mining pools for our fair-distribution Proof-of-Work mining phase. 
+1. We had to include support for fully transparent basecoin transactions to better empower miners and mining pools for our fair-distribution Proof-of-Work mining phase. 
 
-2. Direct conversion to RingCT is not yet able to be done from Zerocoin and Basecoin, requiring CT transactions for certain scenarios.
+2. Direct conversion to RingCT is not yet available from zerocoin and basecoin, requiring CT transactions for certain scenarios.
 
-Over time, we will remove both Basecoin and CT transactions altogether, achieving our goal of providing “always-on” full anonymity. In the meantime, however, it’s important for Veil users to understand the implications of the *current* state of the network. 
+Over time, we will remove both basecoin and CT transactions altogether, achieving our goal of providing “always-on” full anonymity. In the meantime, however, it’s important for Veil users to understand the implications of the *current* state of the network. 
 
 ## Summary of the current network transaction types
 
@@ -45,17 +39,17 @@ At present there a *four* types of transactions supported and in use on the Veil
 
 ## Implications
 
-This complexity creates a number of scenarios which are important to be aware of and need some explanation.
+This complexity creates a number of scenarios which are important to be aware of and need further explanation.
 
-- We see from the above table, for example, that when Zerocoin is spent, change will be received in CT, since Zerocoin can not currently spend to RingCT transactions.
+- We see from the above table, for example, that when zerocoin is spent, change will be received in CT, since zerocoin can not currently spend to RingCT transactions.
 
-- When would one have RingCT? The change from CT transactions are returned in RingCT.
+- When would one have RingCT? The change from CT transactions is returned in RingCT.
 
 - Your total wallet balance is  comprised of *four* different coin balances. 
 
-- Transactions currently cannot combine multiple input types. For example, if you had 10 veil Zerocoin, and 4 veil RingCT in your wallet, you currently could not make a *12 veil* transaction, since that would require input from both Zerocoin and RingCT.
+- Transactions currently cannot combine multiple input types. For example, if you had 10 veil zerocoin, and 4 veil RingCT in your wallet, you currently could not, for instance, make a *12 veil* transaction, since that would require inputs from both zerocoin and RingCT balances.
 
-- In this same example, if you tried to send 2 veil, you currently can not specify from which “bucket” it comes from, unless using console commands. By default, the current wallet prioritizes sending from Zerocoin, then RingCT, and finally CT. (Basecoin can only be spent through an RPC command from the Console, in the Advanced area of the wallet.)
+- In this same example, if you tried to send 2 veil, you currently cannot specify from which “bucket” it comes from, unless using console commands. By default, the current wallet prioritizes sending from your zerocoin, then RingCT, and finally CT balances (basecoin can only be spent through an RPC command from the Console in the Advanced options area of the wallet).
 
 ## Looking forward
 
