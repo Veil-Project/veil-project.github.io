@@ -16,7 +16,7 @@ As regular followers are aware, a recent series of exploits targeting the core p
 
 2. It forced us to make the difficult decision to, in the interest of our long-term mission, move away from Zerocoin as the foundation of our privacy protocol.
 
-We have been humbled at the support for this decision, and the implicit vote of confidence, that our community has demonstrated. In the spirit of keeping you informed, we've got some exciting new to share.
+We have been humbled at the support for this decision, and the implicit vote of confidence, that our community has demonstrated. In the spirit of keeping you informed, we've got some exciting news to share.
 
 ## Protocol requirements and an emphasis on simplicity
 
