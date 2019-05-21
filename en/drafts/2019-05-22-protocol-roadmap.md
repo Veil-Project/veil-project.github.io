@@ -31,7 +31,7 @@ The research for a new core protocol took place around the following set of requ
 - Minimized transaction sizes
 - No denominations
 
-The second requirement came from a lesson learned from the current Veil protocol, and that is the importance of *simplicity*. In order to provide full-time anonymity, the current protocol involves Zerocoin, RingCT and CT. This resulted in incidental complexity in the wallet user experience, and so the future privacy protocol will specifically target avoiding such complexity.
+The second requirement came from a lesson learned from the current Veil protocol, and that is the importance of *simplicity*. In order to provide full-time anonymity, the current protocol involves Zerocoin, RingCT, and CT. This resulted in incidental complexity in the wallet user experience, and so the future privacy protocol will specifically target avoiding such complexity.
 
 ## Identification of our new core privacy protocol
 
