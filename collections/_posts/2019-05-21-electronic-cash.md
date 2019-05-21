@@ -10,12 +10,10 @@ excerpt: 'As we provide technical updates, keep our community informed on milest
 description: 'As we provide technical updates, keep our community informed on milestones achieved, and dive into specifics of our technology, it can be easy to lose sight of the broader vision that we seek to achieve with Veil: electronic cash.'
 ---
 
-As we provide technical updates, keep our community informed on milestones achieved, and dive into specifics of our technology, it can be easy to lose sight of the broader vision that we seek to achieve with Veil: electronic cash. And to many newcomers, the need for electronic cash is overlooked once they get into the weeds of analyzing different projects. 
-
 In this piece, we’ll briefly explain what electronic cash is, the importance of it, and why projects like Veil matter. 
 
 
-##What is electronic cash?
+## What is electronic cash?
 
 
 Electronic cash is a digital form of money that aims to have all the characteristic of physical cash. At first thought, this may seem easy, but once you consider the intricacies and implications involved, it becomes a very complicated goal. 
