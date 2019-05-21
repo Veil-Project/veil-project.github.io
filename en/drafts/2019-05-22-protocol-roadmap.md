@@ -43,7 +43,7 @@ This investigation concluded in a core architecture specification for our new pr
 
 - Veil will improve on Zerocash by replacing the Zerocash proof system with the advanced work known as **Sonic** from cryptographer and long-time colleague, Mary Maller, and her associates. Sonic proofs are zk-SNARKS from linear-size universal and updatable structured reference strings. Key benefits of Sonic include a near trustless and updatable setup, as well as improvements in computational scalability. You can learn more about Sonic in the project's [white paper](https://eprint.iacr.org/2019/099.pdf).
 
-We realize that's a lot to digest. For the moment, we simply wanted to outline the exciting new architecture of the Veil core privacy protocol, but you can be sure we'll be posting additional details and information in the coming weeks and months.
+We realize that's a lot to digest. For the moment, we simply wanted to outline the exciting new architecture of the Veil core privacy protocol, but you can be sure we'll be posting additional details and information in the coming months.
 
 ## Fixing Zerocoin in the meantime
 
@@ -55,7 +55,7 @@ Some might question our decision to expend additional time, effort and cost on Z
 
 ## Onward and upward!
 
-We couldn't be more excited about the architecture that's been identified for the future Veil core privacy protocol. While the Zerocoin exploits and their impact on the Veil roadmap have certainly represented a roadbump, we now believe that in the long-run the situation will prove to be a blessing in disguise, as the new architecture will provide equivalent anonymity, improved scalability — all within a far simpler user experience.
+We couldn't be more excited about the architecture that's been identified for the future Veil core privacy protocol. While the Zerocoin exploits and their impact on the Veil roadmap have certainly represented a setback, we now believe that in the long-run the situation will prove to be a blessing in disguise, as the new architecture will provide equivalent anonymity, improved scalability — all within a far simpler user experience.
 
-Be sure to keep your eye on this space in the coming weeks and months, as we provide updates and additional technical insights, as well as details regarding the process of migration as they become available. And as always, if you have any questions or comments, don't hesitate to contact the team in Discord or Telegram.
+Be sure to keep your eye on this space, as we provide updates and additional technical insights, as well as details regarding the process of migration as they become available. And as always, if you have any questions or comments, don't hesitate to contact the team in Discord or Telegram.
 
