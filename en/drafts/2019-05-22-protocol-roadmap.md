@@ -37,7 +37,7 @@ The second requirement came from a lesson learned from the current Veil protocol
 
 Based on the above requirements, the Veil development team along with a number of individuals who are in discussion to join Veil Labs have conducted an intense investigation into possible replacements for Zerocoin. 
 
-This investigation concluded in a core architecture specification for our new privacy protocol that we are excited to share with you now. 
+This investigation concluded in a core architecture specification for our new privacy protocol that we are excited to share with you now:
 
 - The foundation of the Veil privacy protocol will be based on the work done by the **Zerocash** project. Similar to Veil's original protocol, Zerocash leveraged the stability of Bitcoin and the base anonymity of Zerocoin. Whereas Veil complemented Zerocoin with RingCT, Zerocash achieved anonymity through “Zero-Knowledge Succinct Non-interactive Arguments of Knowledge”, or zk-SNARKS, and an associated "decentralized anonymous payment" (or DAP) scheme. You can read more about Zerocash in the project's [white paper](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf).
 
@@ -47,9 +47,9 @@ We realize that's a lot to digest. For the moment, we simply wanted to outline t
 
 ## Fixing Zerocoin in the meantime
 
-A full transition to our new protocol, that will include a full audit by Least Authority, will be a complex and time-consuming endeavor. As we mentioned in a previous article, we estimate a minimum of six months.
+A full transition to our new protocol, that will include a full audit by Least Authority, will be a complex and time-consuming endeavor. As we mentioned in a previous article, we estimate a minimum of ten to twelve months.
 
-Recognizing the importance of privacy to our original Veil investors and early adopters, the Veil development team has also identified an approach to fixing the current Zerocoin attack vectors, and will be releasing an updated wallet soon that restores full anonymity to Veil's Zerocoin implementation. For the curious, the solution is found in "non-interactive zero-knowledge proofs for composite statements" as outline in this [technical publication](https://eprint.iacr.org/2018/557.pdf).
+Recognizing the importance of privacy to our original Veil investors and early adopters, the Veil development team has also identified an approach to fixing the current Zerocoin attack vectors, and will be releasing an updated wallet soon that restores full anonymity to Veil's Zerocoin implementation. For the curious, the solution is found in "non-interactive zero-knowledge proofs for composite statements" as outlined in this [technical publication](https://eprint.iacr.org/2018/557.pdf).
 
 Some might question our decision to expend additional time, effort and cost on Zerocoin, given that we'll be migrating away from it in the future. As mentioned above, this decision is to respect the privacy needs and intents of our early adopters during the interim period as we develop the new network.
 
