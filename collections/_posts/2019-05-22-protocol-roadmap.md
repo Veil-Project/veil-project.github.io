@@ -10,7 +10,7 @@ excerpt: 'The Veil Project is excited to present the architecture of the new Vei
 description: 'The Veil Project is excited to present the architecture of the new Veil privacy protocol, and the steps we are taking to ensure the interim privacy of our early adopters.'
 ---
 
-As regular followers are aware, a recent series of exploits targeting the core protocol implementation library upon which most Zerocoin protocol cryptocurrencies rely had the following two impacts on the Veil Project:
+As regular followers are aware, [a recent series of exploits](https://veil-project.com/blog/zerocoin-exploit/) targeting the core protocol implementation library upon which most Zerocoin protocol cryptocurrencies rely had the following two impacts on the Veil Project:
 
 1. We had to issue an emergency wallet release that, while protecting our user's funds from the exploit, had the downside of removing the anonymity feature of Zerocoin.
 
