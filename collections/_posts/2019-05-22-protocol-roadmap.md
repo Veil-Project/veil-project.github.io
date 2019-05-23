@@ -4,10 +4,10 @@ lang: en
 title: Announcing the architecture of the future Veil privacy protocol
 date: 2019-05-22
 author: gabrielnergaard
-permalink: /drafts/new-veil-protocol/
+permalink: /blog/new-veil-protocol/
 categories: test
-excerpt: 'In this article, we present the architecture of the new Veil privacy protocol, and the steps we are taking to ensure the interim privacy of our early adopters.'
-description: 'In this article, we present the architecture of the new Veil privacy protocol, and the steps we are taking to ensure the interim privacy of our early adopters.'
+excerpt: 'The Veil Project is excited to present the architecture of the new Veil privacy protocol, and the steps we are taking to ensure the interim privacy of our early adopters.'
+description: 'The Veil Project is excited to present the architecture of the new Veil privacy protocol, and the steps we are taking to ensure the interim privacy of our early adopters.'
 ---
 
 As regular followers are aware, a recent series of exploits targeting the core protocol implementation library upon which most Zerocoin protocol cryptocurrencies rely had the following two impacts on the Veil Project:
@@ -23,7 +23,7 @@ We have been humbled at the support for this decision and the implicit vote of c
 The research for a new core protocol took place around the following set of requirements:
 
 - Full-time privacy
-- Only private transactions (one coin type)
+- Only private transactions, with one coin type
 - Private mining via the X16RT algorithm
 - Private staking
 - IP privacy (Dandelion)
@@ -31,7 +31,7 @@ The research for a new core protocol took place around the following set of requ
 - Minimized transaction sizes
 - No denominations
 
-The second requirement came from a lesson learned from the current Veil protocol, and that is the importance of *simplicity*. In order to provide full-time anonymity, the current protocol involves Zerocoin, RingCT, and CT. This resulted in incidental complexity in the wallet user experience, and so the future privacy protocol will specifically target avoiding such complexity.
+The second requirement in the list—i.e. only one coin type—came from a lesson learned from the current Veil protocol, and that is the importance of *simplicity*. In order to provide full-time anonymity, the current protocol involves Zerocoin, RingCT, and CT. This resulted in incidental complexity in the wallet user experience, and so the future privacy protocol will specifically target avoiding such complexity.
 
 ## Identification of our new core privacy protocol
 
