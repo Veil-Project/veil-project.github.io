@@ -3,7 +3,7 @@ layout: post
 lang: en
 title: Why electronic cash matters
 date: 2019-05-21
-author: CryptyMike
+author: cryptymike
 permalink: /blog/why-electronic-cash-matters/
 categories: test
 excerpt: 'As we provide technical updates, keep our community informed on milestones achieved, and dive into specifics of our technology, it can be easy to lose sight of the broader vision that we seek to achieve with Veil: electronic cash.'
