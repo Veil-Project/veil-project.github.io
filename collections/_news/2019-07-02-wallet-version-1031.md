@@ -4,7 +4,7 @@ lang: en
 author: bountybase
 permalink: /news/release-wallet-1-0-3-1/
 date: 2019-07-02
-title: Release of Veil core wallet version 1.0.3.1
+title: Release of Veil Core wallet version 1.0.3.1
 description: 'The Veil development team have just released version 1.0.3.1 of the Veil Core Wallet.'
 ---
 
