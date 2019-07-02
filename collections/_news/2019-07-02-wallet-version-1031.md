@@ -4,7 +4,7 @@ lang: en
 author: bountybase
 permalink: /news/release-wallet-1-0-3-1/
 date: 2019-07-02
-title: Release of Veil Core Wallet Version 1.0.3.1
+title: Release of Veil Core Wallet version 1.0.3.1
 description: 'The Veil development team have just released version 1.0.3.1 of the Veil Core Wallet.'
 ---
 
@@ -28,7 +28,7 @@ When running the new release, users will find a plethora of new functionality an
 
 **Autospend**
 
-The Autospend feature automatically spends zerocoins to a stealth address that you own. This is done with a security level of 1 to maximize speeds. Note that the security level no longer impacts privacy due to zerocoin changes made in 1.0.3.0, which you can learn [more about here.](https://veil-project.com/blog/zerocoin-exploit/)
+The Autospend feature automatically spends zerocoins to a stealth address that you own. This is done with a security level of 1 to maximize speeds. Note that the security level no longer impacts privacy due to zerocoin changes made in 1.0.3.0, which you can [learn more about here.](https://veil-project.com/blog/zerocoin-exploit/)
 
 
 This autospend functionality will prove useful in moving user funds out of zerocoin as Veil moves exclusively to RingCT. Learn more about the interim move to RingCT [here.](https://veil-project.com/blog/2019-06-25-team-meeting/)
