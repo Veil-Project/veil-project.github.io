@@ -27,6 +27,7 @@ Veil wallet version 1.0.3.1 has recently released, and can be found [here.](http
 When running the new release, users will find a plethora of new functionality and usability improvements. While the release page lists included changes, this article elaborates on some of the key upgrades new with 1.0.3.1.
 
 **Autospend**
+
 The Autospend feature automatically spends zerocoins to a stealth address that you own. This is done with a security level of 1 to maximize speeds. Note that the security level no longer impacts privacy due to zerocoin changes made in 1.0.3.0, which you can learn [more about here.](https://veil-project.com/blog/zerocoin-exploit/)
 
 
@@ -34,6 +35,7 @@ This autospend functionality will prove useful in moving user funds out of zeroc
 
 
 **Block Explorer links in transaction detail view**
+
 The transactions listed within the wallet will now include links to the Veil block explorer. This function is particularly useful for:
 
 -   Checking transaction details;   
