@@ -42,14 +42,11 @@ The transactions listed within the wallet will now include links to the Veil blo
 -   Linking transaction details to receivers;    
 -   Sharing transaction details with support staff, should the need arise.
 
-
 **Progress bar added for searchdeterministiczerocoin RPC**
-
 
 The *searchdeterministiczerocoin* RPC can take quite some time to complete, and may leave users wondering if it has failed. A progress bar displaying the progress percentage of the process will now display upon using this command to recover zerocoins.
 
 **RingCT input Information**
-
 
 Using *getrawtransaction* and *gettransaction* will now display a list of RingCT inputs (all decoys/inputs used in a RingCT transaction). While this will usually not concern users, it can be useful for both support and developers for problem-solving purposes.
 
