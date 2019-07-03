@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title: How to use Veil’s Autospend feature
-date: 2019-06-25
+date: 2019-07-03
 author: blondfrogs
 permalink: /blog/2019-07-autospend/
 categories: test
