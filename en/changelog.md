@@ -17,13 +17,14 @@ While all issues are canonically tracked in our [GitHub Issues List](https://git
 - GENERAL: Mining rewards can only be received through basecoin "bv" addresses which can be generated with console command: `getnewbasecoinaddress`
 - GENERAL: Funds are displayed late or not displayed (still visible on block explorer).
 - GENERAL: Balances and fees are displayed incorrectly.
-- GENERAL: Autominting denomination resets to 10 after restarting the wallet. Set your preferred automint denomination by setting `nautomintdenom=X` (where `X` is 10, 100, 1000, or 10000) in the veil.conf file.
+- WINDOWS: Autominting denomination resets to 10 after restarting the wallet. Set your preferred automint denomination by setting `nautomintdenom=X` (where `X` is 10, 100, 1000, or 10000) in the veil.conf file.
 - GENERAL: Wallet transaction overview sometimes displays incorrect labels and transaction amounts. For accurate amount information, check transaction ID on the [Veil Block Explorer](https://explorer.veil-project.com/).
-- GENERAL: Wallet shuts down by itself at 95%+ synchronization. To resolve, delete all [Veil data directory](https://veil.freshdesk.com/support/solutions/articles/43000467264-where-is-my-data-directory-) files except `wallet.dat`, `veil.conf`, wallets folder, and backups folder, and use the [latest snapshot](https://veil.freshdesk.com/support/solutions/articles/43000478708-how-to-use-a-snapshot).
 
 ## [1.0.3] - 2019-04-27
 - ADDED: Activation of [Zerocoin Limp Mode](https://github.com/Veil-Project/veil/pull/544)
 - ADDED: Zerocoin Precomputed Spends
+- ADDED: [Autospend feature](https://veil-project.com/blog/2019-07-autospend/)
+- FIXED: Wallet shuts down by itself at 95%+ synchronization.
 
 ## [1.0.2] - 2019-02-28
 - FIXED: In some cases, CT can't be minted or sent.
