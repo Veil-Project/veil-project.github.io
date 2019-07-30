@@ -4,7 +4,7 @@ lang: en
 title:  Meet the team — Mr. Kangaroo
 date:   2019-07-29
 author: gabrielnergaard
-permalink: /drafts/meet-the-team-mr-kangaroo/
+permalink: /blog/meet-the-team-mr-kangaroo/
 categories: test
 excerpt: 'In this article, we will get to know Veil designer, Mr Kangaroo'
 description: 'In this article, we will get to know Veil designer, Mr Kangaroo'
