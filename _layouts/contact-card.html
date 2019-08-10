@@ -1,0 +1,90 @@
+---
+layout: base
+---
+{% capture header %}
+<div class="min-h-screen pt-32 md:pt-24 pb-4 md:pb-8 container flex items-center">
+  <article class="w-full max-w-lg mx-auto p-6 md:p-8 bg-blue-darkest text-white rounded-lg">
+
+    <header class="flex">
+      <div class="flex-none w-20 h-20 md:w-32 md:h-32 rounded overflow-hidden bg-white">
+        <img src="/uploads/team/{{ page.portrait }}" class="rounded">
+      </div>
+      <div class="ml-4 md:ml-8">
+        <h1 class="md:mb-1 uppercase font-medium text-lg md:text-2xl">
+          {{ page.name }}
+        </h1>
+        <div class="text-lg md:text-xl opacity-75">
+          {{ page.role }}
+        </div>
+      </div>
+    </header>
+
+    <div class="flex flex-col md:flex-row my-8">
+      <div class="mb-6 md:my-0 flex-none md:w-1/3">
+        <h3 class="mb-2 text-base font-medium">Contact</h3>
+        <ul class="list-reset leading-loose text-sm">
+          {% for item in page.contact %}
+            <li>
+              {% if item.url %}
+                <a href="{{ item.url }}" class="text-white opacity-75 hover:opacity-100">
+                  {{ item.title }}
+                </a>
+              {% else %}
+                <span class="opacity-75">
+                  {{ item.title }}
+                </span>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="mb-6 md:my-0 flex-none md:w-1/3">
+        <h3 class="mb-2 text-base font-medium">Social Media</h3>
+        <ul class="list-reset leading-loose text-sm">
+          {% for item in page.social %}
+            <li>
+              {% if item.url %}
+                <a href="{{ item.url }}" class="text-white opacity-75 hover:opacity-100">
+                  {{ item.title }}
+                </a>
+              {% else %}
+                <span class="opacity-75">
+                  {{ item.title }}
+                </span>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="flex-none md:w-1/3">
+        <h3 class="mb-2 text-base font-medium">Publications</h3>
+        <ul class="list-reset leading-loose text-sm">
+          {% for item in page.publications %}
+            <li>
+              {% if item.url %}
+                <a href="{{ item.url }}" class="text-white opacity-75 hover:opacity-100">
+                  {{ item.title }}
+                </a>
+              {% else %}
+                <span class="opacity-75">
+                  {{ item.title }}
+                </span>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    
+    <footer class="-mt-4">
+      <a href="{{ page.vcard }}" class="text-teal font-medium border-b border-teal hover:border-transparent hover:text-white">
+        Download vCard
+      </a>
+    </footer>
+
+  </article>
+</div>
+{% endcapture %}
+{% include header.html content=header %}
+
+{% include footer.html %}

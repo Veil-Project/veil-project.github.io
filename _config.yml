@@ -29,6 +29,8 @@ collections:
     output: false
   team:
     output: true
+  contact_cards:
+    output: true
   news:
     output: true
   lori:
