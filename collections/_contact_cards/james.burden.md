@@ -1,6 +1,7 @@
 ---
 layout: contact-card
 permalink: /james.burden.html
+ref: james.burden
 title: James Burden
 name: James Burden
 role: Founder of Veil
