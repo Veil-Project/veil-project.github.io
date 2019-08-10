@@ -6,6 +6,7 @@ title: James Burden
 name: James Burden
 role: Founder of Veil
 portrait: 4x13.jpg
+description: 'Founder of Veil'
 vcard: /uploads/vcards/james-burden.vcf
 contact:
 - 

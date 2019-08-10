@@ -7,6 +7,7 @@ name: Joshua Marriage
 role: Veil Business Development Lead
 portrait: joshuamarriage.jpg
 vcard: /uploads/vcards/joshua-marriage.vcf
+description: 'Veil Business Development Lead'
 contact:
 - 
   title: keybase.io/satoshua
