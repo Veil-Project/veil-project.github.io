@@ -16,24 +16,41 @@
     en: Dandelion helps to prevent source node traceback.
 - date: 
   title:
-    en: Full-time Anonymity
+    en: RingCT-only Wallet Testnet
   desc:
-    en: Veil will integrate a core protocol that provides for always-on private transactions.
+    en: 
 - date: 
   title:
-    en: Wallet chain pruning
+    en: RingCT-only Wallet Live
   desc:
-    en: By removing unnecessary transactions from the local blockchain, pruning can dramatically reduce the storage space needed by a wallet.
+    en: 
 - date: 
   title:
-    en: Elastic blocks
+    en: Mobile Apps (Android/iOS)
   desc:
-    en: Elastic blocks allow the network to scale dynamically according to current transaction volume.
-- date:
+    en: 
+- date: 
   title:
-    en: Custom solution for scalability
-- date:
-  title:
-    en: Delegated staking
+    en: Sonic Protocol Testnet
   desc:
-    en: Delegated staking allows staked Veil to be held offline in a hardware wallet.
+    en: 
+- date: 
+  title:
+    en: Sonic Protocol Audit
+  desc:
+    en: 
+- date: 
+  title:
+    en: Sonic Protocol Live
+  desc:
+    en: 
+- date: 
+  title:
+    en: New Wallet UX/UI
+  desc:
+    en: 
+- date: 
+  title:
+    en: Hardware Wallet Support
+  desc:
+    en: 
