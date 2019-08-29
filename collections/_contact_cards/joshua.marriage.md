@@ -23,7 +23,7 @@ social:
   url: https://twitter.com/satoshua
 - 
   title: linkedin.com/in/satoshua
-  url: https://llinkedin.com/in/satoshua
+  url: https://linkedin.com/in/satoshua
 publications:
 - 
   title: Joshua Marriage joins Veil Project
