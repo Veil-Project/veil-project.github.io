@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title:  Veil Status Update
-date:   2019-09-21
+date:   2019-09-23
 author: gabrielnergaard
 permalink: /blog/2019-09-status-update/
 categories: test
