@@ -9,13 +9,13 @@ categories: test
 excerpt: 'What’s been happening in Veil? Learn that and more in this project update.'
 description: 'What’s been happening in Veil? Learn that and more in this project update.'
 ---
-On September 19, a full Veil team meeting occurred in which all development groups reported status updates, and we wanted to pass these updates on to our community:
+On September 19, a Veil team meeting occurred in which all development groups reported status updates, and we wanted to pass these updates on to our community:
 
 - Veil's new cryptographer, **Paul Moonshine** presented a draft of his work on **zk-Snarks and Sonic** for Veil. Now that Paul is working full-time for Veil (since July), this work is progressing well, and we continue to expect to release the Sonic version of Veil during 2020.
 
 - In the meantime, **Presstab** reported continued progress on the forthcoming version of Veil, that removes Zerocoin completely, and provides **first-of-its-kind staking with RingCT**. 
 
-- Due to the emergency full-time attention required of Presstab in response to the recent Zerocoin exploit, the RingCT work has been slightly delayed, and we now expect to announce a **public RingCT testnet with one month's time**. Also, at that time, we'll post a blog update with technical details about the how the Zerocoin-to-RingCT migration will happen, and how RingCT staking will work.
+- Due to the emergency full-time attention required of Presstab in response to the recent Zerocoin exploit, the RingCT work has been slightly delayed, and we now expect to announce a **public RingCT testnet within one month's time**. Also, at that time, we'll post a blog update with technical details about the how the Zerocoin-to-RingCT migration will happen, and how RingCT staking will work.
 
 - Presstab also reported activity in the **recruitment of new development team members**, as well as expanding our internal quality assurance processes to include more automated testing. This will naturally result in a slower pace of development, but as is clear to everyone, this is a trade-off worth making.
 
