@@ -11,7 +11,7 @@ description: 'What’s been happening in Veil? Learn that and more in this proje
 ---
 On September 19, a Veil team meeting occurred in which all development groups reported status updates, and we wanted to pass these updates on to our community.
 
-![](2019-09-23-team-meeting.png)
+![](/uploads/blog/2019-09-23-team-meeting.png)
 
 - Veil's new cryptographer, **Paul Moonshine** presented a draft of his work on **zk-Snarks and Sonic** for Veil. Now that Paul is working full-time for Veil (since July), this work is progressing well, and we continue to expect to release the Sonic version of Veil during 2020.
 
