@@ -9,7 +9,9 @@ categories: test
 excerpt: 'What’s been happening in Veil? Learn that and more in this project update.'
 description: 'What’s been happening in Veil? Learn that and more in this project update.'
 ---
-On September 19, a Veil team meeting occurred in which all development groups reported status updates, and we wanted to pass these updates on to our community:
+On September 19, a Veil team meeting occurred in which all development groups reported status updates, and we wanted to pass these updates on to our community.
+
+![](2019-09-23-team-meeting.png)
 
 - Veil's new cryptographer, **Paul Moonshine** presented a draft of his work on **zk-Snarks and Sonic** for Veil. Now that Paul is working full-time for Veil (since July), this work is progressing well, and we continue to expect to release the Sonic version of Veil during 2020.
 
