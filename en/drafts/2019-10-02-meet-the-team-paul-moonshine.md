@@ -43,7 +43,7 @@ The team. This may be hard to see from outside but Veil has a very inspiring and
 
 **What are your non-crypto hobbies and interests?**
 
-I play the banjo, and listen to music a lot, mainly folk, country, bluegrass; the real stuff, Blaze Foley, Townes, Gram. In Lexington I had a radio show from Friday 4pm till 6: the Juke Joint at the Edge of the Week. You can check some playlists on my Spotify account pauldelange88.
+I play the banjo, and listen to music a lot, mainly folk, country, bluegrass; the real stuff, Blaze Foley, Townes, Gram. In Lexington, I had a radio show from Friday 4pm till 6pm—the "Juke Joint at the Edge of the Week". You can check some playlists on my [Spotify account pauldelange88](https://open.spotify.com/playlist/7awOu4gfhuDPUJbul5KXdm?).
 
 **What does a typical week in the life of Paul Moonshine look like?**
 
@@ -51,4 +51,4 @@ I wake up pretty early at the sounds of my daughter. Then after cooking breakfas
 
 **Apart from Veil, which other projects in crypto are you impressed with today?**
 
-The Halo paper by Bowe, Hopwood and Grigg (ECC) really impressed me. It uses the latest advances in zero-knowledge proofs to propose a way for blockchain clients to check the validity of the chain without having to carry the entire chain around. Advances like these could bring high-frequency applications closer. On a more academic note, lately I’m finding myself pondering the following conundrum: if zero-knowledge proofs are a way to convince someone you do know something: could there be a set-up where I could convince you that I do not know something. As paradoxical as it sounds, such a set-up and protocol could actually mean a lot in crypto.
+[The Halo paper by Bowe, Hopwood and Grigg (ECC)](https://electriccoin.co/blog/halo-recursive-proof-composition-without-a-trusted-setup/) really impressed me. It uses the latest advances in zero-knowledge proofs to propose a way for blockchain clients to check the validity of the chain without having to carry the entire chain around. Advances like these could bring high-frequency applications closer. On a more academic note, lately I’m finding myself pondering the following conundrum: if zero-knowledge proofs are a way to convince someone you do know something: could there be a set-up where I could convince you that I do not know something. As paradoxical as it sounds, such a set-up and protocol could actually mean a lot in crypto.
