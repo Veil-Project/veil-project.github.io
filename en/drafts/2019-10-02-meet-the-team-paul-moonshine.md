@@ -25,6 +25,10 @@ I always had knack for cryptography. Moreover, in contemporary physics, aspects 
 
 From an engineering point of view, crypto combines the applied and the academic in a way that is ideal for me. The fast pace of the development of zero-knowledge proofs (my main focus) today resonates with what I was used to in academia, but the applications,  implementations and consequences can be more direct which I like after having spent a lot of time in rather niche corners of the academic universe.
 
+**What is your specific role in Veil? What are working on?**
+
+An important and distinctive part of Veil is its privacy: the way transactions on the chain are confirmed is done without making public information about the parties involved in the transaction. The right way to do this is with “zero-knowledge proofs”: protocols that allow for proving knowledge of data, without sharing that data. This is a very active area of research. The main challenge is to make such protocols light-weight and fast. I work on such protocols and their implementation.
+
 **What have been the best aspects of working in crypto projects?**
 
 Like any job there’s always multiple aspects to liking a project. The best for me is the intellectual challenge: it’s an exciting time to be doing cryptographic research. I’ve enjoyed working with the people I’ve met so far too so that’s already too important marks checked.
