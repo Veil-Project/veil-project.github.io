@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title:  Meet the team — Paul Moonshine
-date:   2019-10-02
+date:   2019-10-23
 author: gabrielnergaard
 permalink: /blog/meet-the-team-paul-moonshine/
 categories: test
