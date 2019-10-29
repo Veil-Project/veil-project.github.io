@@ -9,12 +9,12 @@ categories: test
 excerpt: 'Veil’s consensus and reward distribution is changing, and this article discusses the rational.'
 description: 'Veil’s consensus and reward distribution is changing, and this article discusses the rational.'
 ---
-Upon announcing Veil prior to the project’s launch on January 1st of this year, the team shared details of our hybrid Proof-of-Work/Proof-of-Stake consensus and reward structure. As a refresher, that structure, currently in place, entails mining with Veil’s X16RT algorithm, and staking with Zerocoin denominations minted in the user’s wallet. Each of these methods makes up approximately 50% of generated blocks, though PoW can find as many as 5 consecutive blocks before a PoS block must follow.
-
-The driving factors behind the current consensus structure were to protect the fledgling network against attacks, and to provide as broad a distribution of veil as possible in the fairest manner possible. We announced that this hybrid model would be subject to future reconsideration, however, particularly due to ASIC (Application-Specific Integrated Circuit) mining becoming more popular. It’s the outcomes of that reconsideration we’re sharing here.
 
 ![](/uploads/blog/2019-10-29-consensus.png)
 
+Upon announcing Veil prior to the project’s launch on January 1st of this year, the team shared details of our hybrid Proof-of-Work/Proof-of-Stake consensus and reward structure. As a refresher, that structure, currently in place, entails mining with Veil’s X16RT algorithm, and staking with Zerocoin denominations minted in the user’s wallet. Each of these methods makes up approximately 50% of generated blocks, though PoW can find as many as 5 consecutive blocks before a PoS block must follow.
+
+The driving factors behind the current consensus structure were to protect the fledgling network against attacks, and to provide as broad a distribution of veil as possible in the fairest manner possible. We announced that this hybrid model would be subject to future reconsideration, however, particularly due to ASIC (Application-Specific Integrated Circuit) mining becoming more popular. It’s the outcomes of that reconsideration we’re sharing here.
 
 ## Staking
 
