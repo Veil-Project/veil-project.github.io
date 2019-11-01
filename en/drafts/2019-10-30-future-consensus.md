@@ -28,7 +28,7 @@ With Zerocoin now defunct and being phased out, **staking functionality will shi
 
 PoW mining will continue to be supported by Veil also, though after careful consideration, some changes are on the cards. Mined blocks will soon move away from X16RT's 16 algorithms to a new an as of yet unnamed PoW consensus model consisting of 3 mining algorithms. **These three algorithms combined will approximately make up the remaining 50% of all blocks**.
 
-###GPU mining with ProgPoW
+### GPU mining with ProgPoW
 
 ProgPoW (Programmatic Proof-of-Work) is a high-performing, GPU-tuned extension of the Ethash algorithm. With Ethereum developers voting in favor of ProgPoW for Ethereum in an effort to reduce the impact of ASICs, this algorithm is sure to be well supported and documented. One benefit ProgPoW holds over X16RT for GPU mining is that it doesn't fluctuate hashrate with the changing algos, meaning fine-tuning for maximum efficiency is easier and more rewarding. It also performs much better on AMD cards, which are currently struggling for profitability with X16RT. GPUs mining with ProgPoW are projected to find approximately **35% of all blocks** (70% of all PoW blocks) averaging **504 blocks per day**.
 
