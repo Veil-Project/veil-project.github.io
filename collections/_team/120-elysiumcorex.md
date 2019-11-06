@@ -1,13 +1,12 @@
 ---
 layout: member
 ref: elysiumcorex
-username: ElysiumcoreX
-name:
-role: Creative Director
+username: elysiumcorex
+name: ElysiumCoreX
+role: Design Lead
 portrait: ecx.jpg
 keybase_url: https://keybase.io/elysiumcore
-keybase_key:
-intro: Art Direction, UX, UI, Strategy with over a decade of experience working at various global advertising agencies.
+intro: ElysiumcoreX is an advanced, digital-design pro with over a decade of experience working with digital graphic design for high level brands. Many of Veil's graphics are his original works. He is also knowledgeable in blockchain and cryptocurrency technology, as well as the cryptocurrency space as a whole.
 past_contributions:
 - Fintech Tokyo Group
 - J.P. Morgan
