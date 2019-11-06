@@ -6,7 +6,6 @@ username: blondfrogs
 role: PoW Software Engineer
 portrait: blondfrogs.jpg
 keybase_url: https://keybase.io/blondfrogs
-keybase_key:
 intro: Jeremy was introduced to cryptocurrency and blockchain technology through building a decentralized exchange during his final month of college. He's since been involved with multiple blockchain projects, proudly making contributions to a space he believes to be something bigger than himself. Veil benefits greatly from Jeremy's experience, and particularly from his expertise in proof-of-work consensus and computer security.
 past_contributions: 
 - PIVX
