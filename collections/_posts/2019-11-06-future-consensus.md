@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title:  The future of Veil’s consensus and reward distribution
-date:   2019-10-30
+date:   2019-11-06
 author: strontium
 permalink: /blog/2019-future-consensus/
 categories: test
@@ -40,7 +40,7 @@ Although there is a possibility botnets may emerge for RandomX, the percentage i
 
 ### ASIC mining with SHA-256D
 
-Previously the thinking was to avoid ASICs taking what was anticipated to be a significant share of mining rewards. This is what drove the development and use of X16RT. Now, however, the attitude has changed, and support of ASICs in a way that can be controlled for has become the prevailing attitude. This will allows Veil to avoid changing the X16RT every time ASICs are developed for the X16RT version of the time. SHA-256 and SHA-256D are very popular, heavily supported algorithms used by Bitcoin and many other coins. SHA-256D ASIC mining is projected to find approximately **5% of all blocks** (10% of all PoW blocks) averaging **72 blocks per day**.
+Previously the thinking was to avoid ASICs taking what was anticipated to be a significant share of mining rewards. This is what drove the development and use of X16RT. Now, however, the attitude has changed, and support of ASICs in a way that can be controlled for has become the prevailing attitude. This will allow Veil to avoid changing the X16RT every time ASICs are developed for the X16RT version of the time. SHA-256 and SHA-256D are very popular, heavily supported algorithms used by Bitcoin and many other coins. SHA-256D ASIC mining is projected to find approximately **5% of all blocks** (10% of all PoW blocks) averaging **72 blocks per day**.
 
 ## How balance is struck
 
