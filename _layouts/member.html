@@ -18,12 +18,38 @@ layout: base
         </li>
         {% if page.keybase_url %}
           <li class="mt-1">
-            <a href="{{ page.keybase_url }}" class="opacity-75 text-white hover:opacity-100 border-b hover:text-teal hover:opacity-100 hover:border-teal">
+            <a href="{{ page.keybase_url }}" class="opacity-75 text-white hover:opacity-100 underline">
               Keybase Identity
             </a>
           </li>
         {% endif %}
+        {% for item in page.social %}
+          <li class="mt-1">
+            <a href="{{ item.url }}" class="opacity-75 text-white hover:opacity-100 underline">
+              {{ item.title }}
+            </a>
+          </li>
+        {% endfor %}
       </ul>
+
+      {% if page.publications %}
+        <div class="mt-6 mb-2 text-xs tracking-wide uppercase font-medium">Publications</div>
+        <ul class="list-reset leading-tight">
+          {% for item in page.publications %}
+            <li class="mb-2">
+              {% if item.url %}
+                <a href="{{ item.url }}" class="opacity-75 text-white hover:opacity-100 underline">
+                  {{ item.title }}
+                </a>
+              {% else %}
+                <span class="opacity-75">
+                  {{ item.title }}
+                </span>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     </div>
     <div class="flex-1 p-8 content">
       {{ page.intro | markdownify }}
