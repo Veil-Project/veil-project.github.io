@@ -3,14 +3,18 @@ layout: member
 ref: satoshua
 name: Joshua Marriage
 username: satoshua
-role: Lead Business Development
+role: Business Development Lead
 portrait: joshuamarriage.jpg
 keybase_url: https://keybase.io/satoshua
-keybase_key:
-intro: Joshua is a founding partner of Privacy Express, a venture studio focused on helping privacy enhancing technologies find product market fit. Their flagship project, Pip, enhances consumer applications with next-level personal data privacy, security and convenience. Josh has experience as an international speaker at events such as Anarchapulco, and has been a long time privacy advocate, previously as Global Spokesperson for CloakCoin. He started his career as an electrotechnologist, later moving into computer systems engineering and eventually finding his way to crypto as many did, through a curiosity for the dark markets. After a beard related venture, a brush with online fame and first-hand experience being compromised, he turned his full attention to privacy.
+intro: Joshua is a privacy advocate whose career started in electrotechnology and computer systems engineering. Enticed by its decentralized nature, Joshua naturally gravitated towards cryptocurrency and distributed ledger technology, and the budding private marketplaces it presents. With his penchant for entrepreneurship, Joshua co-founded a venture studio aiding privacy technologies in entering suitable markets, and promotes such technologies as an advocate, businessman, and spokesperson globally. It’s these qualities that make Joshua a valuable asset for Veil in his role as Business Development Lead.
 past_contributions: 
-- Pip Wallet
-- Quixxi Connect
-- CloakCoin
+ - Co-founder Privacy Express
+ - Pip Wallet
+ - Quixxi Connect
+ - CloakCoin
 description: 'Veil Project Joshua Marriage—Business Development Lead Joshua Marriage, aka Satoshua, passionate business developer, has previously worked on Quixxi Connect and CloakCoin, and is currently developing Pip Wallet. Read more here.'
+social:
+- 
+  title: LinkedIn
+  url: https://linkedin.com/in/satoshua
 ---
