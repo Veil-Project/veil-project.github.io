@@ -6,8 +6,8 @@ date:   2019-11-06
 author: strontium
 permalink: /blog/2019-future-consensus/
 categories: test
-excerpt: 'Veil’s consensus and reward distribution is changing, and this article discusses the rational.'
-description: 'Veil’s consensus and reward distribution is changing, and this article discusses the rational.'
+excerpt: 'Veil’s consensus and reward distribution is changing, and this article discusses the rationale.'
+description: 'Veil’s consensus and reward distribution is changing, and this article discusses the rationale.'
 ---
 
 ![](/uploads/blog/2019-10-29-consensus.png)
