@@ -26,7 +26,7 @@ With Zerocoin now defunct and being phased out, **staking functionality will shi
 
 ## Mining
 
-PoW mining will continue to be supported by Veil also, though after careful consideration, some changes are on the cards. Mined blocks will soon move away from X16RT's 16 algorithms to a new an as of yet unnamed PoW consensus model consisting of 3 mining algorithms. **These three algorithms combined will approximately make up the remaining 50% of all blocks**.
+PoW mining will continue to be supported by Veil also, though after careful consideration, some changes are on the cards. Mined blocks will soon move away from X16RT's 16 algorithms to a new and as of yet unnamed PoW consensus model consisting of 3 mining algorithms. **These three algorithms combined will approximately make up the remaining 50% of all blocks**.
 
 ### GPU mining with ProgPoW
 
