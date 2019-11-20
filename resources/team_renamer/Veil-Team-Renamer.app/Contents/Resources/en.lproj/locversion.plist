@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LprojCompatibleVersion</key>
+	<string>220.2</string>
+	<key>LprojLocale</key>
+	<string>en</string>
+	<key>LprojPayload</key>
+	<data>
+	YnBsaXN0MDDZAQIDBAUGBwgJCgsKDQosCwoKWkxpc3QgRmlsZXNeQXV0by1VbmlxdWVp
+	ZnlfEBlJZ25vcmUgVHJhaWxpbmcgR2liYmVyaXNoXxASU29ydGluZyBQcmlvcml0aWVz
+	XxAoSWdub3JlIFdoaXRlc3BhY2UgSW4gUmVndWxhciBFeHByZXNzaW9uc1hSZW5hbWVy
+	c1xMaXN0IEZvbGRlcnNfEBZJZ25vcmUgSW52aXNpYmxlIEZpbGVzXxAUTGlzdCBGb2xk
+	ZXIgQ29udGVudHMJCAmpDhMWGRwfIiUo0g8QCxJWSW52ZXJ0WFN0cmF0ZWd5CBAA0g8Q
+	CxUIEAHSDxALGAgQAtIPEAsbCBAD0g8QCx4IEATSDxALIQgQBdIPEAskCBAG0g8QCycI
+	EGPSDxALKggT//////////8Joy00PNQuLzAxMjMzG1RUYXNrXxAcUmVuYW1lOiBTZXF1
+	ZW5jZTogU3RlcCBWYWx1ZV8QHlJlbmFtZTogU2VxdWVuY2U6IEZpcnN0IE51bWJlcl8Q
+	KlJlbmFtZTogU2VxdWVuY2U6IE1pbmltdW0gTnVtYmVyIG9mIERpZ2l0cxBuEArSNS42
+	O18QFlJlbmFtZTogSW5zZXJ0OiBTdHJpbmeiNzhRLdE5OlVQcm94eV8QFm5hbWU6IHBy
+	ZS1yZW5hbWU6IG5hbWUQZ9M9Pi4eIT9fEBZSZW5hbWU6IFJlbW92ZTogTGVuZ3RoXxAV
+	UmVuYW1lOiBSZW1vdmU6IFN0YXJ0EGQICQkACAAbACYANQBRAGYAkQCaAKcAwADXANgA
+	2QDaAOQA6QDwAPkA+gD8AQEBAgEEAQkBCgEMAREBEgEUARkBGgEcASEBIgEkASkBKgEs
+	ATEBMgE0ATkBOgFDAUQBSAFRAVYBdQGWAcMBxQHHAcwB5QHoAeoB7QHzAgwCDgIVAi4C
+	RgJIAkkCSgAAAAAAAAIBAAAAAAAAAEMAAAAAAAAAAAAAAAAAAAJL
+	</data>
+	<key>LprojRevisionLevel</key>
+	<string>1</string>
+	<key>LprojVersion</key>
+	<string>307</string>
+</dict>
+</plist>
