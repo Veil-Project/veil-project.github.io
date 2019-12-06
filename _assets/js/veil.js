@@ -34,10 +34,6 @@ up.compiler('[data-price]', function($element) {
               '<div class="text-xs uppercase opacity-75 leading-loose">Total supply:</div>' +
               '<div class="text-base">' + Number(supply.total.toFixed(0)).toLocaleString(undefined) + '</div>' +
             '</li>' +
-            '<li class="">' +
-              '<div class="text-xs uppercase opacity-75 leading-loose">Zerocoin supply:</div>' +
-              '<div class="text-base">' + Number(supply.zerocoin.toFixed(0)).toLocaleString(undefined) + '</div>' +
-            '</li>' +
           '</ul>' +
         '</div>' +
       '</div>'
