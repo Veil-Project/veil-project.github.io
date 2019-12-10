@@ -60,7 +60,7 @@ up.compiler('[data-bounties]', function($element) {
             '<div class="font-medium leading-none mb-2 text-md">' + bounty.title + '</div>' +
             '<div class="text-sm text-black opacity-75 leading-none">' +
               [
-                '<span class="font-medium">' + status + ' </span>',
+                '<span class="font-medium">' + (status || 'Help Wanted') + ' </span>',
                 '#' + bounty.number,
                 new Date(bounty.created_at).toLocaleDateString(),
                 'Reward: <span id="reward_' + bounty.number + '"></span> Veil',
