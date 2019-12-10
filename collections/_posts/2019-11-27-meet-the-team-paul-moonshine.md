@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title:  Meet the team — Paul Moonshine
-date:   2019-10-23
+date:   2019-11-27
 author: gabrielnergaard
 permalink: /blog/meet-the-team-paul-moonshine/
 categories: test
@@ -10,8 +10,6 @@ excerpt: 'In this article, we will get to know Veil cryptographer, Paul Moonshin
 description: 'In this article, we will get to know Veil cryptographer, Paul Moonshine'
 ---
 This article is a continuation of our series of interviews with members of the Veil team. In this installment, we’ll meet Veil cryptographer Paul Moonshine.
-
-![](/uploads/team/misterkangaroo.jpg)
 
 **Tell about yourself prior to getting into crypto. Where were you living? What were you doing? What where your interests?**
 

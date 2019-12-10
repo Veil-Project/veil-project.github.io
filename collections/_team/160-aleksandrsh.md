@@ -3,7 +3,7 @@ layout: member
 ref: aleksandrsh
 name: Aleksandr Sh
 username: aleksandrsh
-role: Regional Coordinator (Russia & CIS)
+role: Regional Coordinator <br>(Russia & CIS)
 portrait: aleksandrsh.jpg
 keybase_url: https://keybase.io/aleksandrsh
 keybase_key: 
