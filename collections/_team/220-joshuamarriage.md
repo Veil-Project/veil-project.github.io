@@ -3,10 +3,10 @@ layout: member
 ref: satoshua
 name: Joshua Marriage
 username: satoshua
-role: Business Development Lead
+role: Business Development<br> & Project Manager
 portrait: joshuamarriage.jpg
 keybase_url: https://keybase.io/satoshua
-intro: Joshua is a privacy advocate whose career started in electrotechnology and computer systems engineering. Enticed by its decentralized nature, Joshua naturally gravitated towards cryptocurrency and distributed ledger technology, and the budding private marketplaces it presents. With his penchant for entrepreneurship, Joshua co-founded a venture studio aiding privacy technologies in entering suitable markets, and promotes such technologies as an advocate, businessman, and spokesperson globally. It’s these qualities that make Joshua a valuable asset for Veil in his role as Business Development Lead.
+intro: Joshua is a privacy advocate whose career started in electrotechnology and computer systems engineering. Enticed by its decentralized nature, Joshua naturally gravitated towards cryptocurrency and distributed ledger technology, and the budding private marketplaces it presents. With his penchant for entrepreneurship, Joshua co-founded a venture studio aiding privacy technologies in entering suitable markets, and promotes such technologies as an advocate, businessman, and spokesperson globally. Joshua also regards internal business strategy highly. It’s these combined qualities that make Joshua a valuable asset for Veil managing Business Development efforts for the project.
 past_contributions: 
  - Co-founder Privacy Express
  - Pip Wallet

@@ -3,10 +3,10 @@ layout: member
 ref: strontium
 username: strontium
 name: Strontium
-role: Chief Editor
+role: Communications Manager<br> & Chief Editor
 portrait: strontium.jpg
 keybase_url: https://keybase.io/strontium
-intro: Strontium is a man of broad scholastic achievement, with pursuits in many fields at a tertiary level. Strontium made a career of his scholarship, mentoring high-level professionals such as diplomats, executives, and politicians in preparation for interdisciplinary or intercultural endeavors. Strontium now serves as Veil’s chief editor, though contributes wherever his skill set applies, such as in strategy and technical support.
+intro: Strontium is a man of broad scholastic achievement, with pursuits in many fields at a tertiary level. Strontium made a career of his scholarship, mentoring high-level professionals such as diplomats, executives, and politicians in preparation for interdisciplinary or intercultural endeavors. Strontium previously served as Veil’s Chief Editor, though has since been made responsible for Veil’s Communications at large, working with the team to provide high quality, valuable information to audiences across a range of mediums and divides.
 past_contributions:
 - PIVX Brand Strategist and contributor
 - PIVX Quality Assurance
