@@ -34,7 +34,7 @@ Peter hands over the balls, blue in Valery’s left hand; red in her right. Vale
 
 **Valery**:  I did! OK, maybe you are right after all!
 
-We have just witnessed our very first interactive proof of [knowledge][1]. A proof of knowledge is a way for a prover P to convince a verifier V that it knows something, in this case that it knows how to distinguish between red and blue. In this instance, the proof (or protocol) was [interactive][1]: Valery and Peter had to do a lot of talking and exchanging of balls and what not. What was nice about this proof, was that Peter only convinced Valery of the mere fact that he does know how to distinguish between red and blue. He did not explain how he did this. He did not disclose the mechanism or trick. This feature (convincing someone of your knowledge without spilling any other information whatsoever, is commonly referred to as proving something in zero knowledge, or just a zero knowledge proof.
+We have just witnessed our very first interactive proof of knowledge[^1]. A proof of knowledge is a way for a prover P to convince a verifier V that it knows something, in this case that it knows how to distinguish between red and blue. In this instance, the proof (or protocol) was interactive[^2]: Valery and Peter had to do a lot of talking and exchanging of balls and what not. What was nice about this proof, was that Peter only convinced Valery of the mere fact that he does know how to distinguish between red and blue. He did not explain how he did this. He did not disclose the mechanism or trick. This feature (convincing someone of your knowledge without spilling any other information whatsoever, is commonly referred to as proving something in zero knowledge, or just a zero knowledge proof.
 
 There are some obvious problems in the proof. The first and most important one is that Valery is convinced a little too easily. Suppose, namely, that Peter is lying and in fact cannot distinguish between red and blue at all. That means that at the final step of the protocol above, all he can do is guess whether Valery has made the swap or not. And in this scenario, that still leaves him with a 50% chance of guessing right! So overall, if Peter is lying and Valery’s conspiracy theory is actually correct, Valery has a 50% chance of falsely buying Peter’s nonsense. That’s not acceptable.
 
@@ -42,7 +42,7 @@ This problem can readily be addressed however. We simply repeat the protocol! If
 
 His chance reduces exponentially in N, and now Valery can just pick a high enough N to be convinced after all N runs.
 
-As it happens, solving this problem did introduce a new one, one of practicality: the protocol becomes cumbersome, lengthy and boring, and it will be hard to enthuse Peter to [partake][3]. Another problem is that this protocol is rather specific, and it is not easy to see how we can take it and use it for other purposes than convincing the color blind they are, really, color blind.
+As it happens, solving this problem did introduce a new one, one of practicality: the protocol becomes cumbersome, lengthy and boring, and it will be hard to enthuse Peter to partake[^3]. Another problem is that this protocol is rather specific, and it is not easy to see how we can take it and use it for other purposes than convincing the color blind they are, really, color blind.
 
 This is a blog on cryptographic methods for cryptocurrency – Veil in particular – and this blog is not intended for only the color blind, so why should we care about this example?
 
@@ -52,9 +52,9 @@ Look forward to the next part in a series of Paul's cryptographic breakdown in t
 
 ---
 
-[1]: Such a protocol is more abstractly referred to as a Sigma protocol, as the exchange P → V → P can be drawn to look like the Greek capital letter Σ.
+[^1]: Such a protocol is more abstractly referred to as a Sigma protocol, as the exchange P → V → P can be drawn to look like the Greek capital letter Σ.
 
-[2]: We refer to the dictionary where some terms and symbols are explained for the novice.
+[^2]: We refer to the dictionary where some terms and symbols are explained for the novice.
 
-[3]: You could overcome this by using a large number of pairs of red and blue balls. This reduces the time it takes, but does increase the ‘weight‘ – or bit size – of the balls to be exchanged in the protocol, and exchanging heavy information is problematic also.
+[^3]: You could overcome this by using a large number of pairs of red and blue balls. This reduces the time it takes, but does increase the ‘weight‘ – or bit size – of the balls to be exchanged in the protocol, and exchanging heavy information is problematic also.
 
