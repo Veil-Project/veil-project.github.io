@@ -50,11 +50,10 @@ Veil is a cryptocurrency that offers privacy. That’s very nice, but it introdu
 
 Look forward to the next part in a series of Paul's cryptographic breakdown in the near future.
 
----
-
 [^1]: Such a protocol is more abstractly referred to as a Sigma protocol, as the exchange P → V → P can be drawn to look like the Greek capital letter Σ.
 
 [^2]: We refer to the dictionary where some terms and symbols are explained for the novice.
 
 [^3]: You could overcome this by using a large number of pairs of red and blue balls. This reduces the time it takes, but does increase the ‘weight‘ – or bit size – of the balls to be exchanged in the protocol, and exchanging heavy information is problematic also.
+
 
