@@ -1,56 +1,47 @@
-- date: 2018-11-07
+- date: January 2019
   title:
-    en: Official ANN Launch
-- date: 2018-11-24
+    en: Project Veil Launched
+- date: 2020 Q1
   title:
-    en: Website launch
-- date: 2019-01-01
+    en: RingCT-staking Protocol
+- date: 2020 Q1
   title:
-    en: Anonymize Basecoin with RingCT
+    en: User-friendly Light Wallet
   desc:
     en: 
-- date: 2019-01-01
+- date: 2020 Q1
   title:
-    en: Implement Dandelion
-  desc:
-    en: Dandelion helps to prevent source node traceback.
-- date: 
-  title:
-    en: RingCT-only Wallet Testnet
+    en: New Proof-of-Work Algorithm Suite
   desc:
     en: 
-- date: 
+- date: 2020 Q2 
   title:
-    en: RingCT-only Wallet Live
+    en: User-friendly Core Wallet
   desc:
     en: 
-- date: 
+- date: 2020 Q2  
   title:
-    en: Mobile Apps (Android/iOS)
+    en: Mobile Wallets
   desc:
     en: 
-- date: 
+- date: 2020 Q2 
   title:
-    en: Sonic Protocol Testnet
+    en: Complete SuperSonic Research
   desc:
     en: 
-- date: 
-  title:
-    en: Sonic Protocol Audit
-  desc:
-    en: 
-- date: 
-  title:
-    en: Sonic Protocol Live
-  desc:
-    en: 
-- date: 
-  title:
-    en: New Wallet UX/UI
-  desc:
-    en: 
-- date: 
+- date: 2020 Q3 
   title:
     en: Hardware Wallet Support
   desc:
     en: 
+- date: 2020 Q3 
+  title:
+    en: SuperSonic Protocol Audit
+  desc:
+    en: 
+- date: 2020 Q4 
+  title:
+    en: SuperSonic Protocol Release
+  desc:
+    en: 
+
