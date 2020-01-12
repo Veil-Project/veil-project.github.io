@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title:  My first Sigma protocol
-date:   2020-01-06
+date:   2020-01-12
 author: paulmoonshine
 permalink: /blog/2020-first-sigma-protocol/
 categories: test
@@ -14,7 +14,7 @@ description: 'This is the first in a series of publications by Veil mathematicia
 
 Valery is having an existential crisis. She’s color blind, but she is starting to believe that maybe she really isn’t, and that all her friends and family are just conspiring to trick her into believing she is.
 
-Along comes Peter, her uncle, and Alice starts venting her conspiracy theory to him.
+Along comes Peter, her uncle, and Valery starts venting her conspiracy theory to him.
 
 **Valery**:  I trust you all no longer; I don’t believe you can distinguish between what you call ‘blue’ and ‘red’ any better than I can. Unless you can offer me some proof.
 
