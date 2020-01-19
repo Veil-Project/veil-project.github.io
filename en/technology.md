@@ -29,21 +29,21 @@ In its first implementation, Veil combined the world’s most secure blockchain 
 
 - Finally, **Bulletproofs** technology will be adopted to ensure minimal transaction sizes.
 
-## Replacing Zerocoin as a core technology
+## Zerocoin to RingCT-staking to Supersonic
 
-Half a year after the launch of Veil in 2019, a series of vulnerabilities were discovered in the Zerocoin library which sits at the core of most Zerocoin-based protocol implementations, including Veil’s. In order to immediately protect Veil user funds, the project released an update that preserves the functional characterics of Zerocoin, but removes its unlinkability to original mints. 
+Half a year after the launch of Veil in 2019, a series of vulnerabilities were discovered in the Zerocoin library which sits at the core of most Zerocoin-based protocol implementations, including Veil’s. After review, and community discussion, the Veil project, along with a number of others, concluded that Zerocoin can not be relied upon to form the anonymity core of the protocol, and began a three step transition to a new core foundation:
 
-After review, and community discussion, the Veil project, along with a number of others, concluded that Zerocoin can not be relied upon to form the anonymity core of the protocol, and at the time of this writing, the project is [assessing a number of alternatives](https://veil-project.com/blog/2019-05-09-state-of-veil/).
+1. **Securing the known Zerocoin vulnerabilities** —  In order to immediately protect Veil user funds, the project released an update that preserves the functional characterics of Zerocoin, but removes its unlinkability to original mints. Zerocoins minted in Veil from RingCT, still carry the anonymity inherent in RingCT, and so during the interim Veil users have some level of anonymity in spending and staking with Zerocoin if originally minted from RingCT.
 
-Zerocoins minted in Veil from RingCT, still carry the anonymity inherent in RingCT, and so during the interim Veil users have some level of anonymity in spending and staking with Zerocoin if originally minted from RingCT.
+2. **RingCT staking** — The second step, planned for Q1 of 2020, will be to deprecate Zerocoin altogether in a protocol update that, as an industry-first, provides for staking of RingCT. During this phase, RingCT will form the core privacy foundation of Veil.
 
-The remainder of this technology overview describes how Zerocoin is used in the Veil network *today*, but the reader should be aware that at some point, likely during 2019, Zerocoin will be replaced.
+3. **SuperSonic** — The Veil mathematics and cryptographic team are presently validating research that should lead to a transition to our ultimate protocol based on Supersonic, first practical, trustless, and efficiently verifiable zero-knowledge proofs, which are smaller than 10 kilobytes and take only milliseconds to verify even for the most complex statements.
 
 ## Consensus algorithms
 
 The Veil network operates a hybrid **Proof-of-Work** (PoW) and **Proof-of-Stake** (PoS) consensus system. 
 
-The **Proof-of-Stake** consensus system ensures maximum decentralization, energy efficiency and provide a mechanism for all Veil holders to **earn rewards in Veil** through the process of *staking*. To further enhance the coin’s privacy, staking will only be available through **Zerocoin denominations**, and for that reason, all Veil balances (with the exception of exchanges) will *auto-mint* to these denominations: 10, 100, 1000 and 10000 Zerocoin Veil.
+The **Proof-of-Stake** consensus system ensures maximum decentralization, energy efficiency and provide a mechanism for all Veil holders to **earn rewards in Veil** through the process of *staking*.
 
 The **Proof-of-Work** mining system, guarantees a fair distribution of the coin, avoids the necessity of an ICO or pre-mine, and adds security to the overall network. To promote fairness of mining, Proof-of-Work mining will utilize the **ASIC-resistant X16RT hashing algorithm**, an improved version of X16R introduced by the Ravencoin project.
 
@@ -55,9 +55,7 @@ What does this mean? Those familiar with the protocol will be familiar with the 
 
 To avoiding the necessity of file backups, the Veil wallet will support a single BIP-0039/BIP-0044 **Deterministic Seed** from which its entire wallet can be restored, including both Basecoin and Zerocoin transactions.
 
-Finally, starting in phase 2 the Veil wallet will offer users the option of saving tremendous (and ever-growing) amounts of local disk storage, through a process known as **transaction pruning**, in which all transactions not relevant to the particular wallet are removed from the local data set.
-
-For those interested in helping to secure the network through the running of a full node, Veil will include the reward of all the transaction fees in the block.
+Finally, beginning with the RingCT interim protocol release, Veil will release a wallet that's been designed and built from the ground-up with an emphasis on a friendly user experience.
 
 ## The Veil emission schedule
 
@@ -75,6 +73,6 @@ As summarized in the table, the Veil coin emission schedule includes:
 
 ## Veil Labs
 
-Veil Labs is made up of a dedicated team with a focused mission. It is the project’s R&D entity with a goal to push the technical boundaries for privacy and anonymity without compromising scalability and performance. For example, at launch, the Veil transaction data size will be 11.3 kilobytes, using Bulletproofs. An initial goal of the Veil Labs will be to reduce that substantially. This is one example of many.
+Veil Labs is made up of a dedicated team with a focused mission. It is the project’s R&D entity with a goal to push the technical boundaries for privacy and anonymity without compromising scalability and performance, beginning with our industry-first release of stakeable RingCT in Q1 of 2020, followed by our research and implementation of the ground-breaking Supersonic-based protocol in late 2020.
 
 In the end, as new methods are conceived and tested, the Veil project will be the first to implement them in Veil to stay at the forefront of the industry.
