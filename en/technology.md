@@ -37,7 +37,7 @@ Half a year after the launch of Veil in 2019, a series of vulnerabilities were d
 
 2. **RingCT staking** — The second step, planned for Q1 of 2020, will be to deprecate Zerocoin altogether in a protocol update that, as an industry-first, provides for staking of RingCT. During this phase, RingCT will form the core privacy foundation of Veil.
 
-3. **SuperSonic** — The Veil mathematics and cryptographic team are presently validating research that should lead to a transition to our ultimate protocol based on Supersonic, first practical, trustless, and efficiently verifiable zero-knowledge proofs, which are smaller than 10 kilobytes and take only milliseconds to verify even for the most complex statements.
+3. **Supersonic** — The Veil mathematics and cryptographic team are presently validating research that should lead to a transition to our ultimate protocol based on Supersonic, first practical, trustless, and efficiently verifiable zero-knowledge proofs, which are smaller than 10 kilobytes and take only milliseconds to verify even for the most complex statements.
 
 ## Consensus algorithms
 
