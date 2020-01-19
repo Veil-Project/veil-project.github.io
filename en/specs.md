@@ -18,6 +18,8 @@ Half a year after the launch of Veil in 2019, a series of vulnerabilities were d
 
 3. **Supersonic** — The Veil mathematics and cryptographic team are presently validating research that should lead to a late-2020 transition to our ultimate protocol based on Supersonic, first practical, trustless, and efficiently verifiable zero-knowledge proofs, which are smaller than 10 kilobytes and take only milliseconds to verify even for the most complex statements.
 
+The remainder of this page describes how Zerocoin is used in the Veil network today, but the reader should be aware that at some point, likely during 2019, Zerocoin will be replaced.
+
 ## Veil Technical Specs
 
 | Development Data | |
