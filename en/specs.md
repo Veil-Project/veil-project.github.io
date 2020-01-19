@@ -8,15 +8,15 @@ description: 'Veil blockchain technology specifications. View Veil’s codebase,
 ---
 The table below captures the detailed technical specifications relevant to Veil and its network. First, however, a note about Zerocoin.
 
-## Replacing Zerocoin as a core technology
+## Zerocoin to RingCT-staking to Supersonic
 
-Half a year after the launch of Veil in 2019, a series of vulnerabilities were discovered in the Zerocoin library which sits at the core of most Zerocoin-based protocol implementations, including Veil’s. In order to immediately protect Veil user funds, the project released an update that preserves the functional characterics of Zerocoin, but removes its unlinkability to original mints. 
+Half a year after the launch of Veil in 2019, a series of vulnerabilities were discovered in the Zerocoin library which sits at the core of most Zerocoin-based protocol implementations, including Veil’s. After review, and community discussion, the Veil project, along with a number of others, concluded that Zerocoin can not be relied upon to form the anonymity core of the protocol, and began a three step transition to a new core foundation:
 
-After review, and community discussion, the Veil project, along with a number of others, concluded that Zerocoin can not be relied upon to form the anonymity core of the protocol, and at the time of this writing, the project is [assessing a number of alternatives](https://veil-project.com/blog/2019-05-09-state-of-veil/).
+1. **Securing the known Zerocoin vulnerabilities** —  In order to immediately protect Veil user funds, the project released an update that preserves the functional characterics of Zerocoin, but removes its unlinkability to original mints. Zerocoins minted in Veil from RingCT, still carry the anonymity inherent in RingCT, and so during the interim Veil users have some level of anonymity in spending and staking with Zerocoin if originally minted from RingCT.
 
-Zerocoins minted in Veil from RingCT, still carry the anonymity inherent in RingCT, and so during the interim Veil users have some level of anonymity in spending and staking with Zerocoin if originally minted from RingCT.
+2. **RingCT staking** — The second step, planned for Q1 of 2020, will be to deprecate Zerocoin altogether in a protocol update that, as an industry-first, provides for staking of RingCT. During this phase, RingCT will form the core privacy foundation of Veil.
 
-The remainder of this page describes how Zerocoin is used in the Veil network *today*, but the reader should be aware that at some point, likely during 2019, Zerocoin will be replaced.
+3. **Supersonic** — The Veil mathematics and cryptographic team are presently validating research that should lead to a late-2020 transition to our ultimate protocol based on Supersonic, first practical, trustless, and efficiently verifiable zero-knowledge proofs, which are smaller than 10 kilobytes and take only milliseconds to verify even for the most complex statements.
 
 ## Veil Technical Specs
 
