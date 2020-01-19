@@ -21,7 +21,7 @@ In its first implementation, Veil combined the world’s most secure blockchain 
 
 - Over a decade in operation, the **Bitcoin** core software has demonstrated itself to be the most secure and battle-tested blockchain software in existence.
 
-- In order to provide for “always-on” privacy, Veil added **RingCT** privacy from Particl to its Basecoin transactions, such that all transaction components in the Veil network as anonymous as technology today can provide for.
+- In order to provide for “always-on” privacy, Veil added **RingCT** privacy from Particl to its Basecoin transactions, such that all transaction components in the Veil network are  as anonymous as technology today can provide for.
 
 - The **Zerocoin** protocol is based on **zero-knowledge proofs**, a cryptographic method which allows a computation to be proven to have taken place, without knowledge of its inputs and outputs. In the case of a cryptocurrency, this computation would be a value transaction, in which the sender, receiver and amount transacted can remain anonymous.
 
@@ -53,7 +53,7 @@ Veil places great emphasis on user experience, and in this regard will support a
 
 What does this mean? Those familiar with the protocol will be familiar with the concept that, due to the computation and transaction size requirements, Zerocoin systems usually limit transactions to a fixed number of denominations. How this manifests itself as a user problem, is in limiting the amount a user can spend in a single transaction. Veil addresses this user friction with **multi-block transactions** that are transparent to the user, and allows them to create sends of any size.
 
-To avoiding the necessity of file backups, the Veil wallet will support a single BIP-0039/BIP-0044 **Deterministic Seed** from which its entire wallet can be restored, including both Basecoin and Zerocoin transactions.
+To avoid the necessity of file backups, the Veil wallet will support a single BIP-0039/BIP-0044 **Deterministic Seed** from which its entire wallet can be restored, including both Basecoin and Zerocoin transactions.
 
 Finally, beginning with the RingCT interim protocol release, Veil will release a wallet that's been designed and built from the ground-up with an emphasis on a friendly user experience.
 
