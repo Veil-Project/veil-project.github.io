@@ -11,12 +11,6 @@ lead: 'Discover how the Veil Project is leveraging state-of-the-art technologies
 
 Across the landscape of privacy-focused cryptocurrencies, a number of general approaches have been taken, each with its own benefits and trade-offs.
 
-The original privacy coin, Monero, with its RingCT technology, provides “full-time” privacy. RingCT, however, is based on sophisticated mixing. It is unclear whether an adversary with sufficient resources could de-anonymize Monero transactions. 
-
-An alternative approach appeared, called Zerocoin, based on advanced cryptographic methods and implemented around a fixed set of standard-sized coin “denominations”. Coins like Zcoin are based on the Zerocoin protocol, but have the drawback that only certain types of transactions in the network are private—making it possible to inadvertently transact publicly. To emphasize the magnitude of this problem, in the networks of some of today’s most visible privacy coins, less than one percent of all transactions are private.
-
-Finally, a drawback shared by many privacy-focused projects is a dependance on outside expertise and external software developments to improve their networks.
-
 The Veil Project is working to improve the state of privacy-focused cryptocurrencies by creating a secure, highly anonymous coin that provides full-time privacy. In addition, Veil offers a user experience suited to the masses with self-funding to support long-term research and development by a dedicated team of researchers and blockchain developers.
 
 This document introduces the project, its technologies and its approach to long-term sustainability.
