@@ -40,7 +40,7 @@ Gauss: "Three Hours"
 
 Euler: "And how many times have you summoned him down with this exponentially increasing tasks?"
 
-Gauss (still grumpy): "You tell me. He started his latch batch at 11 o'clock. It's 5 now, so you should be able to compute it yourself."
+Gauss (still grumpy): "You tell me. He started his last batch at 11 o'clock. It's 5 now, so you should be able to compute it yourself."
 
 Euler: "Hmm, let's see. It wasn't his first batch, or it would've been 3 o'clock now. It wasn't his second batch, as that one took 3x3=9 hours, making it 9 now. Maybe its 3rd? let's see: 3x3x3=27, but on the clock that would be, ehm, 27 - 2x11 = 5. So he did three batches already!"
 
