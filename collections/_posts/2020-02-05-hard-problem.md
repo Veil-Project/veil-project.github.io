@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-title: A Very Hard Problem (and a fairy tale on how Gauss created Time)
+title: A very hard problem (and a fairy tale on how Gauss created time)
 date: 2020-02-05
 author: paulmoonshine
 permalink: /blog/very-hard-problem/
@@ -20,7 +20,7 @@ At first, in the infancy of our club, we're naive: we pick some super large numb
 
 So this is fun and in the beginning as it's just us, but after a while we start noticing some older kids in the tree-house that look suspicious and we don't recognize. And then some parents even drop in; WE'VE BEEN HACKED!
 
-## The Problem that's Hard Enough for Gauss
+## The problem that's hard enough for Gauss
 
 The mistake we made is that our problem was not hard enough: someone who wasn't given the solution may still, by himself, compute it fairly quickly [^1]. We need to find a problem for which no such algorithm exists. For inspiration we look in the Big Book Of Epic Math Myths and Sagas and stumble upon this little tale on the creation of time:
 
@@ -36,7 +36,7 @@ Euler steps in and overhears Gauss fuming over Sysiphos, telling him to go down 
 
 Euler: "Nasty. How long does this guy take rolling up that stone?".
 
-Gauss: "Three Hours"
+Gauss: "Three hours"
 
 Euler: "And how many times have you summoned him down with this exponentially increasing tasks?"
 
@@ -54,7 +54,7 @@ Whereupon Gauss takes the clock and smashes it on poor Sysiphos' head.
 
 It is told that when the local town smith — who couldn't count — repaired the clock, he accidentally made and extra mark. Gauss, being fed up with the prime clock, didn't care, and now we have the 12 hour clock."
 
-### Hard Enough for us
+### Hard enough for us
 
 Gauss couldn't find a general solution to this riddle: given a clock that runs till 11 (or any large prime number, say p), and given a stone push time of 3 (or any prime number g smaller than p), then, given the time it is now, say 5 (or "h'), compute the number N, such that 3^N = 5 (g^N = h (mod p))[^2]) on my clock (that is: how many batches of stone pushes has Sysiphos already done, given the facts that 1) he started at p o'clock and 2) it's h o'clock now). The general, abstract problem is: Compute N such that g^N = h (modulo p). This general problem is called the **Discrete Logarithm Problem**, and there is no known general solution for this problem.
 
