@@ -3,6 +3,7 @@ layout: member
 ref: marsmensch
 name: Florian
 username: marsmensch
+permalink: /team/marsmensch/
 portrait: marsmensch.jpg
 role: Lead Advisor
 keybase_url: https://keybase.io/marsmensch

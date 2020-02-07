@@ -2,6 +2,7 @@
 layout: member
 ref: gabrielnergaard
 username: GabrielNergaard
+permalink: /team/gabrielnergaard/
 name: Gabriel Nergaard
 role: Product Manager & Web Engineer
 portrait: gabrielnergaard.jpg

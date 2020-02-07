@@ -2,6 +2,7 @@
 layout: member
 ref: gets
 username: gets
+permalink: /team/gets/
 name: Lucca Spaapen
 role: Community Manager & Support
 portrait: gets.jpg

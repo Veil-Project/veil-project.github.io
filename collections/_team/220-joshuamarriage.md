@@ -3,6 +3,7 @@ layout: member
 ref: satoshua
 name: Joshua Marriage
 username: satoshua
+permalink: /team/satoshua/
 role: Business Development<br> & Project Manager
 portrait: joshuamarriage.jpg
 keybase_url: https://keybase.io/satoshua

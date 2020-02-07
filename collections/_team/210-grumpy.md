@@ -2,6 +2,7 @@
 layout: member
 ref: grumpy
 username: grumpy
+permalink: /team/grumpy/
 name: Grumpy
 role: Technical Support
 portrait: grumpy.jpg

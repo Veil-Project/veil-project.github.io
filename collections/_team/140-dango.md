@@ -2,6 +2,7 @@
 layout: member
 ref: dango
 username: Dango
+permalink: /team/dango/
 name: Dango
 role: Community Management Lead
 portrait: dango.jpg

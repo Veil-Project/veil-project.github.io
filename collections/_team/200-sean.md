@@ -3,6 +3,7 @@ layout: member
 ref: sean
 name: Sean Phillips
 username: sean
+permalink: /team/sean/
 role: Technical Support (Acting Lead)
 portrait: sean.jpg
 keybase_url: https://keybase.io/seanphillips

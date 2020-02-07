@@ -2,6 +2,7 @@
 layout: member
 ref: cryptomaximalist
 username: CryptoMaximalist
+permalink: /team/cryptomaximalist/
 name: Max
 role: Support Team Lead
 portrait: cryptomaximalist.jpg

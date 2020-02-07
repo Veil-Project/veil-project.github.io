@@ -3,6 +3,7 @@ layout: member
 ref: blondfrogs
 name: Jeremy Anderson
 username: blondfrogs
+permalink: /team/blondfrogs/
 role: PoW Software Engineer
 portrait: blondfrogs.jpg
 keybase_url: https://keybase.io/blondfrogs

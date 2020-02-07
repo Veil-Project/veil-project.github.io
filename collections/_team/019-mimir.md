@@ -3,6 +3,7 @@ layout: member
 ref: mimir
 name: Mimir
 username: mimir
+permalink: /team/mimir/
 role: Lead Blockchain Architect<br> & Development Project Manager
 portrait: mimir.jpg
 keybase_url: https://keybase.io/mimirmim

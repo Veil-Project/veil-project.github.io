@@ -3,6 +3,7 @@ layout: member
 ref: codeofalltrades
 name: Jared
 username: codeofalltrades
+permalink: /team/codeofalltrades/
 role: Core developer
 portrait: codeofalltrades.jpg
 keybase_url: https://keybase.io/codeofalltrades

@@ -3,6 +3,7 @@ layout: member
 ref: mados
 name:
 username: MaDOS
+permalink: /team/mados/
 role: Community Manager
 portrait: mados.jpg
 keybase_url: https://keybase.io/mados

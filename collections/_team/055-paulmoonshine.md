@@ -3,6 +3,7 @@ layout: member
 ref: paulmoonshine
 name: Paul de Lange
 username: paulmoonshine
+permalink: /team/paulmoonshine/
 role: Core developer & Mathematician
 portrait: comingsoon-male.png
 keybase_url: https://keybase.io/paulmoonshine

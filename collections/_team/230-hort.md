@@ -2,6 +2,7 @@
 layout: member
 ref: hort
 username: Hort
+permalink: /team/hort/
 name: Marc Fortenberry
 role: Exchange Coordinator & Technical Support
 portrait: hort.jpg
