@@ -1,13 +1,13 @@
 en:
-  - title: Always-on privacy
-    body: Veil is working to provide “full-time” privacy, without compromise.
+  - title: Privacy by default
+    body: Privacy should not be optional. With the coming RingCT release, Veil will provide full-time privacy, without compromise.
     icon: private-shield
-  - title: Proof-of-Stake earning
-    body: Veil allows its holders to earn rewards through staking today, and in the future, anonymously.
+  - title: Incentivized participation
+    body: By holding Veil, our users not only contribute to broadly distributed network security, but earn staking rewards, anonymously.
   - title: Fair launch
-    body: No ICO. No premine. Veil's blockchain is secured via Proof-of-Work and Proof-of-Stake in order to combine security and distribution.
+    body: No ICO. No premine. Veil's blockchain is secured via Proof-of-Work and Proof-of-Stake in order to combine both security and fair distribution.
   - title: User-focused
-    body: From advanced wallet interfaces, to seed recovery, to behind-the-scenes savings of storage space, Veil delivers the benefits of crypto to the masses through a focus on user experience.
+    body: In tomorrow's digital cash society, participation extends to everybody, not just those who read user manuals. With our coming RingCT launch, Veil will release one of the most user-friendly wallets in crypto.
   - title: Self-sustaining
     body: The Veil network includes built-in self-funding for project development, operations, customer support and ongoing research and development
   - title: Future-safe
