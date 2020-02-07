@@ -15,7 +15,7 @@ The Veil Project is working to improve the state of privacy-focused cryptocurren
 
 This document introduces the project, its technologies and its approach to long-term sustainability.
 
-## Core network technology
+## Original technology
 
 In its first implementation, Veil combined the world’s most secure blockchain software, **Bitcoin version 0.17.1**, with the cryptography-based privacy protocol, **Zerocoin** and the Particl project's **RingCT** implementation.
 
@@ -49,13 +49,11 @@ The **Proof-of-Work** mining system, guarantees a fair distribution of the coin,
 
 ## User experience
 
-Veil places great emphasis on user experience, and in this regard will support a number of experiential benefits, beginning with **multi-transaction Zerocoin spends**.
+Veil places great emphasis on user experience, and in this regard will support a number of experiential benefits.
 
-What does this mean? Those familiar with the protocol will be familiar with the concept that, due to the computation and transaction size requirements, Zerocoin systems usually limit transactions to a fixed number of denominations. How this manifests itself as a user problem, is in limiting the amount a user can spend in a single transaction. Veil addresses this user friction with **multi-block transactions** that are transparent to the user, and allows them to create sends of any size.
+For example, to avoid the necessity of file backups, the Veil wallet supports a single BIP-0039/BIP-0044 **Deterministic Seed** from which its entire wallet can be restored, including both Basecoin and Zerocoin transactions.
 
-To avoid the necessity of file backups, the Veil wallet will support a single BIP-0039/BIP-0044 **Deterministic Seed** from which its entire wallet can be restored, including both Basecoin and Zerocoin transactions.
-
-Finally, beginning with the RingCT interim protocol release, Veil will release a wallet that's been designed and built from the ground-up with an emphasis on a friendly user experience.
+And beginning with the RingCT protocol release, Veil will release a wallet that's been designed and built from the ground-up with an emphasis on a friendly user experience.
 
 ## The Veil emission schedule
 
