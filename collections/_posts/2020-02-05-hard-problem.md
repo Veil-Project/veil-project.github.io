@@ -14,11 +14,11 @@ Let's start a tree-house club, but a very nerdy one. To enter the clubhouse, you
 
 ![](/uploads/blog/2020-02-05-paul.png)
 
-At first, in the infancy of our club, we're naive: we pick some super large number, say 42, and hand this number out to club members. We call this our "private key". Next, we compute it's square — 1764 (the "public key") — and let the riddle be:
+At first, in the infancy of our club, we're naive: we pick some super large number, say 42, and hand this number out to club members. We call this our "private key". Next, we compute its square — 1764 (the "public key") — and let the riddle be:
 
 **What's the square root of 1764?**
 
-This is fun in the beginning as it's just us, but after a while we start noticing some older kids in the tree-house that look suspicious and we don't recognize. And then some parents even drop in; WE'VE BEEN HACKED!
+This is fun in the beginning as it's just us, but after a while we start noticing some older kids in the tree-house that look suspicious and we don't recognize them. And then some parents even drop in; WE'VE BEEN HACKED!
 
 ## The problem that's hard enough for Gauss
 
@@ -26,7 +26,7 @@ The mistake we made is that our problem was not hard enough: someone who wasn't 
 
 ### How Gauss created time by nearly destroying it
 
-Long, long ago, on the Mathematical Mount OlymPi — where the Math Gods rule, and and Gauss sits on the throne — all things are mathy and nerdy. In particular: time is not measured with clocks that run till 12, but — as only prime numbers are allowed in plain sight — all clocks run up to 11!
+Long, long ago, on the Mathematical Mount OlymPi — where the Math Gods rule, and Gauss sits on the throne — all things are mathy and nerdy. In particular: time is not measured with clocks that run till 12, but — as only prime numbers are allowed in plain sight — all clocks run up to 11!
 
 One day, a criminal by the name of Sysiphos is brought to Gauss (charged with the horrendous crime of misleading the public with bad use of statistics) and Gauss summons him to take a large stone, roll it up a hill in hell, and to come back when done.
 
