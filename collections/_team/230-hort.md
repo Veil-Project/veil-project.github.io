@@ -1,5 +1,6 @@
 ---
 layout: member
+lang: en
 ref: hort
 username: Hort
 permalink: /team/hort/

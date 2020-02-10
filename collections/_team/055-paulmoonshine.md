@@ -1,5 +1,6 @@
 ---
 layout: member
+lang: en
 ref: paulmoonshine
 name: Paul de Lange
 username: paulmoonshine

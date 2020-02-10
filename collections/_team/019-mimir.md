@@ -1,5 +1,6 @@
 ---
 layout: member
+lang: en
 ref: mimir
 name: Mimir
 username: mimir

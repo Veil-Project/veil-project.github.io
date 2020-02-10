@@ -1,5 +1,6 @@
 ---
 layout: member
+lang: en
 ref: codeofalltrades
 name: Jared
 username: codeofalltrades

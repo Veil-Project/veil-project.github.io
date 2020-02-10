@@ -1,5 +1,6 @@
 ---
 layout: member
+lang: en
 ref: gabrielnergaard
 username: GabrielNergaard
 permalink: /team/gabrielnergaard/

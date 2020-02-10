@@ -1,5 +1,6 @@
 ---
 layout: member
+lang: en
 ref: satoshua
 name: Joshua Marriage
 username: satoshua

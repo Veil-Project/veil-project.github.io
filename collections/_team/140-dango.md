@@ -1,5 +1,6 @@
 ---
 layout: member
+lang: en
 ref: dango
 username: Dango
 permalink: /team/dango/

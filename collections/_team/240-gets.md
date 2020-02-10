@@ -1,5 +1,6 @@
 ---
 layout: member
+lang: en
 ref: gets
 username: gets
 permalink: /team/gets/

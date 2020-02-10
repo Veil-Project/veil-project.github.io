@@ -1,5 +1,6 @@
 ---
 layout: member
+lang: en
 ref: blondfrogs
 name: Jeremy Anderson
 username: blondfrogs

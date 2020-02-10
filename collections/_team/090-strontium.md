@@ -1,5 +1,6 @@
 ---
 layout: member
+lang: en
 ref: strontium
 username: strontium
 permalink: /team/strontium/

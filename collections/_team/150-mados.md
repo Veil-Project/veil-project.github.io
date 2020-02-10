@@ -1,5 +1,6 @@
 ---
 layout: member
+lang: en
 ref: mados
 name:
 username: MaDOS

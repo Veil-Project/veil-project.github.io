@@ -1,5 +1,6 @@
 ---
 layout: member
+lang: en
 ref: cryptomaximalist
 username: CryptoMaximalist
 permalink: /team/cryptomaximalist/

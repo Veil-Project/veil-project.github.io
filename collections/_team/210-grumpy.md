@@ -1,5 +1,6 @@
 ---
 layout: member
+lang: en
 ref: grumpy
 username: grumpy
 permalink: /team/grumpy/
