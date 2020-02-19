@@ -13,7 +13,7 @@ description: 'In this article, we discuss the coming Veil Lite Wallet, including
 
 The Veil project is excited to provide a brief update on the design and development of a new wallet that will support the coming RingCT protocol upgrade.
 
-As a reminder, the Veil development team is currently working on a protocol upgrade, transforming the use of "legacy funds", i.e. Zerocoin, Basecoin and CT, into just RingCT as the exclusive coin type in the network. (A mechanism to convert legacy funds to RingCT will naturally be included as part of the upgraded.) As an industry first, RingCT will be used for private staking.
+As a reminder, the Veil development team is currently working on a protocol upgrade, transforming "legacy funds", i.e. Zerocoin, Basecoin and CT, into just RingCT as the exclusive coin type in the network. (A mechanism to convert legacy funds to RingCT will naturally be included as part of the upgraded.) As an industry first, RingCT will be used for private staking.
 
 As part of the RingCT upgrade, we're directly addressing this with the ground-up development of a brand new wallet, which will be known as the "Veil Lite Wallet".
 
@@ -21,7 +21,7 @@ As part of the RingCT upgrade, we're directly addressing this with the ground-up
 
 Given tight time constraints (the wallet needs to be ready to support the RingCT launch) the scope of work in Phase 1 of the Lite Wallet project is to create an "MVP"—i.e. a Minimum Viable Product, that includes just the functionality required to support the network.
 
-It's probably more important to understand what an MVP does **not** include, than what it does includes. Of particular not, the Veil Lite Wallet MVP will only have a **basic visual design.** It'll still represent a stark improvement over the *current* wallet's UI, but visually will be far from what we'll release in Phase 2 of the project.
+It's probably more important to understand what an MVP does **not** include, than what it does includes. Of particular note, the Veil Lite Wallet MVP will only have a **basic visual design.** It'll still represent a stark improvement over the *current* wallet's UI, but visually will be far from what we'll release in Phase 2 of the project.
 
 The MVP phase will provide just those features necessary to support use in the RingCT staking network. Many other new and improved features are in the works for Phase 2, and beyond.
 
@@ -33,7 +33,7 @@ For the coming Veil Lite Wallet, we'll be using the JavaScript-based **React Nat
 
 Initially, the Lite Wallet will be bundled with the core "veild" daemon software, that provides all of the underlying blockchain and network functionality. The wallet will allow the user to conveniently start and stop the veild daemon, as well as upgrade it whenever there's a new version of the core software available.
 
-The overhead of running a local daemon and downloading the full Veil blockchain will be phased out in future versions, where the Lite Wallet will allow for connecting to, and integrating with, a network of remote Veil backend nodes, known as "Veil Link Servers"
+The overhead of running a local daemon and downloading the full Veil blockchain will be phased out in future versions, where the Lite Wallet will allow for connecting to, and integrating with, a network of remote Veil backend nodes, known as "Veil Link Servers".
 
 # Design
 
@@ -66,6 +66,8 @@ We know that the Veil community would like to see faster development progress, b
 In the meantime, we'll leave you with short video sneak peak of the current state of the Lite Wallet. Enjoy!
 
 **Video Preview Goes Here**
+
+*Gabriel Nergaard, Veil Team Member, is the design and development lead overseeing the Veil Lite Wallet team, being developed to support the coming RingCT protocol upgrade.*
 
 [1]: https://clipz.in/veil-change-reserve.html
 
