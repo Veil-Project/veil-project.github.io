@@ -27,7 +27,7 @@ In addition, several nice-to-have features will be missing from the MVP. In shor
 
 # Technology 
 
-The current Veil wallet, like so many other cryptocurrency projects, is based on the original Bitcoin "Qt" wallet. While Qt is a perfectly respectable framework, there are modern alternatives that provide a wealth of benefits. 
+The current Veil wallet, as in so many other cryptocurrency projects, is based on the original Bitcoin "Qt" wallet. While Qt is a perfectly respectable framework, there are modern alternatives that provide a wealth of benefits. 
 
 For the coming Veil Lite Wallet, we'll be using the JavaScript-based *React Native** framework, giving us far more flexibility in terms of what we can do in the user interface, as well as providing an efficient path to extend the wallet with a mobile version sharing the same core codebase as the desktop wallet.
 
