@@ -13,7 +13,7 @@ description: 'In this article, we discuss the coming Veil Lite Wallet, including
 
 The Veil project is excited to provide a brief update on the design and development of a new wallet that will support the coming RingCT protocol upgrade.
 
-As a reminder, the Veil development team is currently working on a protocol upgrade, eliminating the use of "legacy funds", i.e. Zerocoin, Basecoin and CT, keeping RingCT as the exclusive coin type in the network. As an industry first, RingCT will be used for private staking.
+As a reminder, the Veil development team is currently working on a protocol upgrade, eliminating the use of "legacy funds", i.e. Zerocoin, Basecoin and CT, keeping RingCT as the exclusive coin type in the network. (A mechanism to convert legacy funds to RingCT will naturally be included as part of the upgraded.) As an industry first, RingCT will be used for private staking.
 
 Most existing Veil users are aware that the user experience of current wallet has been somewhat of a pain point. The user interface isn't as friendly as we'd like, and in a couple of places, the functionality isn't working properly (i.e. sending funds).
 
