@@ -15,7 +15,7 @@ My name is Gabriel Nergaard, and I'm a member of the Veil team, currently leadin
 
 As a reminder, the Veil development team is currently working on a protocol upgrade, eliminating the use of what we'll refer to as "legacy funds", i.e. Zerocoin, Basecoin and CT, keeping RingCT as the exclusive coin type in the network. As an industry first, RingCT will be used for private staking.
 
-As all existing Veil users are aware that the current wallet has been a pain point. It's broken in places (sending, for example) and the user interface isn't very friendly. As part of the RingCT upgrade, we're directly addressing this with the ground-up development of a brand new wallet, which will be known as the "Veil Lite Wallet".
+Most existing Veil users are aware that the user experience of current wallet has been a pain point. It's broken in places (sending, for example) and the user interface isn't very friendly. As part of the RingCT upgrade, we're directly addressing this with the ground-up development of a brand new wallet, which will be known as the "Veil Lite Wallet".
 
 # Scope
 
