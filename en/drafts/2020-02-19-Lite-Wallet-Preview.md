@@ -51,6 +51,8 @@ Here are some example:
 
 6. No longer will users have to worry about sizing their holdings for optimal staking. The wallet will just take care of that for you, automatically and behind the scenes.
 
+7. Networks sometimes fork, and users need to know this. The currently wallet requires you to access to the "current block hash", and then compare that the current block hash in an explorer somewhere to know if you're forked. Who understands that? Practically nobody. And that's not something people *should have to understand.* The Lite Wallet will monitor itself, and *let you know if it believes it's forked.* (Isn't that just how it should be? :-)
+
 These are just a few examples of the ideas, trade-offs and decisions being taken in the Lite Wallet in the interest of optimizing the user experience. If you'd like to take a deep dive into the level of internal debate and trade-offs focused on user experience, you can read this [internal publication][1] arguing for the removal of an internally proposed feature that would likely create confusion for 95% of all users, to address an extremely rare edge case.
 
 # Sneak Peek
