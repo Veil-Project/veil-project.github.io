@@ -19,7 +19,7 @@ Most existing Veil users are aware that the user experience of current wallet ha
 
 # Scope
 
-Due to tight time constraints—i.e. that the wallet needs to be ready to support the RingCT launch—our scope of work in this Phase 1 of the Lite Wallet project is to create an "MVP", i.e. a Minimum Viable Product, including only that functionality minimally required to support the network.
+Due to tight time constraints (the wallet needs to be ready to support the RingCT launch) our scope of work in this Phase 1 of the Lite Wallet project is to create an "MVP"—i.e. a Minimum Viable Product, including only that functionality minimally required to support the network.
 
 It's probably more important to understand what an MVP does *not* include, than what it does includes. In this case, one should understand that the Veil Lite Wallet MVP will *not have a polished visual design.* It'll still represent a stark improvement over the *current** wallet's UI, but will visually be far from what we'll release in Phase 2 of the project.
 
