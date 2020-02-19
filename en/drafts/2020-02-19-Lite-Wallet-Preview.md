@@ -21,7 +21,7 @@ Most existing Veil users are aware that the user experience of current wallet ha
 
 Due to tight time constraints (the wallet needs to be ready to support the RingCT launch) our scope of work in this Phase 1 of the Lite Wallet project is to create an "MVP"—i.e. a Minimum Viable Product, including only that functionality minimally required to support the network.
 
-It's probably more important to understand what an MVP does *not* include, than what it does includes. In this case, one should understand that the Veil Lite Wallet MVP will *not have a polished visual design.* It'll still represent a stark improvement over the *current* wallet's UI, but will visually be far from what we'll release in Phase 2 of the project.
+It's probably more important to understand what an MVP does **not** include, than what it does includes. In this case, one should understand that the Veil Lite Wallet MVP will **not have a polished visual design.** It'll still represent a stark improvement over the *current* wallet's UI, but will visually be far from what we'll release in Phase 2 of the project.
 
 In addition, several nice-to-have features will be missing from the MVP. In short, the MVP will have just those features necessary to support the RingCT network.
 
@@ -29,7 +29,7 @@ In addition, several nice-to-have features will be missing from the MVP. In shor
 
 The current Veil wallet, as in so many other cryptocurrency projects, is based on the original Bitcoin "Qt" wallet. While Qt is a perfectly respectable framework, there are modern alternatives that provide a wealth of benefits. 
 
-For the coming Veil Lite Wallet, we'll be using the JavaScript-based *React Native** framework, giving us far more flexibility in terms of what we can do in the user interface, as well as providing an efficient path to extend the wallet with a mobile version sharing the same core codebase as the desktop wallet.
+For the coming Veil Lite Wallet, we'll be using the JavaScript-based **React Native** framework, giving us far more flexibility in terms of what we can do in the user interface, as well as providing an efficient path to extend the wallet with a mobile version sharing the same core codebase as the desktop wallet.
 
 Initially, the Lite Wallet will be bundled with the core "veild" daemon software, that provides all of the underlying blockchain and network functionality. The wallet will allow the user to conveniently start and stop the veild daemon, as well as upgrade it whenever there's a new version of the core software available.
 
@@ -37,7 +37,7 @@ Future versions of the Lite Wallet, however, including the mobile wallet, will b
 
 # Design
 
-The fundamental priority of the Veil Lite Wallet is *user friendliness**. If you have to read a user's manual, we've failed in our objectives! :-) This priority means saying "No" to a lot of features, settings, and options, but we believe the "It just works" experience of the day to day use will, for the large majority of users, prove delightful.
+The fundamental priority of the Veil Lite Wallet is **user friendliness**. If you have to read a user's manual, we've failed in our objectives! :-) This priority means saying "No" to a lot of features, settings, and options, but we believe the "It just works" experience of the day to day use will, for the large majority of users, prove delightful.
 
 Here are some example:
 
@@ -53,7 +53,7 @@ Here are some example:
 
 6. No longer will users have to worry about configuring and sizing their holdings for optimal staking. The wallet will just take care of that for you, automatically and behind the scenes, optimizing for both maximum staking and health of the Veil network.
 
-7. Networks sometimes fork, and users need to know this. The current wallet requires you to find the "current block hash", and then compare that with an explorer somewhere to know if you're forked. Who understands that? Practically nobody. And that's not something people *should have to understand.* We're working to make sure the Lite Wallet can monitor itself, and *let you know if it believes it's forked.* (Isn't that just how it should be? :-)
+7. Networks sometimes fork, and users need to know this. The current wallet requires you to find the "current block hash", and then compare that with an explorer somewhere to know if you're forked. Who understands that? Practically nobody. And that's not something people *should have to understand.* We're working to make sure the Lite Wallet can monitor itself, and **let you know if it believes it's forked.** (Isn't that just how it should be? :-)
 
 These are just a few examples of the ideas, trade-offs and decisions being taken in the Lite Wallet project that are in the interest of optimizing the user experience. If you'd like to take a deep dive into the level of internal debate and trade-offs focused on user experience, we encourage you to read this [internal publication][1] arguing for the removal of an internally proposed feature that would likely create confusion for 95% of all users, to address an extremely rare edge case affecting only a few.
 
