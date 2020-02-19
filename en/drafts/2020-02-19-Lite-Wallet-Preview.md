@@ -11,19 +11,21 @@ description: 'In this article, we discuss the coming Veil Lite Wallet, including
 ---
 ## Introduction
 
-My name is Gabriel Nergaard, and I'm a member of the Veil team, currently leading the design and development of a new Veil wallet that will support the coming RingCT protocol upgrade.
+The Veil project is excited to provide a brief update on the design and development of a new wallet that will support the coming RingCT protocol upgrade.
 
-As a reminder, the Veil development team is currently working on a protocol upgrade, eliminating the use of what we'll refer to as "legacy funds", i.e. Zerocoin, Basecoin and CT, keeping RingCT as the exclusive coin type in the network. As an industry first, RingCT will be used for private staking.
+As a reminder, the Veil development team is currently working on a protocol upgrade, eliminating the use of "legacy funds", i.e. Zerocoin, Basecoin and CT, keeping RingCT as the exclusive coin type in the network. As an industry first, RingCT will be used for private staking.
 
-Most existing Veil users are aware that the user experience of current wallet has been a pain point. It's broken in places (sending, for example) and the user interface isn't very friendly. As part of the RingCT upgrade, we're directly addressing this with the ground-up development of a brand new wallet, which will be known as the "Veil Lite Wallet".
+Most existing Veil users are aware that the user experience of current wallet has been somewhat of a pain point. The user interface isn't as friendly as we'd like, and in a couple of places, the functionality isn't working properly (i.e. sending funds).
+
+As part of the RingCT upgrade, we're directly addressing this with the ground-up development of a brand new wallet, which will be known as the "Veil Lite Wallet".
 
 # Scope
 
-Due to tight time constraints (the wallet needs to be ready to support the RingCT launch) our scope of work in this Phase 1 of the Lite Wallet project is to create an "MVP"—i.e. a Minimum Viable Product, including only that functionality minimally required to support the network.
+Given tight time constraints (the wallet needs to be ready to support the RingCT launch) the scope of work in Phase 1 of the Lite Wallet project is to create an "MVP"—i.e. a Minimum Viable Product, that includes just the functionality required to support the network.
 
-It's probably more important to understand what an MVP does **not** include, than what it does includes. In this case, one should understand that the Veil Lite Wallet MVP will **not have a polished visual design.** It'll still represent a stark improvement over the *current* wallet's UI, but will visually be far from what we'll release in Phase 2 of the project.
+It's probably more important to understand what an MVP does **not** include, than what it does includes. Of particular not, the Veil Lite Wallet MVP will only have a **basic visual design.** It'll still represent a stark improvement over the *current* wallet's UI, but visually will be far from what we'll release in Phase 2 of the project.
 
-In addition, several nice-to-have features will be missing from the MVP. In short, the MVP will have just those features necessary to support the RingCT network.
+The MVP phase will provide just those features necessary to support use in the RingCT staking network. Many other new and improved features are in the works for Phase 2, and beyond.
 
 # Technology 
 
@@ -33,15 +35,17 @@ For the coming Veil Lite Wallet, we'll be using the JavaScript-based **React Nat
 
 Initially, the Lite Wallet will be bundled with the core "veild" daemon software, that provides all of the underlying blockchain and network functionality. The wallet will allow the user to conveniently start and stop the veild daemon, as well as upgrade it whenever there's a new version of the core software available.
 
-Future versions of the Lite Wallet, however, including the mobile wallet, will be able to avoid running a local daemon altogether (and avoid downloading the associated full blockchain), by connecting to remote Veil backend nodes, that will be known as "Veil Link Servers". Users will be able to choose to run their own Link Servers, or connect to any operated by the Veil network itself.
+The overhead of running a local daemon and downloading the full Veil blockchain will be phased out in future versions, where the Lite Wallet will allow for connecting to, and integrating with, a network of remote Veil backend nodes, known as "Veil Link Servers"
 
 # Design
 
-The fundamental priority of the Veil Lite Wallet is **user friendliness**. If you have to read a user's manual, we've failed in our objectives! :-) This priority means saying "No" to a lot of features, settings, and options, but we believe the "It just works" experience of the day to day use will, for the large majority of users, prove delightful.
+The fundamental priority of the Veil Lite Wallet is **user friendliness**. If you have to read a user's manual, we've failed in our objectives! :-) 
 
-Here are some example:
+Prioritizing the user experience means saying "no" to a lot of features, settings, and options, but we believe the "It just works" experience of day-to-day use will prove delightful. In the words of Steve Jobs, "[Focus is about saying no!][2]" Prioritizing user experience also involves intense effort to remove every point of friction in the use of the product.
 
-1. The wallet will not provide an encryption "option". Rather, it'll require you to encrypt and create a password on first launch, thereby ensuring adequate privacy hygiene   automatically, for everyone.
+Here are some examples:
+
+1. Rather than manually requiring its discovery, the wallet will automatically ensure privacy and security for everyone on startup, prompting you for a password and automatically encrypting your data in a simple manner.
 
 2. The wallet will provide some fun and useful visual analytics, such as graphs of staking rewards over time. At a glance, you'll feel good about earning Veil while helping to secure the network!
 
@@ -53,7 +57,7 @@ Here are some example:
 
 6. No longer will users have to worry about configuring and sizing their holdings for optimal staking. The wallet will just take care of that for you, automatically and behind the scenes, optimizing for both maximum staking and health of the Veil network.
 
-7. Networks sometimes fork, and users need to know this. The current wallet requires you to find the "current block hash", and then compare that with an explorer somewhere to know if you're forked. Who understands that? Practically nobody. And that's not something people *should have to understand.* We're working to make sure the Lite Wallet can monitor itself, and **let you know if it believes it's forked.** (Isn't that just how it should be? :-)
+7. Networks sometimes fork, and users need to know this. The current wallet requires you to find the "current block hash", and then compare that with an explorer somewhere to know if you're forked. Who understands that? Practically nobody. And that's not something people *should have to understand.* We're working to make sure the Lite Wallet can monitor itself, and **let you know if it believes it's forked.** Isn't that just how it should be? :-)
 
 These are just a few examples of the ideas, trade-offs and decisions being taken in the Lite Wallet project that are in the interest of optimizing the user experience. If you'd like to take a deep dive into the level of internal debate and trade-offs focused on user experience, we encourage you to read this [internal publication][1] arguing for the removal of an internally proposed feature that would likely create confusion for 95% of all users, to address an extremely rare edge case affecting only a few.
 
@@ -66,3 +70,5 @@ In the meantime, we'll leave you with short video sneak peak of the current stat
 **Video Preview Goes Here**
 
 [1]: https://clipz.in/veil-change-reserve.html
+
+[2]: https://fs.blog/2011/09/steve-jobs-saying-no/
