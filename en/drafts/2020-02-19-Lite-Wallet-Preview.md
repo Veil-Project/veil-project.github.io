@@ -6,8 +6,8 @@ date:   2020-02-19
 author: gabrielnergaard
 permalink: /blog/lite-wallet-preview/
 categories: test
-excerpt: 'In this article, we discuss the coming Veil Lite Wallet, including a video sneak peek.'
-description: 'In this article, we discuss the coming Veil Lite Wallet, including a video sneak peek.'
+excerpt: 'In this article, we discuss the coming Veil Lite Wallet, including a sneak peek.'
+description: 'In this article, we discuss the coming Veil Lite Wallet, including a sneak peek.'
 ---
 ## Introduction
 
@@ -63,9 +63,43 @@ These are just a few examples of the ideas, trade-offs and decisions being taken
 
 We know that the Veil community would like to see faster development progress, but we're working on some really great technology, both in terms of the fundamental protocol itself, but also extending to supporting projects like the Lite Wallet and the remote Link Server. Great software takes *a lot of time*, so we ask for your patience, and are confident that it'll be worth the wait!
 
-In the meantime, we'll leave you with short video sneak peak of the current state of the Lite Wallet. Enjoy!
+In the meantime, we'll leave you with some sneak peek screenshots of the current state of the Lite Wallet. Enjoy!
 
-**Video Preview Goes Here**
+- The welcome screen:
+
+![](/uploads/blog/2020-03-01-wallet-01.png)
+
+- Seed creation and confirmation:
+
+![](/uploads/blog/2020-03-01-wallet-02.png)
+
+![](/uploads/blog/2020-03-01-wallet-03.png)
+
+- Encrypt and protect your wallet with a password:
+
+![](/uploads/blog/2020-03-01-wallet-04.png)
+
+- New wallet blank slate screen:
+
+![](/uploads/blog/2020-03-01-wallet-05.png)
+
+- Unlock wallet to generate a new receive address:
+
+![](/uploads/blog/2020-03-01-wallet-06.png)
+
+- Transactions:
+
+![](/uploads/blog/2020-03-01-wallet-07.png)
+
+- Application menu:
+
+![](/uploads/blog/2020-03-01-wallet-08.png)
+
+- Advanced console:
+
+![](/uploads/blog/2020-03-01-wallet-09.png)
+
+![](/uploads/blog/2020-03-01-wallet-10.png)
 
 *Gabriel Nergaard, Veil Team Member, is the design and development lead overseeing the Veil Lite Wallet team, being developed to support the coming RingCT protocol upgrade.*
 
