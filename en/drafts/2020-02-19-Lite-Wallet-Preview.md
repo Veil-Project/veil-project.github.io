@@ -11,7 +11,7 @@ description: 'The Veil team has been working on something new. Something excitin
 ---
 ## Introduction
 
-The Veil user experience team has been working on something new. Something exciting. A new way to experience Veil. Today we're going to give you a sneak peek at Veil X.
+The Veil user experience team has been working on something new. Something exciting. A new way to experience Veil. Today we're going to give you a sneak peek at **Veil X**.
 
 The Veil wallet you've been using until now is the *Veil Core Wallet*, based on technology shared by many crypto projects, and engineered to expose all the technical services available on the network. Providing access to *everything*, however, comes at a cost—and that is user experience. As expected by the Pareto Principle, the majority of the wallet's advanced features are used rarely, and complicate the user experience in day-to-day use.
 
