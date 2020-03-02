@@ -15,7 +15,7 @@ The Veil user experience team has been working on something new. Something excit
 
 The Veil wallet you've been using until now is the *Veil Core Wallet*, based on technology shared by many crypto projects, and engineered to expose all the technical services available on the network. Providing access to *everything*, however, comes at a cost—and that is user experience. As expected by the Pareto Principle, the majority of the wallet's advanced features are used rarely, and complicate the user experience in day-to-day use.
 
-Veil X is a new wallet experience, focusing exclusively on the user experience. While the Core Wallet will always remain available for the advanced user, we believe Veil X will be the wallet most people choose for daily use. Our aim is to set the standard for user friendliness in the crypto industry!
+**Veil X is a new wallet experience, focusing exclusively on the user experience.** While the Core Wallet will always remain available for the advanced user, we believe Veil X will be the wallet most people choose for daily use. Our aim is to set the standard for user friendliness in the crypto industry!
 
 With that, let's take a sneak peek at the coming Veil X Wallet.
 
