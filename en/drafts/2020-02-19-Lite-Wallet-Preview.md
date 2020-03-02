@@ -39,7 +39,7 @@ Initially, the Veil X Wallet will be bundled with the core "veild" daemon softwa
 
 # Design
 
-The fundamental priority of the Veil Veil X Wallet is **user friendliness**. If you have to read a user's manual, we've failed in our objectives! :-) 
+The fundamental priority of the Veil X Wallet is **user friendliness**. If you have to read a user's manual, we've failed in our objectives! :-) 
 
 Prioritizing the user experience means saying "no" to a lot of features, settings, and options, but we believe the "It just works" experience of day-to-day use will prove delightful. In the words of Steve Jobs, "[Focus is about saying no!][2]" Prioritizing user experience also involves intense effort to remove every point of friction in the use of the wallet.
 
@@ -103,7 +103,7 @@ In the meantime, we'll leave you with some sneak peek screenshots of the current
 
 ![](/uploads/blog/2020-03-01-wallet-10.png)
 
-*Gabriel Nergaard, Veil Team Member, is the design and development lead overseeing the Veil Veil X Wallet team, being developed to support the coming RingCT protocol upgrade.*
+*Gabriel Nergaard, Veil Team Member, is the design and development lead overseeing the Veil X Wallet team, being developed to support the coming RingCT protocol upgrade.*
 
 [1]: https://clipz.in/veil-change-reserve.html
 
