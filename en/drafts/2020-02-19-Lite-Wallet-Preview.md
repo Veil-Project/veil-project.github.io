@@ -76,8 +76,7 @@ In the meantime, we'll leave you with some sneak peek screenshots of the current
 {% include image.html src="/uploads/blog/2020-03-01-wallet-06.png" title="Unlock wallet to generate a new receive address" %}
 {% include image.html src="/uploads/blog/2020-03-01-wallet-07.png" title="Transactions" %}
 {% include image.html src="/uploads/blog/2020-03-01-wallet-08.png" title="Application menu" %}
-{% include image.html src="/uploads/blog/2020-03-01-wallet-09.png" title="Advanced console" %}
-{% include image.html src="/uploads/blog/2020-03-01-wallet-10.png" class="-mt-4" %}
+{% include image.html src="/uploads/blog/2020-03-01-wallet-09.png" title="Advanced console" class="-mt-4" %}
 
 _Gabriel Nergaard, Veil Team Member, is the design and development lead overseeing the Veil X Wallet team, being developed to support the coming RingCT protocol upgrade._
 
