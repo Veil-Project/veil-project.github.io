@@ -1,0 +1,17 @@
+<figure class="my-8 {{ include.class }}">
+  {% if include.title %}
+  <figcaption class="font-medium mb-6">
+    {{ include.title }}
+  </figcaption>
+  {% endif %}
+  <img
+    src="{{ include.src }}"
+    alt="{{ include.caption }}"
+    style="max-width:none;margin:-2rem;width:calc(100% + 4rem)"
+  />
+  {% if include.caption %}
+  <figcaption class="pl-4 border-l-2 leading-snug italic">
+    {{ include.caption }}
+  </figcaption>
+  {% endif %}
+</figure>
