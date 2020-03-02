@@ -25,7 +25,7 @@ As a reminder, the Veil development team is currently working on a protocol upgr
 
 Given tight time constraints (that Veil X needs to be ready to support the RingCT launch) the scope of work in Phase 1 of the Veil X Wallet project is to create an "MVP"—i.e. a Minimum Viable Product—that includes just the functionality required to support the network.
 
-It's probably more important to understand what an MVP does **not** include, than what it does includes. Of particular note, the Veil Veil X Wallet MVP will only have a **basic visual design.** It'll still represent a stark improvement over the Core wallet's UI, but visually will be far from what we'll release in Phase 2 of the project.
+It's probably more important to understand what an MVP does **not** include, than what it does includes. Of particular note, the Veil X Wallet MVP will only have a **basic visual design.** It'll still represent a stark improvement over the Core wallet's UI, but visually will be far from what we'll release in Phase 2 of the project.
 
 The MVP phase will provide just those features necessary to support use in the RingCT staking network. Many other new and improved features are in the works for Phase 2 and beyond.
 
