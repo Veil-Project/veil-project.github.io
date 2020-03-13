@@ -4,7 +4,7 @@ lang: en
 title: 'Shop at over 45 million merchants: Apple Pay, Google Pay, and VISA Debit Cards just around the corner!'
 date: 2020-03-13
 author: strontium
-permalink: /blog/2020-blockcard/
+permalink: /news/2020-blockcard/
 categories: news
 excerpt: 'Thanks to Ternio BlockCard, Veil Project will soon be the first privacy focused blockchain with a debit card usable anywhere VISA is accepted worldwide!'
 description: 'Thanks to Ternio BlockCard, Veil Project will soon be the first privacy focused blockchain with a debit card usable anywhere VISA is accepted worldwide!'
