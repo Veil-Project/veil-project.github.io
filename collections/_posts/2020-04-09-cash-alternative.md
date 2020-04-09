@@ -23,19 +23,19 @@ There's already so much uncertainty surrounding the world's financial future. So
 
 Globally, over [$18 trillion a year](https://www.marketscreener.com/VISA-2277468/news/Visa-Inc-2020-Investor-Day-Segment-1-Presentation-29980457/) still changes hands as physical cash and checks. Contrary to the benefits of digital convenience, cash payments are in fact increasing.
 
-![Global cash and check payments](/uploads/blog/payments-cash-equivalent.png "Global cash and check payments")
+![Global cash and check payments](/uploads/blog/2020-04-09-payments-cash-equivalent.png "Global cash and check payments")
 
 In the United States [37% of people choose cash](https://finance.yahoo.com/news/survey-cash-isn-t-completely-090000848.html) as their favorite payment method. Digitizing the dollar represents a $4 trillion opportunity in North America, equating to over $90 billion in annual revenue from card processing fees alone.
 
-![Favorite payment methods](/uploads/blog/favorite-cash-equivalent.png "Favorite payment methods")
+![Favorite payment methods](/uploads/blog/2020-04-09-favorite-cash-equivalent.png "Favorite payment methods")
 
 Although Americans are quick to adopt modern tech, almost half of the United States doesn't use any payment apps. Those who do, shy away from credit and tend toward the convenience of centralized services, which allow them to spend their own dollars.
 
-![Preferred payment apps](/uploads/blog/app-cash-equivalent.png "Preferred payment apps")
+![Preferred payment apps](/uploads/blog/2020-04-09-app-cash-equivalent.png "Preferred payment apps")
 
 The cryptocurrency community preaches mostly 'anti-surveillance' sentiment. Yet those who choose cash do so for reasons of safety, budgeting, and acceptance. What if "cash is king" among consumers is because its denominations make it better suited to penny-pinching?
 
-![Why cash is preferred](/uploads/blog/method-cash-equivalent.png "Why cash is preferred")
+![Why cash is preferred](/uploads/blog/2020-04-09-method-cash-equivalent.png "Why cash is preferred")
 
 Properties unique to cash also appear to be what resonates most with its proponents. Privacy on the other hand, isn't high on the list of consumer priorities. It is essential to cash's function, for assurance of [fungibilty](https://en.wikipedia.org/wiki/Fungibility), so that every dollar is interchangeable for another. Demand is high, so when supply dries up, consumers will likely look for a cash alternative that still solves their problems.
 
@@ -51,7 +51,7 @@ A fundamental truth for cash as we know it, is that my dollar is as good as your
 
 While privacy is, and always will be, core to everything we do, it's not our only priority. Our main priority is you, because when all is said and done, it's you who will help us [cross the chasm](https://hackernoon.com/crypto-doesnt-need-to-cross-the-chasm-we-need-help-climbing-out-8df10334799). Testament to our unwavering commitment to users, [Veil X](https://veil-project.com/blog/veil-x-preview/) is the culmination of everything we've learned, and everything we will continue to learn, about those searching for a digital cash equivalent.
 
-![Veil X wallet preview](/uploads/blog/veil-x-cash-equivalent.png "Veil X wallet preview")
+![Veil X wallet preview](/uploads/blog/2020-04-09-veil-x-cash-equivalent.png "Veil X wallet preview")
 
 Want to be notified the moment Veil X is released to our community, become an early adopter, and share your experiences with cashless societies?
 
