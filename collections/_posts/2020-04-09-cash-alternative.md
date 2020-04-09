@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-title:  Could “cash equivalent” be our catchcry?
+title:  'Could “cash equivalent” be our catchcry?'
 date:   2020-04-10
 author: satoshua
 permalink: /blog/2019-cash-equivalent/
