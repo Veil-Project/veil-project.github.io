@@ -30,7 +30,7 @@ You also utilize RandomX, right? And PoS?
 
 **K:** ProgPoW is simply to GPUs what RandomX is to CPUs (*editor’s note: an algorithm specifically designed to utilize target hardware’s unique architecture*). Both algorithms can, of course, have an ASIC be built—but that isn't to be feared. What you want to do is ensure that the GPU or CPU can still compete with the ASIC, as opposed to what happens now, which is, of course, that GPUs and CPUs can't compete.
 
-People who would LIKE to upgrade to the ASIC can, but people who are not able to are suddenly not disadvantaged. Moreover, both RandomX and ProgPoW mimic their target platforms in such a way that you basically have to design an alternative CPU/GPU (editor’s note: to produce a specialized ASIC for the algorithms). That's a great thing for the world.
+People who would LIKE to upgrade to the ASIC can, but people who are not able to are suddenly not disadvantaged. Moreover, both RandomX and ProgPoW mimic their target platforms in such a way that you basically have to design an alternative CPU/GPU (*editor’s note: to produce a specialized ASIC for the algorithms*). That's a great thing for the world.
 
 **S:** Yeah, sounds good to me. Do you think something like that is the ideal future for mining?
 
