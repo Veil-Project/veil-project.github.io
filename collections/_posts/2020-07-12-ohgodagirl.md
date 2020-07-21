@@ -6,8 +6,8 @@ date: 2020-07-12
 author: strontium
 permalink: /blog/2020-OhGodAGirl/
 categories: test
-excerpt: "A chat with Krissty-Leigh ‘OhGodAGirl’ Minehan about algorithms."
-description: "A chat with Krissty-Leigh ‘OhGodAGirl’ Minehan about algorithms."
+excerpt: "A chat with Kristy-Leigh ‘OhGodAGirl’ Minehan about algorithms."
+description: "A chat with Kristy-Leigh ‘OhGodAGirl’ Minehan about algorithms."
 ---
 
 Veil is quickly approaching a landmark as changes to the Proof-of-Work aspect of consensus are soon to roll out. If you’re not yet aware of these changes, you can [read here](https://veil-project.com/blog/2019-future-consensus/) to get caught up.
