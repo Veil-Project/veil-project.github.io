@@ -6,8 +6,8 @@ date: 2020-08-02
 author: strontium
 permalink: /news/2020-july-update/
 categories: news
-excerpt: 'Welcome to the first monthly Veil project update article. Here you’ll find an overview of some of the work that’s taken place during the preceding month. '
-description: 'Welcome to the first monthly Veil project update article. Here you’ll find an overview of some of the work that’s taken place during the preceding month. '
+excerpt: 'This article provides insight into Veil project developments for the month of July 2020.'
+description: 'This article provides insight into Veil project developments for the month of July 2020.'
 ---
 
 Welcome to the first monthly Veil project update article. Here you’ll find an overview of some of the work that’s taken place during the preceding month. 
