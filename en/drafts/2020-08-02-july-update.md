@@ -12,7 +12,7 @@ description: 'This article provides insight into Veil project developments for t
 
 Welcome to the first monthly Veil project update article. Here you’ll find an overview of some of the work that’s taken place during the preceding month. 
 
-![](/uploads/blog/2020-08-02-update.png)
+![](/uploads/news/2020-08-02-update.png)
 
 ## Development updates
 
@@ -50,7 +50,7 @@ Anyone wanting to help out with testing, or interested in getting a feel for the
 
 ## Ternio BlockCard and Veil
 
-![](/uploads/blog/2020-08-02-BlockCardAv.png)
+![](/uploads/news/2020-08-02-BlockCardAv.png)
 
 Working with our friends over at Ternio, we’re pleased to announce a Veil BlockCard Visa debit card is now available through [Ternio’s BlockCard website]( https://veil.getblockcard.com/). Please note that presently physical cards are only available within the United States, though Europe is set to follow in the near future.
 
@@ -62,7 +62,7 @@ Joshua is working hard on developing relationships with a mind to future partner
 
 For his article contributions there, Hacker Noon also has Joshua up for a [Noonie award]( https://noonies.tech/)!  Follow [Joshua on Twitter]( https://twitter.com/satoshua) to keep an eye on his Hacker Noon related news.
 
-Joshua also has a [Meet the team article]( https://veil-project.com/blog/meet-the-team-joshua-marriage/) now available on Veil’s website where you can learn more about him.
+Joshua also has a [Meet the team article]( https://veil-project.com/news/meet-the-team-joshua-marriage/) now available on Veil’s website where you can learn more about him.
 
 ## Twitter puzzle
 
@@ -118,7 +118,7 @@ Following up with the Veiliens proposal, I’m working hard on getting things to
 
 Below are some rank badge image bases I’m working on.
 
-![](/uploads/blog/2020-08-02-badges.png)
+![](/uploads/news/2020-08-02-badges.png)
 
 These are working the way up to the full Veil V logo. I’m hoping I can add some animation layers (shines and shimmers) if Discord plays nice.
 
@@ -130,7 +130,7 @@ I’ll have more for you soon, but in the meantime please feel free to discuss i
 
 In the lead up to Proof-of-Work changes we’ve been making efforts to make the process smoother. First, here are a few groups we’re working with.
 
-![](/uploads/blog/2020-08-02-PoWP.png)
+![](/uploads/news/2020-08-02-PoWP.png)
 
 **ZelLabs Pools**
 
@@ -149,13 +149,13 @@ codeofalltrades and I have been working with WhatToMine to ensure their popular 
 Visit WhatToMine [here]( https://whattomine.com/).
 Further, we’re well aware that the upcoming Proof-of-Work changes are a little intimidating and unlikely to be readily understood by the mining community. As such, we’ve produced a simple infographic for a basic understanding of Veil’s PoW changes.
 
-![](/uploads/blog/2020-08-02-MiningHandbookS.png)
+![](/uploads/news/2020-08-02-MiningHandbookS.png)
 
 With the help of Aleksandr and Bruce, this will also be available in Russian and Chinese at PoW release and made available to mining pools.
 
 ONeZetty and Yankdiary have also been helping out, so I’d like to thank them for their efforts too.
 
-Lastly, we also released an interview with Kristy-Leigh Minehan aka OhGodAGirl on Veil’s PoW changes, ProgPoW, and mining in general. You can read that [here](https://veil-project.com/blog/2020-OhGodAGirl/).
+Lastly, we also released an interview with Kristy-Leigh Minehan aka OhGodAGirl on Veil’s PoW changes, ProgPoW, and mining in general. You can read that [here](https://veil-project.com/news/2020-OhGodAGirl/).
 
 ## Closing words
 
