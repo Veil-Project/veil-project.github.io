@@ -54,7 +54,7 @@ Users are of course encouraged to continue staking as per usual alongside whatev
 
 ## PoW change release
 
-The changes are already available for users to test and play with outside of mainnet on the developer build. To participate in testing simply check in with the team on the [Veil Discord server]https://discord.veil-project.com/(), or the [Veil development Discord server](https://discord.gg/5V3Y5Mf).
+The changes are already available for users to test and play with outside of mainnet on the developer build. To participate in testing simply check in with the team on the [Veil Discord server](https://discord.veil-project.com/), or the [Veil development Discord server](https://discord.gg/5V3Y5Mf).
 
 A period of three weeks will be allocated to a testnet build before a mainnet fork takes place prior to October’s superblock early in the month. This of course is subject to everything behaving as expected and no major issues causing delay.
 
