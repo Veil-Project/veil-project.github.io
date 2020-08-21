@@ -6,8 +6,8 @@ date:   2020-08-21
 author: strontium
 permalink: /blog/2020-pow-update/
 categories: test
-excerpt: 'As we close in on Veil's new Proof-of-Work consensus model, this article explores the PoW update and what it means for the future of the Veil network and its users.'
-description: 'As we close in on Veil's new Proof-of-Work consensus model, this article explores the PoW update and what it means for the future of the Veil network and its users.'
+excerpt: 'As we close in on Veil’s new Proof-of-Work consensus model, this article explores the PoW update and what it means for the future of the Veil network and its users.'
+description: 'As we close in on Veil’s new Proof-of-Work consensus model, this article explores the PoW update and what it means for the future of the Veil network and its users.'
 ---
 
 As we close in on Veil's new Proof-of-Work consensus model, this article explores the PoW update and what it means for the future of the Veil network and its users. It includes links to further information, resources, and development thought processes behind the changes.
