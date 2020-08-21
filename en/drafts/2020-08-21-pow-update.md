@@ -10,11 +10,11 @@ excerpt: 'As we close in on the Veil updated Proof-of-Work consensus model, this
 description: 'As we close in on the Veil updated Proof-of-Work consensus model, this article explores the PoW update and what it means for the future of the Veil network and its users.'
 ---
 
-As we close in on Veil's new Proof-of-Work consensus model, this article explores the PoW update and what it means for the future of the Veil network and its users. It includes links to further information, resources, and development thought processes behind the changes.
+As we close in on Veil’s new Proof-of-Work consensus model, this article explores the PoW update and what it means for the future of the Veil network and its users. It includes links to further information, resources, and development thought processes behind the changes.
 
 ![](/uploads/blog/2020-08-19-PoWinfo.png)
 
-Veil is nearing a hard fork to implement a new multi-algorithm Proof-of-Work consensus model. We've [covered the basics of the PoW system earlier](https://veil-project.com/blog/2019-future-consensus/), but below is a summary of the changes coming up.
+Veil is nearing a hard fork to implement a new multi-algorithm Proof-of-Work consensus model. We’ve [covered the basics of the PoW system earlier](https://veil-project.com/blog/2019-future-consensus/), but below is a summary of the changes coming up.
 
 **GPU mining with ProgPoW**
 
@@ -28,7 +28,7 @@ Aims for approximately 20% of all PoW blocks averaging 144 blocks per day.
 
 Aims for approximately 10% of all PoW blocks averaging 72 blocks per day.
 
-Note: PoW will continue to target 50% of blocks alongside PoS's 50%. This division can deviate with varying hash power.
+Note: PoW will continue to target 50% of blocks alongside PoS’s 50%. This division can deviate with varying hash power.
 
 ## Why the change?
 
@@ -56,7 +56,7 @@ Users are of course encouraged to continue staking as per usual alongside whatev
 
 The changes are already available for users to test and play with outside of mainnet on the developer build. To participate in testing simply check in with the team on the [Veil Discord server]https://discord.veil-project.com/(), or the [Veil development Discord server](https://discord.gg/5V3Y5Mf).
 
-A period of three weeks will be allocated to a testnet build before a mainnet fork takes place prior to October's superblock early in the month. This of course is subject to everything behaving as expected and no major issues causing delay.
+A period of three weeks will be allocated to a testnet build before a mainnet fork takes place prior to October’s superblock early in the month. This of course is subject to everything behaving as expected and no major issues causing delay.
 
 ## Closing words
 
