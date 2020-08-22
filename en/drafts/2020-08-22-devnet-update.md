@@ -6,8 +6,8 @@ date:   2020-08-22
 author: strontium
 permalink: /blog/devnet-update/
 categories: test
-excerpt: 'In the near future we will be restarting the devnet chain to incorporate changes to the difficulty algorithms. These changes come from divergences in the Dark Gravity Wave algorithm and our use of multiple independent algorithms.'
-description: 'In the near future we will be restarting the devnet chain to incorporate changes to the difficulty algorithms. These changes come from divergences in the Dark Gravity Wave algorithm and our use of multiple independent algorithms.'
+excerpt: 'Here CaveSpectre gives us a look into a challenge overcome by Veil developers involving RandomX and the Dark Gravity Wave algorithm.'
+description: 'Here CaveSpectre gives us a look into a challenge overcome by Veil developers involving RandomX and the Dark Gravity Wave algorithm.'
 ---
 
 In the near future we will be restarting the devnet chain to incorporate changes to the difficulty algorithms. These changes come from divergences in the Dark Gravity Wave algorithm and our use of multiple independent algorithms.
