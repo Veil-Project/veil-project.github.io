@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title:  Veil PoW update makes network participation rewarding for all
-date:   2020-08-21
+date:   2020-08-26
 author: strontium
 permalink: /blog/pow-update/
 categories: test
