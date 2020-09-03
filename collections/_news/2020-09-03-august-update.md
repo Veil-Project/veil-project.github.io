@@ -44,25 +44,25 @@ Wallet version 1.1 will include a great deal of improvements to the Veil wallet.
 
 Sean mentioned an RPC change in July's monthly updates for daily algo stats, but we did not go into detail. Veil RPC has seen the addition of *getchainalgostats*. This provides useful information on block discovery as demonstrated below.
 
->{
->
->  "start": 1597795945,
->
->  "finish": 1597977109,
->
->  "period": 3019,
->
->  "pos": 510,
->
->  "progpow": 546,
->
->  "randomx": 290,
->
->  "sha256d": 94,
->
->  "x16rt": 0
->
-> }
+    {
+
+      "start": 1597795945,
+
+      "finish": 1597977109,
+
+      "period": 3019,
+
+      "pos": 510,
+
+      "progpow": 546,
+
+      "randomx": 290,
+
+      "sha256d": 94,
+
+      "x16rt": 0
+
+     }
 
 You can [click here](https://github.com/Veil-Project/veil/pull/833) to learn more.
 
