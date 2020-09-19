@@ -3,7 +3,7 @@ layout: post
 lang: en
 title:  Veil PoW update makes network participation rewarding for all
 date:   2020-08-26
-author: strontium
+author: cavespectre
 permalink: /blog/pow-update/
 categories: test
 excerpt: 'As we close in on the Veil updated Proof-of-Work consensus model, this article explores the PoW update and what it means for the future of the Veil network and its users.'
