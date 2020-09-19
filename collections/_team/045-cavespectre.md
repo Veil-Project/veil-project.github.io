@@ -2,7 +2,7 @@
 layout: member
 ref: cavespectre
 username: CaveSpectre
-permalink: /team/codeofalltrades/
+permalink: /team/cavespectre/
 name: Cave Spectre
 role: Back-end Developer
 portrait: cavespectre.jpg
@@ -21,4 +21,3 @@ past_contributions:
 - GambleCoin
 - PIVX contributor
 ---
-
