@@ -12,7 +12,7 @@ description: 'Veil has released a new wallet version, and is a mandatory update 
 
 Veil Core wallet v1.1.0 is here! This mandatory release includes the much-awaited Proof-of-Work update with GPU ProgPoW, CPU RandomX, and ASIC SHA-256D mining, along with other various improvements.
 
-![](2020-10-21-walletupdate.png)
+![](/uploads/news/2020-10-21-walletupdate.png)
 
 Users must update before the hard fork on October 31, 2020 5:00 PM GMT.
 
