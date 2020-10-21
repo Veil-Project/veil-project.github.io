@@ -14,4 +14,5 @@ Veil Core wallet v1.1.0 is here! This mandatory release includes the much-awaite
 
 Users must update before the hard fork on October 31, 2020 5:00 PM GMT.
 
-![https://github.com/Veil-Project/veil/releases/tag/v1.1.0.1](https://github.com/Veil-Project/veil/releases/tag/v1.1.0.1)
+[https://github.com/Veil-Project/veil/releases/tag/v1.1.0.1](https://github.com/Veil-Project/veil/releases/tag/v1.1.0.1)
+
