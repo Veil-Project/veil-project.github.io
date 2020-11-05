@@ -4,7 +4,7 @@ lang: en
 title:  Veil month’s end update for September 2020
 date: 2020-10-17
 author: strontium
-permalink: /blog/2020-september-update/
+permalink: /news/2020-september-update/
 categories: test
 excerpt: ‘Welcome to the September monthly Veil project update article. Due to some circumstances surrounding efforts for version 1.1's release this installment has come late. We apologize for keeping you all waiting.''
 description: 'September’s Veil project update covering testnet, campaigns, and more.'
