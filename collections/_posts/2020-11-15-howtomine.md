@@ -16,117 +16,110 @@ This article covers the procedure to follow for mining after the October 31 Veil
 
 After the 31.10.2020 Hard Fork you can mine Veil with:
 
-**GPU mining with ProgPoW**
+-**GPU mining with ProgPoW**, Aims for 70% of all PoW blocks averaging 504 blocks per day.
+-**CPU mining with RandomX**, Aims for approximately 20% of all PoW blocks averaging 144 blocks per day.
+-**ASIC mining with SHA-256d**, Aims for approximately 10% of all PoW blocks averaging 72 blocks per day.
 
-Aims for 70% of all PoW blocks averaging 504 blocks per day.
-
-**CPU mining with RandomX**
-
-Aims for approximately 20% of all PoW blocks averaging 144 blocks per day.
-
-**ASIC mining with SHA-256d**
-
-Aims for approximately 10% of all PoW blocks averaging 72 blocks per day.
-
-Note: PoW will continue to target 50% of blocks alongside PoS’s 50%. This division can deviate with varying hash power.
+PoW will continue to target 50% of blocks alongside PoS’s 50%. This division can deviate with varying hash power.
 
 ## GPU mining with ProgPoW
+
 You can mine Veil with ProgPoW solo or on pool. However, Veil ProgPoW difficulty is quite high now and you will need a lot of power to get blocks everyday with ProgPoW.
 
 ## Solo GPU mining with ProgPoW
+
 [TT-miner](https://bitcointalk.org/index.php?topic=5025783.0) (Nvidia GPU only) has a solo mining feature through the full local node. What you have to do:
 
-**Step 1. ** 
+**Step 1.** 
 
 Download and install [Veil desktop wallet](https://veil-project.com/get-started/).
 Sync it using [snapshot](https://veil.tools/snapshots/).
+
 Go to /Appdata/Roaming/Veil/ folder and create a veil.conf file with such an info:
 
-<pre>automintoff=1
-rpcuser=TTx
-rpcpassword=tt
-rpcbind=127.0.0.1
-rpcallowip=0.0.0.0/0
-rpcport=5555
-server=1
-listen=1
-gen=1
-mine=progpow
-miningaddress=bv1q4cc0yj0azvt7te9mlkl7aem2htk3twu4hu2zk5</pre>
+  automintoff=1
+  rpcuser=TTx
+  rpcpassword=tt
+  rpcbind=127.0.0.1
+  rpcallowip=0.0.0.0/0
+  rpcport=5555
+  server=1
+  listen=1
+  gen=1
+  mine=progpow
+  miningaddress={your-address}
 
 Edit your network parameters according to your router settings.
 
-**Step 2. ** 
+**Step 2.** 
 
 Restart the wallet to apply all the changes.
 
-**Step 3. ** 
+**Step 3.** 
 
 Launch TT-miner .bat file with:
 
-<pre>TT-Miner.exe -coin veil -luck -log -logpool -P http://TTx:tt@127.0.0.1
-:5555</pre>
+  TT-Miner.exe -coin veil -luck -log -logpool -P http://TTx:tt@127.0.0.1
+:5555
 
 ## GPU mining with ProgPoW on mining pool
+
 Currently only WoolyPooly.com mining pool supports Veil ProgPoW. What you have to do:
 
 Create a wallet address. You can choose:
+
 * Veil [official wallet](https://veil-project.com/get-started/) (mining address starts with bv), sync it using [snapshot](https://veil.tools/snapshots/);
 * [Wooly account](https://woolypooly.medium.com/wooly-user-accounts-bc0c70345e4f) address (starts with WP).
 
 P.S. How to get basecoin address starts with bv? Go to wallet console and type this command:
 
-<pre>getnewbasecoinaddress</pre>
+  getnewbasecoinaddress
 
 Don’t know how to find wallet console? Click on Settings tab, then Advanced options menu.
 
-**Step 4. ** 
+**Step 4.** 
 
 Download a miner or choose it from HiveOS or RaveOS flight sheets:
 
 * [T-rex](https://github.com/trexminer/T-Rex/releases) (Nvidia) recommended by Wooly for Veil progpow
-
 * [WildRig](https://bitcointalk.org/index.php?topic=5023676.0) (Nvidia + AMD) recommended by Wooly for Veil progpow
-
 * [TT-miner](https://bitcointalk.org/index.php?topic=5025783.0) (Nvidia)
 
-**Step 5. ** 
+**Step 5.** 
 
 Unpack miner.
 
-**Step 6. ** 
+**Step 6.** 
 
 Edit .bat file (choose one with a Veil name), add in there your Veil or Wooly account address (workers at the end after “.” as an option) and WoolyPooly server url:
 
 For miners from Europe and Russia:
 
-[veil.woolypooly.com:3098](veil.woolypooly.com:3098) if you want to mine PPLNS
-
-[veil.woolypooly.com:3099](veil.woolypooly.com:3099) if you want to mine solo
+- [veil.woolypooly.com:3098](veil.woolypooly.com:3098) if you want to mine PPLNS
+- [veil.woolypooly.com:3099](veil.woolypooly.com:3099) if you want to mine solo
 
 For miners from USA and Canada:
 
-[veil.us.woolypooly.com:3098](veil.us.woolypooly.com:3098) if you want to mine PPLNS
+- [veil.us.woolypooly.com:3098](veil.us.woolypooly.com:3098) if you want to mine PPLNS
+- [veil.us.woolypooly.com:3099](veil.us.woolypooly.com:3099) if you want to mine solo
 
-[veil.us.woolypooly.com:3099](veil.us.woolypooly.com:3099) if you want to mine solo
-
-**Step 7. ** 
+**Step 7.** 
 
 Start Veil .bat file.
 
 T-rex .bat file example:
 
-<pre>t-rex -a progpow-veil -o stratum+tcp://veil.woolypooly.com:3098 -u WPMYWxleEB3b29seXBvb2x5LmNvbQ.rig1 -p x</pre>
+  t-rex -a progpow-veil -o stratum+tcp://veil.woolypooly.com:3098 -u WPMYWxleEB3b29seXBvb2x5LmNvbQ.rig1 -p x
 
 WildRig .bat file example:
 
-<pre>wildrig.exe --print-full --algo progpow-veil --url veil.woolypooly.com:3098 --user WPMYWxleEB3b29seXBvb2x5LmNvbQ.rig1 --pass x</pre>
+  wildrig.exe --print-full --algo progpow-veil --url veil.woolypooly.com:3098 --user WPMYWxleEB3b29seXBvb2x5LmNvbQ.rig1 --pass x
 
 TT-miner .bat file example:
 
-<pre>TT-Miner -coin VEIL -P WPMYWxleEB3b29seXBvb2x5LmNvbQ.rig1@veil.woolypooly.com:3098</pre>
+  TT-Miner -coin VEIL -P WPMYWxleEB3b29seXBvb2x5LmNvbQ.rig1@veil.woolypooly.com:3098
 
-**Step 8. ** 
+**Step 8.** 
 
 Check your statistics [here](https://woolypooly.com/#/coin/veil) by entering your wallet address.
 
@@ -164,57 +157,72 @@ AMD:
 
 Currently Veil doesn't have any CPU mining pools. The only option is to mine solo into your wallet.
 
+**Step 1.** 
+
 Download and install [Veil desktop wallet](https://veil-project.com/get-started/).
+
+**Step 2.** 
+
 Sync it using [snapshot](https://veil.tools/snapshots/).
-Go to console (Click on Settings tab, then Advanced options menu).
-Type this command:
-generatecontinuous true 'number-of-threads'
+
+**Step 3.** 
+
+Go to console (Click on Settings tab, then Advanced options menu), and type this command:
+
+  generatecontinuous true 'number-of-threads'
+
 Be aware that number of threads should be 4 and above. Also you need to leave at least 1 core to sync blocks, 1 core to do other PC work, and 1 core to stake if you are staking.
 
 To stop RandomX mining use this command:
 
-<pre>generatecontinuous false</pre>
+  generatecontinuous false
+  
 If you use cli version of Veil wallet commands should be:
 
-<pre>./veil-cli generatecontinuous true 'number-of-threads'</pre>
+  ./veil-cli generatecontinuous true 'number-of-threads'
+  
 And to stop mining:
 
-<pre>./veil-cli generatecontinuous false</pre>
+  ./veil-cli generatecontinuous false
 
 ## CPU Mining with Sha256d:
 
 Currently Veil doesn't have any Sha256d mining pools. The only option is to mine solo into your wallet.
 
-**Step 1. ** 
+**Step 1.** 
 
 Download and install [Veil desktop wallet](https://veil-project.com/get-started/).
 Sync it using [snapshot](https://veil.tools/snapshots/).
 Go to /Appdata/Roaming/Veil/ folder and create a veil.conf file with such an info:
 
-<pre>mine=sha256d</pre>
+  mine=sha256d
 
-**Step 2. ** 
+**Step 2.** 
 
 Restart the wallet to apply all the changes. 
 
-**Step 3. ** 
+**Step 3.** 
 
 Go to console (Click on Settings tab, then Advanced options menu).
 
-**Step 4. ** 
+**Step 4.** 
 
 Type this command:
 
-<pre>generatecontinuous true 'number-of-threads'</pre>
+  generatecontinuous true 'number-of-threads'
+  
 Be aware that number of threads should be 4 and above. Also you need to leave at least 1 core to sync blocks, 1 core to do other PC work, and 1 core to stake if you are staking.
 
 To stop RandomX mining use this command:
 
-<pre>generatecontinuous false</pre>
+  generatecontinuous false
+  
 If you use cli version of Veil wallet commands should be:
 
-<pre>./veil-cli generatecontinuous true 'number-of-threads'</pre>
+  ./veil-cli generatecontinuous true 'number-of-threads'
+  
 And to stop mining:
 
-<pre>./veil-cli generatecontinuous false</pre>
+  ./veil-cli generatecontinuous false
+  
 Need support? Feel free to ask on [Discord](https://discord.veil-project.com/) or [Telegram](https://t.me/VEILProject).
