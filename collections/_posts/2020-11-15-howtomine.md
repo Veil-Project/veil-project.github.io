@@ -17,7 +17,9 @@ This article covers the procedure to follow for mining after the October 31 Veil
 After the 31.10.2020 Hard Fork you can mine Veil with:
 
 -**GPU mining with ProgPoW**, Aims for 70% of all PoW blocks averaging 504 blocks per day.
+
 -**CPU mining with RandomX**, Aims for approximately 20% of all PoW blocks averaging 144 blocks per day.
+
 -**ASIC mining with SHA-256d**, Aims for approximately 10% of all PoW blocks averaging 72 blocks per day.
 
 PoW will continue to target 50% of blocks alongside PoS’s 50%. This division can deviate with varying hash power.
@@ -38,15 +40,25 @@ Sync it using [snapshot](https://veil.tools/snapshots/).
 Go to /Appdata/Roaming/Veil/ folder and create a veil.conf file with such an info:
 
   automintoff=1
+  
   rpcuser=TTx
+  
   rpcpassword=tt
+  
   rpcbind=127.0.0.1
+  
   rpcallowip=0.0.0.0/0
+  
   rpcport=5555
+  
   server=1
+  
   listen=1
+  
   gen=1
+  
   mine=progpow
+  
   miningaddress={your-address}
 
 Edit your network parameters according to your router settings.
@@ -102,6 +114,11 @@ For miners from USA and Canada:
 
 - [veil.us.woolypooly.com:3098](veil.us.woolypooly.com:3098) if you want to mine PPLNS
 - [veil.us.woolypooly.com:3099](veil.us.woolypooly.com:3099) if you want to mine solo
+
+For miners from Asia:
+
+- [veil.sg.woolypooly.com:3098](veil.sg.woolypooly.com:3098) if you want to mine PPLNS
+- [veil.sg.woolypooly.com:3099](veil.sg.woolypooly.com:3099) if you want to mine solo
 
 **Step 7.** 
 
