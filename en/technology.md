@@ -49,7 +49,7 @@ As summarized in the table, the Veil coin emission schedule includes:
 
 - A declining and capped contribution to the **founder**, to recover the seed investment from which the project has been bootstrapped.
 
-- A declining but uncapped contribution to the **Veil Labs**, to provide for ongoing research and development in privacy technologies related to cryptocurrencies.
+- A declining but uncapped contribution to the **Veil Labs**, a separate entity that will be established to provide ongoing research and development in privacy technologies related to cryptocurrencies.
 
 - A front-heavy, declining and uncapped contribution to the **Veil operations budget**, funding operations activities such as core network and wallet development, project management, online user support, bounties, marketing and partnerships.
 
