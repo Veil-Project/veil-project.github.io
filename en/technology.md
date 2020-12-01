@@ -23,6 +23,8 @@ In its first implementation, Veil combined the world’s most secure blockchain 
 
 - Today’s version of Veil still includes a de-anonymized, safe, implementation of Zerocoin; however, the upcoming release of Veil 1.2 will remove Zerocoin completely, moving to an industry-first, fully anonymous RingCT-based staking implementation.
 
+- Veil is the only protocol in the industry that support [three separate proof-of-work algorithms](https://veil-project.com/blog/pow-update/), in addition its proof-of-stake algorithm, thereby providing fair distribution to ASICs, GPUs and CPUs.
+
 - Support for the **Dandelion protocol** makes it nearly impossible to trace a transaction back to its source node on the network.
 
 - **Bulletproofs** technology will be adopted to ensure minimal transaction sizes.
