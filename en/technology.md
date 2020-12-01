@@ -23,6 +23,8 @@ The Veil Project is working to improve the state of privacy-focused cryptocurren
 
 - Today’s version of Veil still includes a de-anonymized, safe, implementation of Zerocoin; however, the upcoming release of Veil 1.2 will remove Zerocoin completely, moving to an industry-first, fully anonymous RingCT-based staking implementation.
 
+- Veil implements a hybrid **Proof-of-Work** (PoW) and **Proof-of-Stake** (PoS) consensus system, providing both fair distribution, and an unprecedented level of protocol security.
+
 - Veil is the only protocol in the industry that support [three separate proof-of-work algorithms](https://veil-project.com/blog/pow-update/), in addition its proof-of-stake algorithm, thereby providing fair distribution to ASICs, GPUs and CPUs.
 
 - Support for the **Dandelion protocol** makes it nearly impossible to trace a transaction back to its source node on the network.
@@ -30,14 +32,6 @@ The Veil Project is working to improve the state of privacy-focused cryptocurren
 - **Bulletproofs** technology will be adopted to ensure minimal transaction sizes.
 
 - Finally, research is ongoing into cutting-edge **Supersonic**, the first practical, trustless, and efficiently verifiable zero-knowledge proofs, which are smaller than 10 kilobytes and take only milliseconds to verify even for the most complex statements. Should this research prove fruitful, future generations of the Veil protocol would take advantage of this advanced technology.
-
-## Consensus algorithms
-
-The Veil network operates a hybrid **Proof-of-Work** (PoW) and **Proof-of-Stake** (PoS) consensus system. 
-
-The **Proof-of-Stake** consensus system ensures maximum decentralization, energy efficiency and provide a mechanism for all Veil holders to **earn rewards in Veil** through the process of *staking*.
-
-The **Proof-of-Work** mining system, guarantees a fair distribution of the coin, avoids the necessity of an ICO or pre-mine, and adds security to the overall network. To promote fairness of mining, Proof-of-Work mining will utilize the **ASIC-resistant X16RT hashing algorithm**, an improved version of X16R introduced by the Ravencoin project.
 
 ## User experience
 
