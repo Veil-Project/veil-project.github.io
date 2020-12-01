@@ -5,7 +5,7 @@ ref: gabrielnergaard
 username: GabrielNergaard
 permalink: /team/gabrielnergaard/
 name: Gabriel Nergaard
-role: Product Manager & Web Engineer
+role: Web, Content & Operations
 portrait: gabrielnergaard.jpg
 keybase_url: https://keybase.io/lubina
 intro: Gabriel is an entrepreneur and software engineer who began his career in the aerospace industry, and later transitioned to the consumer space, with his company producing products for brands like Google and Live Nation. His introduction to crypto and blockchain came in 2011 through a cypherpunk employee, and in 2017, his growing interest led him to begin working professionally in the space. Gabriel is responsible for product development, carefully overseeing the design of intuitive, user-friendly software for the engineers to construct. Gabriel also contributes to the Veil project in the areas of web technology, technical writing, strategy, and business development.
