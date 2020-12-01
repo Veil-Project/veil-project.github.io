@@ -21,11 +21,11 @@ The Veil Project is working to improve the state of privacy-focused cryptocurren
 
 - Veil originally integrated the **Zerocoin** protocol, based on **zero-knowledge proofs**. However, this technology is currently being deprecated in the Veil network, due to the [Zerocoin insecurities discovered in 2019](https://veil-project.com/blog/2019-09-07-exploit-update/).
 
-- Today’s version of Veil still includes a de-anonymized, safe, implementation of Zerocoin; however, the upcoming release of Veil 1.2 will remove Zerocoin completely, moving to an industry-first, fully anonymous RingCT-based staking implementation.
+- Today’s version of Veil still includes a de-anonymized, safe, implementation of Zerocoin; however, the upcoming release of Veil 1.2 will remove Zerocoin completely, moving to an **industry-first, fully anonymous RingCT-based staking implementation**.
 
 - Veil implements a hybrid **Proof-of-Work** (PoW) and **Proof-of-Stake** (PoS) consensus system, providing both fair distribution, and an unprecedented level of protocol security.
 
-- Veil is the only protocol in the industry that support [three separate proof-of-work algorithms](https://veil-project.com/blog/pow-update/), in addition its proof-of-stake algorithm, thereby providing fair distribution to ASICs, GPUs and CPUs.
+- Veil is the only protocol in the industry that support [three separate proof-of-work algorithms](https://veil-project.com/blog/pow-update/), in addition its proof-of-stake algorithm, thereby providing **fair distribution to ASICs, GPUs and CPUs**.
 
 - Support for the **Dandelion protocol** makes it nearly impossible to trace a transaction back to its source node on the network.
 
