@@ -15,7 +15,7 @@ The Veil Project is working to improve the state of privacy-focused cryptocurren
 
 ## Technology
 
-In its first implementation, Veil combined the world’s most secure blockchain software, **Bitcoin version 0.17.1**, with the cryptography-based privacy protocol, **Zerocoin** and the Particl project's **RingCT** implementation.
+- At its core, Veil is built on the world’s most secure blockchain software, **Bitcoin version 0.17.1**.
 
 - In order to provide for “always-on” privacy, Veil added **RingCT** privacy from Particl to its Basecoin transactions, such that all transaction components in the Veil network are  as anonymous as technology today can provide for.
 
