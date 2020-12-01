@@ -13,31 +13,21 @@ Across the landscape of privacy-focused cryptocurrencies, a number of general ap
 
 The Veil Project is working to improve the state of privacy-focused cryptocurrencies by creating a secure, highly anonymous coin that provides full-time privacy. In addition, Veil offers a user experience suited to the masses with self-funding to support long-term research and development by a dedicated team of researchers and blockchain developers.
 
-This document introduces the project, its technologies and its approach to long-term sustainability.
-
-## Original technology
+## Technology
 
 In its first implementation, Veil combined the world’s most secure blockchain software, **Bitcoin version 0.17.1**, with the cryptography-based privacy protocol, **Zerocoin** and the Particl project's **RingCT** implementation.
 
-- Over a decade in operation, the **Bitcoin** core software has demonstrated itself to be the most secure and battle-tested blockchain software in existence.
-
 - In order to provide for “always-on” privacy, Veil added **RingCT** privacy from Particl to its Basecoin transactions, such that all transaction components in the Veil network are  as anonymous as technology today can provide for.
 
-- The **Zerocoin** protocol is based on **zero-knowledge proofs**, a cryptographic method which allows a computation to be proven to have taken place, without knowledge of its inputs and outputs. In the case of a cryptocurrency, this computation would be a value transaction, in which the sender, receiver and amount transacted can remain anonymous.
+- Veil originally integrated the **Zerocoin** protocol, based on **zero-knowledge proofs**. However, this technology is currently being deprecated in the Veil network, due to the [Zerocoin insecurities discovered in 2019](https://veil-project.com/blog/2019-09-07-exploit-update/).
+
+- Today’s version of Veil still includes a de-anonymized, safe, implementation of Zerocoin; however, the upcoming release of Veil 1.2 will remove Zerocoin completely, moving to an industry-first, fully anonymous RingCT-based staking implementation.
 
 - Support for the **Dandelion protocol** makes it nearly impossible to trace a transaction back to its source node on the network.
 
-- Finally, **Bulletproofs** technology will be adopted to ensure minimal transaction sizes.
+- **Bulletproofs** technology will be adopted to ensure minimal transaction sizes.
 
-## Zerocoin to RingCT-staking to Supersonic
-
-Half a year after the launch of Veil in 2019, a series of vulnerabilities were discovered in the Zerocoin library which sits at the core of most Zerocoin-based protocol implementations, including Veil’s. After review, and community discussion, the Veil project, along with a number of others, concluded that Zerocoin can not be relied upon to form the anonymity core of the protocol, and began a three step transition to a new core foundation:
-
-1. **Securing the known Zerocoin vulnerabilities** —  In order to immediately protect Veil user funds, the project released an update that preserves the functional characterics of Zerocoin, but removes its unlinkability to original mints. Zerocoins minted in Veil from RingCT, still carry the anonymity inherent in RingCT, and so during the interim Veil users have some level of anonymity in spending and staking with Zerocoin if originally minted from RingCT.
-
-2. **RingCT staking** — The second step, planned for Q1 of 2020, will be to deprecate Zerocoin altogether in a protocol update that, as an industry-first, provides for staking of RingCT. During this phase, RingCT will form the core privacy foundation of Veil.
-
-3. **Supersonic** — The Veil mathematics and cryptographic team are presently validating research that should lead to a late-2020 transition to our ultimate protocol based on Supersonic, first practical, trustless, and efficiently verifiable zero-knowledge proofs, which are smaller than 10 kilobytes and take only milliseconds to verify even for the most complex statements.
+- Finally, research is ongoing into cutting-edge **Supersonic**, the first practical, trustless, and efficiently verifiable zero-knowledge proofs, which are smaller than 10 kilobytes and take only milliseconds to verify even for the most complex statements. Should this research prove fruitful, future generations of the Veil protocol would take advantage of this advanced technology.
 
 ## Consensus algorithms
 
@@ -53,7 +43,7 @@ Veil places great emphasis on user experience, and in this regard will support a
 
 For example, to avoid the necessity of file backups, the Veil wallet supports a single BIP-0039/BIP-0044 **Deterministic Seed** from which its entire wallet can be restored, including both Basecoin and Zerocoin transactions.
 
-And beginning with the RingCT protocol release, Veil will release a wallet that's been designed and built from the ground-up with an emphasis on a friendly user experience.
+And beginning with the RingCT protocol release, Veil will release a wallet, **Veil X**, that’s been designed and built from the ground-up with an emphasis on a friendly user experience.
 
 ## The Veil emission schedule
 
@@ -68,9 +58,3 @@ As summarized in the table, the Veil coin emission schedule includes:
 - A front-heavy, declining and uncapped contribution to the **Veil operations budget**, funding operations activities such as core network and wallet development, project management, online user support, bounties, marketing and partnerships.
 
 - It should be noted that the funds allocated to the Labs and operations budgets *will not stake*, meaning those funds will not disadvantage those staking in the network. Salaries paid are however free to stake.
-
-## Veil Labs
-
-Veil Labs is made up of a dedicated team with a focused mission. It is the project’s R&D entity with a goal to push the technical boundaries for privacy and anonymity without compromising scalability and performance, beginning with our industry-first release of stakeable RingCT in Q1 of 2020, followed by our research and implementation of the ground-breaking Supersonic-based protocol in late 2020.
-
-In the end, as new methods are conceived and tested, the Veil project will be the first to implement them in Veil to stay at the forefront of the industry.
