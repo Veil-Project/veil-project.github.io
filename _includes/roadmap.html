@@ -4,7 +4,7 @@
     {% assign offset = forloop.index0 | times: 4 %}
     <div class="Roadmap-row w-full flex">
       {% for milestone in site.data.milestones limit:4 offset:offset %}
-        <div class="Roadmap-milestone flex-none w-1/4 px-2 pt-16 md:pb-16 md:px-8 text-center" data-date="{{ milestone.date | date: '%Y-%m-%d' }}">
+        <div class="Roadmap-milestone flex-none w-1/4 px-2 pt-16 md:pb-16 md:px-8 text-center {% if milestone.completed %}is-past{% endif %}" data-date="{{ milestone.date | date: '%Y-%m-%d' }}">
           <div class="h-10 mb-2 text-teal text-sm font-medium leading-tight">
             {% if milestone.date %}
               {{ milestone.date | date: "%b %d, %Y" }}

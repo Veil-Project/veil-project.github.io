@@ -1,7 +1,9 @@
 - date: January 2019
+  completed: true
   title:
     en: Project Veil Launched
 - date: 2020 Q4
+  completed: true
   title:
     en: New Proof-of-Work Algorithm Suite
 - date: 2021 Q2
