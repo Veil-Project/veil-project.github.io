@@ -30,7 +30,11 @@ RandomX and SHA-256d have also been available to mine, representing a smaller nu
 
 ![](/uploads/news/2020-12-07-AsFail.png)
 
-Some users have experienced a critical problem with the wallet that warns 'Assertion failed!' and results in the shutting down of the wallet. The developers are well aware of this issue, and already have a fix committed to Master on GitHub. As the current live build of the wallet does not feature this fix, users seeking to solve this problem are encouraged to use the Master build from [GitHub](https://github.com/Veil-Project/veil). 
+Some users have experienced a critical problem with the wallet (with an Assertion failed error message) that fails the pindexWalk->pprev assertion in GetAncestor. This error occurs due to a corruption of the local blockchain on-disk storage. The corruption isn't readily detectable while the wallet is running, and will not become apparent until the user tries to start the wallet up from their corrupted block database.
+
+The developers have made changes to the block write frequency to help mitigate the corruption of local blockchain data. This improvement is not yet available in the latest release, but has been committed to Master on GitHub. Users experiencing this corruption problem are encouraged to use the master build from [GitHub](https://github.com/Veil-Project/veil).
+
+Please also note that the pre-release master build will not correct the corruption after it has occurred, so users experiencing the corruption will have to restore from a [snapshot](https://veil.tools/snapshots/) prior to being able to run with the new executables.
 
 ### Infrastructure migration
 
