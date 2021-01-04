@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title: 'Veil year’s end update for 2020'
-date: 2020-01-04
+date: 2021-01-04
 author: strontium
 permalink: /news/2020-december-update/
 categories: news
