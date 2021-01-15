@@ -4,7 +4,7 @@ lang: en
 title: 'Veil 2021 Project Itinerary'
 date: 2021-01-13
 author: strontium
-permalink: /news/2021-project-itinerary/
+permalink: /blog/2021-project-itinerary/
 categories: news
 excerpt: 'With 2020 behind us and a new year before us, it’s once again time the Veil team give a peek behind the curtain. This article covers some of the larger development objectives of 2021.'
 description: 'This article shines light on Veil’s 2021 project development objectives, giving insight into what’s to come in the new year.'
