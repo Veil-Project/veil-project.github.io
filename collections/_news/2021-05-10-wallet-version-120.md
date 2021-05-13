@@ -3,7 +3,7 @@ layout: post
 lang: en
 title: 'Veil Core mandatory wallet update v1.2.1 is now available'
 date:   2021-05-12
-author: Strontium
+author: mados
 permalink: /news/2021-wallet-121/
 categories: news
 excerpt: 'It is strongly recommended to update to this mandatory wallet version ASAP, and not to wait until the protocol enforcement fork on May 16, 2021.'
