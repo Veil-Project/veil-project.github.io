@@ -12,7 +12,7 @@ description: 'It is strongly recommended to update to this mandatory wallet vers
 
 We found a vulnerability while testing the v1.1.3 release. This vulnerability is resolved with version v1.2.1.
 
-![](/uploads/news/2020-05-12-walletupdate.png)
+![](/uploads/news/2021-05-12-walletupdate.png)
 
 Veil Core wallet v1.2.1 is a mandatory update that will enforce the new protocol on Sunday, May 16, 2021 4:00 PM GMT. If certain conditions occur, a fork could happen anytime between block 1,212,090 and the protocol enforcement fork date.
 
