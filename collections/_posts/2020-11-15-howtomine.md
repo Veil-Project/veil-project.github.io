@@ -71,8 +71,7 @@ Restart the wallet to apply all the changes.
 
 Launch TT-miner .bat file with:
 
-  TT-Miner.exe -coin veil -luck -log -logpool -P http://TTx:tt@127.0.0.1
-:5555
+  TT-Miner.exe -coin veil -luck -log -logpool -P http://TTx:tt@127.0.0.1:5555
 
 ## GPU mining with ProgPoW on mining pool
 
