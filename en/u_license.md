@@ -17,7 +17,7 @@ Veil is open-source, and covered by the MIT License. For projects wishing to for
 
 The guidelines for the Partnership Program are as follows:
 
-- Payment of a one-time fee of 10,000 Veil or 25,000 USD, whichever is less, to the Veil Global Redistribution Address. All proceeds of the program are redistributed to Veil holders in the form of additional staking rewards.
+- ~~Payment of a one-time fee of 10,000 Veil or 25,000 USD, whichever is less,~~ to the Veil Global Redistribution Address. All proceeds of the program are redistributed to Veil holders in the form of additional staking rewards.
 
 - Partner projects must include a fair coin distribution, no ICOs, no premines, or must fork the Veil blockchain.
 
