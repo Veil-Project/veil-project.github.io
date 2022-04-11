@@ -30,6 +30,7 @@ You can mine Veil with ProgPoW solo or on pool. However, Veil ProgPoW difficulty
 
 ## Solo GPU mining with ProgPoW
 
+### Solo mining with TT-miner
 [TT-miner](https://bitcointalk.org/index.php?topic=5025783.0) (Nvidia GPU only) has a solo mining feature through the full local node. What you have to do:
 
 **Step 1.** 
@@ -72,6 +73,9 @@ Restart the wallet to apply all the changes.
 Launch TT-miner .bat file with:
 
   TT-Miner.exe -coin veil -luck -log -logpool -P http://TTx:tt@127.0.0.1:5555
+
+### Solo mining with T-Rex miner (and WildRig?) (added: 2022-04-10)
+The TT-miner instructions to mine directly to your local full node, above, don't work with other mining software, so a **STRATUM PROXY** has been developed. Instructions are contained on the repository for the stratum proxy at [github.com/us77ipis/veil-node-stratum-proxy](https://github.com/us77ipis/veil-node-stratum-proxy).
 
 ## GPU mining with ProgPoW on mining pool
 
