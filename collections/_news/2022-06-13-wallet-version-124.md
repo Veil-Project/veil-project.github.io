@@ -2,7 +2,7 @@
 layout: post
 lang: en
 title: 'Veil Core wallet update v1.2.4 is now available'
-date:   2022-06-26
+date:   2022-06-13
 author: sean
 permalink: /news/2022-wallet-124/
 categories: news
