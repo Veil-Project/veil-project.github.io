@@ -4,7 +4,7 @@ lang: en
 title: 'Veil 2021 Project Itinerary'
 date: 2021-01-13
 author: strontium
-permalink: /news/2021-project-itinerary/
+permalink: /blog/2021-project-itinerary/
 categories: news
 excerpt: 'With 2020 behind us and a new year before us, it’s once again time the Veil team give a peek behind the curtain. This article covers some of the larger development objectives of 2021.'
 description: 'This article shines light on Veil’s 2021 project development objectives, giving insight into what’s to come in the new year.'
@@ -103,15 +103,13 @@ With the above stated, Veil’s listing on [TradeOgre exchange](https://tradeogr
 
 **Communication**
 
-The community’s communication survey feedback was very positive. It’s very clear the monthly updates, GitHub visibility bot, contests, and other avenues of communication with the community are greatly appreciated. We will continue bringing you these and more throughout 2021.
-
-We’ll also be finding out more about Veiliens, Veil’s community rewards program, and its juicy higher tier prizes in a dedicated announcement soon. If you haven’t yet learned about Veiliens check the [#veiliens channel](https://discord.gg/UzUdXGY3nM) on the Veil Discord server.
+The community’s communication survey feedback was very positive. It’s very clear the monthly updates, GitHub visibility bot, and other avenues of communication with the community are greatly appreciated. We will continue bringing you these and more throughout 2021.
 
 **Marketing**
 
 In 2020 Veil leaned on cautious, focused marketing as we worked hard on the version 1.1 wallet. The release of 1.1 greatly improved key areas such as the PoW mining overhaul and the orphan pruning measures. We subsequently saw in an influx of new miners exposed to Veil through our efforts with [WoolyPooly mining pools](https://woolypooly.com/#/) and [WhatToMine](https://whattomine.com/).
 
-With 1.2 on the horizon marketing will be ramping up. This means more insightful website blog articles shared on social, more contests with bigger prizes, interviews with crypto personalities, paid promotion, and more!
+We will continue to assess and pursue marketing opportunities throughout the year. 
 
 ## FAQS
 

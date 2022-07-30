@@ -13,12 +13,13 @@ All notable changes to this project will be documented in this file. The format 
 
 While all issues are canonically tracked in our [GitHub Issues List](https://github.com/Veil-Project/veil/issues), the following are major open wallet issues users should be aware of. If the issue is OS-specific, it will be indicated as such. Otherwise, GENERAL will be used.
 
-- GENERAL: Address book/Contacts show the wrong address type.
+- ~~ GENERAL: Address book/Contacts show the wrong address type. ~~
 - GENERAL: Mining rewards can only be received through basecoin "bv" addresses which can be generated with console command: `getnewbasecoinaddress`
-- GENERAL: Funds are displayed late or not displayed (still visible on block explorer).
+- GENERAL: Funds are displayed late or not displayed (still visible on block explorer). -- Set Hide Orphans to false
 - GENERAL: Balances and fees are displayed incorrectly.
-- WINDOWS: Autominting denomination resets to 10 after restarting the wallet. Set your preferred automint denomination by setting `nautomintdenom=X` (where `X` is 10, 100, 1000, or 10000) in the veil.conf file.
+- ~~WINDOWS: Autominting denomination resets to 10 after restarting the wallet. Set your preferred automint denomination by setting `nautomintdenom=X` (where `X` is 10, 100, 1000, or 10000) in the veil.conf file.~~
 - GENERAL: Wallet transaction overview sometimes displays incorrect labels and transaction amounts. For accurate amount information, check transaction ID on the [Veil Block Explorer](https://explorer.veil-project.com/).
+- ** There has evidently been a gap in maintaining this changelog. Please refer to Github for issues. **
 
 ## [1.0.3] - 2019-04-27
 - ADDED: Activation of [Zerocoin Limp Mode](https://github.com/Veil-Project/veil/pull/544)
