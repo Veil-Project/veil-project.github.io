@@ -106,22 +106,22 @@ Unpack miner.
 
 **Step 6.** 
 
-Edit .bat file (choose one with a Veil name), add in there your Veil or Wooly account address (workers at the end after “.” as an option) and WoolyPooly server url:
+Edit .bat file (choose one with a Veil name), add in there your Veil or Wooly account address (workers at the end after “.” as an option) and WoolyPooly server url (URL changed September 2022):
 
 For miners from Europe and Russia:
 
-- [veil.woolypooly.com:3098](veil.woolypooly.com:3098) if you want to mine PPLNS
-- [veil.woolypooly.com:3099](veil.woolypooly.com:3099) if you want to mine solo
+- [pool.eu.woolypooly.com:3098](pool.eu.woolypooly.com:3098) if you want to mine PPLNS
+- [pool.eu.woolypooly.com:3099](pool.eu.woolypooly.com:3099) if you want to mine solo
 
 For miners from USA and Canada:
 
-- [veil.us.woolypooly.com:3098](veil.us.woolypooly.com:3098) if you want to mine PPLNS
-- [veil.us.woolypooly.com:3099](veil.us.woolypooly.com:3099) if you want to mine solo
+- [pool.us.woolypooly.com:3098](pool.us.woolypooly.com:3098) if you want to mine PPLNS
+- [pool.us.woolypooly.com:3099](pool.us.woolypooly.com:3099) if you want to mine solo
 
 For miners from Asia:
 
-- [veil.sg.woolypooly.com:3098](veil.sg.woolypooly.com:3098) if you want to mine PPLNS
-- [veil.sg.woolypooly.com:3099](veil.sg.woolypooly.com:3099) if you want to mine solo
+- [pool.sg.woolypooly.com:3098](pool.sg.woolypooly.com:3098) if you want to mine PPLNS
+- [pool.sg.woolypooly.com:3099](pool.sg.woolypooly.com:3099) if you want to mine solo
 
 **Step 7.** 
 
