@@ -19,35 +19,37 @@ The Veil Project is working to improve the state of privacy-focused cryptocurren
 
 - In order to provide for “always-on” privacy, Veil added **RingCT** privacy from Particl to its Basecoin transactions, such that all transaction components in the Veil network are  as anonymous as technology today can provide for.
 
-- Veil originally integrated the **Zerocoin** protocol, based on **zero-knowledge proofs**. However, this technology is currently being deprecated in the Veil network, due to the [Zerocoin insecurities discovered in 2019](https://veil-project.com/blog/2019-09-07-exploit-update/).
+- Veil originally integrated the **Zerocoin** protocol, based on **zero-knowledge proofs**. However, this technology is currently being deprecated in the Veil network, due to the [Zerocoin insecurities discovered in 2019](/blog/2019-09-07-exploit-update/).
 
-- Today’s version of Veil still includes a de-anonymized, safe, implementation of Zerocoin; however, the upcoming release of Veil 1.2 will remove Zerocoin completely, moving to an **industry-first, fully anonymous RingCT-based staking implementation**.
+- The existing version of Veil includes a de-anonymized, safe, implementation of Zerocoin; however, a development version of Veil is testing the removal of Zerocoin completely, to move to an **industry-first, fully anonymous RingCT-based staking implementation**.
 
 - Veil implements a hybrid **Proof-of-Work** (PoW) and **Proof-of-Stake** (PoS) consensus system, providing both fair distribution, and an unprecedented level of protocol security.
 
-- Veil is the only protocol in the industry that support [three separate proof-of-work algorithms](https://veil-project.com/blog/pow-update/), in addition its proof-of-stake algorithm, thereby providing **fair distribution to ASICs, GPUs and CPUs**.
+- Veil is the only protocol in the industry that support [three separate proof-of-work algorithms](/blog/pow-update/), together with a private proof-of-stake algorithm, thereby providing **fair distribution to ASICs, GPUs and CPUs**.
 
-- Support for the **Dandelion protocol** makes it nearly impossible to trace a transaction back to its source node on the network.
+- Use of the **Dandelion protocol** makes it nearly impossible to trace a transaction back to its source node on the network.
 
-- **Bulletproofs** technology will be adopted to ensure minimal transaction sizes.
+- The adoption of **bulletproofs** is planned in order to ensure minimal transaction sizes.
 
-- Finally, research is ongoing into cutting-edge **Supersonic**, the first practical, trustless, and efficiently verifiable zero-knowledge proofs, which are smaller than 10 kilobytes and take only milliseconds to verify even for the most complex statements. Should this research prove fruitful, future generations of the Veil protocol would take advantage of this advanced technology.
+- Research is ongoing into cutting-edge **Supersonic**, the first practical, trustless, and efficiently verifiable zero-knowledge proofs, which are smaller than 10 kilobytes and take only milliseconds to verify even for the most complex statements. Should this research prove fruitful, future generations of the Veil protocol will take advantage of this advanced technology.
 
 ## User experience
 
-Veil places great emphasis on user experience, and in this regard will support a number of experiential benefits.
+Veil places great emphasis on user experience, and in this regard supports a number of experiential benefits.
 
-For example, to avoid the necessity of file backups, the Veil wallet supports a single BIP-0039/BIP-0044 **Deterministic Seed** from which its entire wallet can be restored, including both Basecoin and Zerocoin transactions.
+For example, to avoid *the necessity* of file backups, the Veil wallet supports a single BIP-0039/BIP-0044 **Deterministic Seed** from which its entire wallet can be restored, including both Basecoin and Zerocoin transactions. We still recommend occasional file backups _(available by simply clicking "Backup Wallet" in the Settings screen)_ for an easier restoration process.
 
-And beginning with the RingCT protocol release, Veil will release a wallet, **Veil X**, that’s been designed and built from the ground-up with an emphasis on a friendly user experience.
+And ready for use with the RingCT protocol release (where spending and staking are all done using the RingCT protocol, simplifying wallet operations), is the **Veil X** wallet, which has been designed and built from the ground-up with an emphasis on a friendly user experience.
 
 ## The Veil emission schedule
 
-![](/uploads/emission-schedule-white.png)
+![](/uploads/emission-schedule-white-is_obsolete_.jpg)
+
+[Edit December 2022: Correcting the emissions schedule to account for well-publicised events in 2019 relating to zerocoins, and leading to the founder giving up the founder reward. _For the benefit of newer Veil users, and a reminder to old, here is the announcement relating to it:_ [2019-08-exploit](/news/2019-08-exploit/).] Related details also are in: [2019-07-07-exploit-update](/blog/2019-09-07-exploit-update/). To see how this has played out in the actual Veil Superblocks, and where the founder reward was eliminated, check this retrospective superblocks data ([spreadsheet PDF](/uploads/Superblocks.202212.pdf)). 
 
 As summarized in the table, the Veil coin emission schedule includes:
 
-- A declining and capped contribution to the **founder**, to recover the seed investment from which the project has been bootstrapped.
+- A declining and capped contribution to the **founder**, to recover the seed investment from which the project has been bootstrapped. _The final Founder reward was paid in the first anniversary Superblock on January 6th, 2020 for reasons specified above._
 
 - A declining but uncapped contribution to the **Veil Labs**, a separate entity that will be established to provide ongoing research and development in privacy technologies related to cryptocurrencies.
 
