@@ -25,7 +25,7 @@ The Veil Project is working to improve the state of privacy-focused cryptocurren
 
 - Veil implements a hybrid **Proof-of-Work** (PoW) and **Proof-of-Stake** (PoS) consensus system, providing both fair distribution, and an unprecedented level of protocol security.
 
-- Veil is the only protocol in the industry that support [three separate proof-of-work algorithms](/blog/pow-update/), together with a private proof-of-stake algorithm, thereby providing **fair distribution to ASICs, GPUs and CPUs**.
+- Veil is the only protocol in the industry supporting [three separate proof-of-work algorithms](/blog/pow-update/), together with a private proof-of-stake algorithm, thereby providing **fair distribution to ASICs, GPUs and CPUs**.
 
 - Use of the **Dandelion protocol** makes it nearly impossible to trace a transaction back to its source node on the network.
 
