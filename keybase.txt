@@ -54,3 +54,60 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/4x13
 
 ==================================================================
+
+==================================================================
+https://keybase.io/seanphillips
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://veil-project.com
+  * I am seanphillips (https://keybase.io/seanphillips) on keybase.
+  * I have a public key ASAhg-ooQ5bf1i76_d6es_FoYlC8ES43teZd58z2MZMJUwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202183ea284396dfd62efafdde9eb3f1686250bc112e37b5e65de7ccf6319309530a",
+      "host": "keybase.io",
+      "kid": "01202183ea284396dfd62efafdde9eb3f1686250bc112e37b5e65de7ccf6319309530a",
+      "uid": "634411dc54d0bd1d90a7bd88f0e9e119",
+      "username": "seanphillips"
+    },
+    "merkle_root": {
+      "ctime": 1676083415,
+      "hash": "b3412466e21fb0d836117986d1d25e434648cbdbd7f5082071bcad5fb055cfe941d4ac82aee25e489f727269472d35d968ed847337022f2171a2cacc75fa462f",
+      "hash_meta": "1c2c5f33615df8eb5c2e6efedc8aa3096357d74337baf1877e1df0586c98d242",
+      "seqno": 24029315
+    },
+    "service": {
+      "entropy": "GFcePKRfc0JI+Oi/O+uf1DyD",
+      "hostname": "veil-project.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.4"
+  },
+  "ctime": 1676083447,
+  "expire_in": 504576000,
+  "prev": "eb755da62a43a6c6e95663f820d812f4e3eb132d06f9de9c5fa78fa6759fd5e2",
+  "seqno": 55,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgIYPqKEOW39Yu+v3enrPxaGJQvBEuN7XmXefM9jGTCVMKp3BheWxvYWTESpcCN8Qg63VdpipDpsbpVmP4INgS9OPrEy0G+d6cX6ePpnWf1eLEIA0DK0VeAoFxlz++zRtFrqEg/DjayX92PgEcELe0L8vPAgHCo3NpZ8RAMEcQsVPAUfD+oPpzqXhnR0N60Y2wFESrGDLB8o3Z+1NL6MjyODRQ8aRQQp55qRaCholavtD+qOvgGMG9HsXPBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICKMtLyxvILi6B6hMS2J+gmuwjxQjQRjZwnToCM5Vzp3o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/seanphillips
+
+==================================================================
