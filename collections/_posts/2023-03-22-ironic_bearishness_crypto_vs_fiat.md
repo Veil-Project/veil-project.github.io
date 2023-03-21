@@ -4,7 +4,7 @@ lang: en
 title: 'The ironic bearishness of using crypto as cash'
 date: 2023-03-22
 author: sean
-permalink: /blog/2023-sponsorship-strategies-cash-vs-crypto/
+permalink: /blog/ironic-bearishness-fiat-vs-crypto/
 categories: blog
 excerpt: 'Would using fiat or Bitcoin be more effective for sponsoring Veil devs, or use only Veil?'
 description: 'We are Veiliens, so we should prefer to use Veil exclusively when paying a developer, right? The ironic bearishness of using Bitcoin as Cash.'
