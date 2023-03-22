@@ -12,6 +12,8 @@ description: 'We are Veiliens, so we should prefer to use Veil exclusively when 
 
 ## The Ironic Bearishness of using VEIL as Cash
 
+![AddAddressForSatoShe](/uploads/sendVeil-AddAddress.jpg)
+
 I and many others are long-time proponents of using both Veil and Bitcoin as cash. A discussion has arisen in the Veil community of people sponsoring developers working on specific development projects, although this is applicable to any Veil Project role.
 
 One commented that as we are “Veiliens” we would surely prefer all remuneration to be done using Veil. This should communicate our preference for and support of Veil as a currency, and certainly it is superior as a privacy coin, but there are some factors that unexpectedly, or ironically, as some would put it, work the opposite!
@@ -28,6 +30,7 @@ It should also be noted that no Veil team member is receiving 100,000 Veil in a 
 
 Before that, let’s consider a managed approach to using Veil as an incentive. The sponsor has the Veil already, as should be expected for a Veilien believer, so he pays the developer, and at the same time places buy orders for **the full amount** that the developer will need to sell for his or her essential needs. However low the sponsor places his buy orders is the maximum extractable value that the developer can likely instantly gain from the market, BUT there might be other sellers, and the developer might not manage to sell all of the sponsorship before the sponsor’s BIDs are all taken. So, the sponsor needs to bid for a greater amount of Veil or the value transfer from the sponsor to the developer may fail. This has inefficiencies, as the sponsor has to budget more than the value the developer will gain from the transaction, and both will have to play the market, distracting both from developing Veil.
 
+![Fiat](/uploads/money-paper-material-circle-cash-currency-exchange-swiss-francs-479162.jpg)
 
 Now, let’s consider the fiat sponsorship approach, _much as we instinctively abhor and avoid fiat currencies._ Assuming the sponsor and the sponsored both are able to use the given fiat currency, not at all certain these days, so long as there are no transaction fees, and no interference from banking or government agencies, the full value of the sponsorship will be enjoyed by the beneficiary of that sponsorship, and they will be able to put their full efforts into the necessary developments they have been hired to do. At the same time, the sponsor, a faithful Veilien, can hold on to their (more) valuable (to them) Veil, to be used when the product of the development work has been able to make Veil more popular. Furthermore, the developer seeing how they are improving the ecosystem, may be motivated to budget some percentage of their earnings, from the sponsorship or from other income, into buying some Veil for themselves! This will be Veil that does not get dumped on the market.
 
