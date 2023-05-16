@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Install Veil GUI Wallet linux</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+</head>
+<style>
+    body {background-image: url('VEILBG-FULL.png'); background-repeat: no-repeat; background-position: center; background-size: cover;}
+	h1 {text-align: center; color: #3890c8 ; padding-top: 5px; padding-bottom: 10px; font-size: 32px; border-bottom: #3890c8 3px solid; overflow: hidden; margin-left: 15%; margin-right: 15%;}
+	h2 {color: #80fcfd; padding-top: 20px; font-size: x-large; margin-left: 5%;}
+	ul, li {font-size: large; font-family: 'Times New Roman', Times, serif; padding: 5px; color: whitesmoke; margin-left: 5%; margin-right: 5%;}
+	a:link {color: #3890c8;}
+	a:hover {color: black;}
+	a:active {color: beige;}
+	a:visited {color: greenyellow;}
+	footer {text-align: center; padding-top: 25px;}
+	code {font-family: Consolas,"courier new";color: #ffffff;background-color: rgb(0, 0, 0);padding: 2px;font-size: 105%;}
+</style>
+<body>
+	<h1>How to download, install, and start the Veil QT Wallet and Snapshot using Linux</h1>
+	<h2>Requirements:</h2>
+	<ol>
+		<li>A decent internet connection.</li>
+		<li>At least 23.5GB (at the time of writing) of free storage to download the blockchain.</li>
+	</ol>
+	<h2>Download and starting the veil core wallet:</h2>
+	<ol>
+		<li>Download the most up to date wallet from the <a href="https://github.com/Veil-Project/veil/releases" target="_blank" rel="noopener noreferrer">Veil Github</a>. Choose the appropriate version for your operating system (Windows, Mac, or Linux). I will be using Ubuntu 22.04 in this example.</li>
+		<li>Download the wallet software on your computer. For this example I will choose <b>x86_64-linux-binaries.zip.</b></li>
+		<li>Once downloaded unzip the <b>x86_64-linux-binaries</b> and extract to an easy to find file location. I'm extracting to my desktop for simplicity.</li>
+		<li>Navigate to the <b>x86_64-linux-binaries</b>. Right click on the veil-qt and select properties, permissions, and click <b>Allow executing file as program</b>. Then close window.</li>
+		<li>Now right click the veil-qt icon and click run as program or use the terminal and start the wallet with <code>./veil-qt </code>.</li>
+	</ol>		
+	<h2>Wallet startup and Seed phrase:</h2>	
+	<ol>
+        <li>The wallet should open to the "Welcome to VEIL" screen.</li>
+        <li>Use the default data directory. Click OK.</li>
+        <li>Choose the language you wish. Click NEXT.</li>
+        <li>Create wallet. Click NEXT.</li>
+        <li>Get a pen paper or whatever and record and NEVER LOSE YOU SEED WORDS. Click Reveal seed phrase.</li>
+        <li>Record the 24-word seed phrase. Only after you record your seed phrase. Press Next.</li>
+        <li>Enter your 24-word seed phrase. Press Next.</li>
+        <li>Let the wallet run for a few minutes. Then close the wallet.</li>
+	</ol>	
+    <h2>Downloading and installing the snapshot:</h2>   
+	<ol> 
+        <li>Go to <a href="https://veil.tools/" target="_blank" rel="noopener noreferrer" >Veil Tools</a> and download the snapshot. Make sure you download the one closest to your region. Wait time will vary. <i>Maybe</i> go buy some Veil to stake while it's downloading.</li>
+		<li>Extract the snapshot. I'm extracting to my desktop again.</li>
+		<li>Open your file browser, go to home folder and click on the ".veil" folder. If the <b>.veil</b> folder is not there, click the menu bar button (the one with 3 lines on the top nav bar. Near the minimize button at the top of the window) and check <code>Show Hidden Files.</code> Ctrl + h should work as well to show hidden files.</li>
+		<li>Open the <b>.veil</b> folder. Inside delete <b>ONLY</b> the <b>blocks, chainstate, indexes, and zerocoin</b> folders. </li>
+		<li>Copy (or cut) and paste <b>each folder</b> from the snapshot into the .veil folder; <code>blocks</code>, <code>zerocoin</code>, <code>indexes</code>, and <code>chainstate</code>. Wait until they all appear in the folder.<br> (If preferred, you can select, drag and drop them instead of copy and paste. <i>Cut and paste or drag and drop is faster than copy and paste, unless it is going from one storage drive to a different one.</i>)</li>
+		<li>Once it all transfers. Close the window.</li> 
+	</ol>
+	<h2>Starting the wallet after snapshot:</h2>	
+	<ol>
+		<li>Right click on the veil-qt click run as a program or use the terminal and start the wallet with <code>./veil-qt</code>.</li>
+		<li>After starting, the wallet will not be fully synced to the current block. It will take a little more time to sync from when the snapshot was created up to the present time.</li>
+	</ol>
+	<h2>Get a basecoin address:</h2>
+	<ol>	
+		<li>If your preferred cryptocurrency exchange does not process withdrawals to a standard Veil "stealth address"</i> beginning with "sv" then you may need to generate a basecoin address, which begins with "bv". This is public, like a Bitcoin address. On receiving a basecoin transaction you should send the amount to your stealth address like this: <br><code>sendbasecointostealth svYourVeilStealthAddressHere Amount </code> You can type a half or one Veil less to allow for the much more tiny transaction fee, and the change will also flow to your "stealth" balance along with the amount sent, or you can type the full amount, and add <code> "" "" true </code> to the end of the command.</li>
+		<li>If you get a pop-up screen stating your wallet is still synchronizing with the Veil network, click <b>Hide</b>. You should see a "Looks like you are new here" page. There are lots of good information here about coin types, encryption, and so on.</li>
+		<li>To get a basecoin address you must click the gear icon on the right side tab. Click <b>Advanced Options</b>. Click the <b>Console</b> tab. Then type <code>getnewbasecoinaddress</code>. Press enter. Then a bv address will appear. This is your new basecoin address. <br>You may like to give your address a description such as <code>getnewbasecoinaddress "Withdraw from TradeOgre"</code>.</li>
+	</ol>
+	<h2>Verify if synced:</h2>
+	<ol>
+		<li>Once the wallet has finished syncing, the syncing progress dialog disappears, and the "Last block time" in the bottom line of the wallet will show the most recent block time. If the syncing progress dialog is still visible or to the left of the "Last block time" it still says "Synchronizing with network..." or "Syncing Headers" or "Connecting to peers", then the wallet is still syncing. To get back to the syncing progress dialog, simply (single) click on that message to the left of the "Last block time" in the bottom line of the wallet.</li>
+	</ol>
+</body>
+<footer>
+	<h3>For more assistance visit the <a href="https://discord.veil-project.com" target="_blank" rel="noopener noreferrer">Veil discord</a> or the <a href="https://veil.freshdesk.com/support/home" target="_blank" rel="noopener noreferrer">Help Desk</a>. </h3>
+</footer>
+</html>
