@@ -14,7 +14,7 @@ description: 'The Veil team and community have relaunched development and market
 You may have noticed that certain Veil Telegram groups have been reopened, including the Bounty Telegram. 
 There may also be other places where old Veil bounties have been posted! Please check them out and we will look into whether they remain relevant.
 
-"Ohcee" (Github name) received bounty for a new <a href="/uploads/setup_guides/Linux-Veil-Wallet-install.html">Ubuntu GUI SETUP GUIDE for the Veil core wallet</a>. 2023-05-16 This is also linked from the [Wallet download / Get Started page](/get-started/).
+"Ohcee" (Github name) received bounty for a new <a href="/uploads/setup_guides/Veil-wallet-install-Linux-GUI.html">Ubuntu GUI SETUP GUIDE for the Veil core wallet</a>. 2023-05-16 This is also linked from the [Wallet download / Get Started page](/get-started/).
 
 - The Veil Project: [https://veil-project.com](https://veil-project.com)
 - Veil Project, Discord: [https://discord.veil-project.com](https://discord.veil-project.com)
