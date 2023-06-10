@@ -1,10 +1,10 @@
 ---
 layout: post
 lang: en
-title: 'MAY-JUNE TLDR / Catching up on Veil Discord and Twitter'
-date: 2023-06-11
+title: 'MAY JUNE TLDR ... Catching up on Veil Discord and Twitter'
+date: 2023-06-10
 author: sean
-permalink: /blog/second-setup-guide-and-other-things/
+permalink: /blog/2023-May-June-blog-update/
 categories: blog
 excerpt: 'For another bounty the recent Linux (GUI) setup guide has been joined by its macOS equivalent. Some code commits, especially to make it more friendly, have been made to the master branch ready for a minor wallet update.'
 description: 'Added another Veil wallet setup guide for the GUI wallet has been uploaded. Some help in the wallet has been added and made more accessible.'
