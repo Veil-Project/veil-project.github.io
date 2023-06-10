@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Install Veil GUI Wallet MacOS</title>
+	<link href="ohcee_guides.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1>How to download, install, and start the Veil Qt Wallet and Snapshot using MacOS</h1>
+	<h2>Requirements:</h2>
+	<ol>
+		<li>A decent internet connection.</li>
+		<li>At least 23.5GB (at the time of writing) of free storage to download the blockchain.</li>
+	</ol>
+	<h2>Downloading and starting the veil core wallet:</h2>
+	<ol>
+		<li>Download the most up to date wallet from the <a href="https://github.com/Veil-Project/veil/releases" target="_blank" rel="noopener noreferrer">Veil Github</a>. Choose the appropriate version for your operating system (Windows, Mac, or Linux). I will be using MacOS Ventura 13.3.1 in this example.</li>
+		<li>Download the wallet software on your computer. For this example I will choose <b>macosx-binaries.zip.</b></li>
+		<li>Once downloaded unzip the <b>macosx-binaries.zip</b> and extract to an easy to find file location. I'm extracting to my desktop for simplicity.</li>
+		<li>Open a terminal window. Type <code>cd Desktop</code> then enter.</li> 
+        <li>Then <code>cd macosx-binaries</code> then enter to get into the binaries folder.</li>
+        <li>Now type <code>chmod -R a+rwx veil-qt</code> then enter. Then close the window.</li>
+        <li>Open the <b>macosx-binaries</b> folder on the desktop. Then right click <b>veil-qt</b> and select open with terminal.</li>
+        <li>It will ask if you want open the <b>veil-qt</b>. Click open.</li>
+	</ol>		
+	<h2>Wallet startup and Seed phrase:</h2>	
+	<ol>
+        <li>The wallet should open to the "Welcome to VEIL" screen.</li>
+        <li>Use the default data directory. Click OK.</li>
+        <li>Choose the language you wish. Click NEXT.</li>
+        <li>Create wallet. Click NEXT.</li>
+        <li>Get a pen paper or whatever and record and NEVER LOSE YOU SEED WORDS. Click Reveal seed phrase.</li>
+        <li>Record the 24-word seed phrase. Only after you record your seed phrase. Press Next.</li>
+        <li>Enter your 24-word seed phrase. Press Next.</li>
+        <li>Let the wallet run for a few minutes. Then close the wallet.</li>
+	</ol>	
+    <h2>Downloading and installing the snapshot:</h2>   
+	<ol> 
+        <li>Go to <a href="https://veil.tools/" target="_blank" rel="noopener noreferrer" >Veil Tools</a> and download the snapshot. Make sure you download the one closest to your region. Wait time will vary. <i>Maybe</i> go buy some Veil to stake while it's downloading.</li>
+		<li>Extract the snapshot. I'm extracting to my desktop again.</li>
+		<li>Open your finder, go to the home folder and look for <b>Library</b>. If not there press 'Command' + 'Shift' + '.' (that's a period) to show the hidden files. Then click <b>Library/Application Support/Veil</b>. </li>
+		<li>Open the <b>Veil</b> folder. Inside delete <b>ONLY</b> the <b>blocks, chainstate, indexes, and zerocoin</b> folders. </li>
+		<li>Copy (or cut) and paste <b>each folder</b> from the snapshot into the <b>Veil</b> folder; <code>blocks</code>, <code>zerocoin</code>, <code>indexes</code>, and <code>chainstate</code>. Wait until they all appear in the folder.<br> (If preferred, you can select, drag and drop them instead of copy and paste. <i>Cut and paste or drag and drop is faster than copy and paste, unless it is going from one storage drive to a different one.</i>)</li>
+		<li>Once it all transfers. Close the window.</li> 
+	</ol>
+	<h2>Starting the wallet after snapshot:</h2>	
+	<ol>
+		<li>If you followed the directions above you should be able to just double click the <code>veil-qt</code> icon. Or use the terminal and start the wallet with <code>./veil-qt</code>.</li>
+		<li>After starting, the wallet will not be fully synced to the current block. It will take a little more time to sync from when the snapshot was created up to the present time.</li>
+	</ol>
+	<h2>Get a basecoin address:</h2>
+	<ol>	
+		<li>If your preferred cryptocurrency exchange does not process withdrawals to a standard Veil "stealth address" beginning with "sv" then you may need to generate a basecoin address, which begins with "bv". This is public, like a Bitcoin address. On receiving a basecoin transaction you should send the amount to your stealth address like this: <br><code>sendbasecointostealth svYourVeilStealthAddressHere Amount </code> You can type a half or one Veil less to allow for the much more tiny transaction fee, and the change will also flow to your "stealth" balance along with the amount sent, or you can type the full amount, and add <code> "" "" true </code> to the end of the command.</li>
+		<li>If you get a pop-up screen stating your wallet is still synchronizing with the Veil network, click <b>Hide</b>. You should see a "Looks like you are new here" page. There are lots of good information here about coin types, encryption, and so on.</li>
+		<li>To get a basecoin address you must click the gear icon on the right side tab. Click <b>Advanced Options</b>. Click the <b>Console</b> tab. Then type <code>getnewbasecoinaddress</code>. Press enter. Then a bv address will appear. This is your new basecoin address. <br>You may like to give your address a description such as <code>getnewbasecoinaddress "Withdraw from TradeOgre"</code>.</li>
+	</ol>
+	<h2>Verify if synced:</h2>
+	<ol>
+		<li>Once the wallet has finished syncing, the syncing progress dialog disappears, and the "Last block time" in the bottom line of the wallet will show the most recent block time. If the syncing progress dialog is still visible or to the left of the "Last block time" it still says "Synchronizing with network..." or "Syncing Headers" or "Connecting to peers", then the wallet is still syncing. To get back to the syncing progress dialog, simply (single) click on that message to the left of the "Last block time" in the bottom line of the wallet.</li>
+	</ol>
+</body>
+<footer>
+	<hr>
+	<h3>For more assistance visit the <a href="https://discord.veil-project.com" target="_blank" rel="noopener noreferrer">Veil discord</a> or the <a href="https://veil.freshdesk.com/support/home" target="_blank" rel="noopener noreferrer">Help Desk</a>. </h3>
+	<h3><a href="https://veil-project.com/" target="_blank" rel="noopener noreferrer">Veil Project</a></h3>
+</footer>
+</html>
