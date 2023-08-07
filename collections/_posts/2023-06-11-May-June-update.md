@@ -64,9 +64,9 @@ The VEIL price and volume, last time checked on CoinGecko, there seems to be a b
 
 On the other hand, on CoinMarketCap they are using PROBIT's data, which in fact has days of zero volume, while TradeOgre's price and volume is perfectly correct, just not what CoinGecko is currently showing you!
 
-[CoinGecko-priceError](/uploads/blog/2023-06-11-CoinGeckoError.jpg)
+[CoinGecko-priceError](/uploads/blog/2023-06-11-CoinGeckoError.jpg) {Update: This error rarely happens. The CoinGecko price display is usually perfectly fine. See <a href="https://www.coingecko.com/en/coins/veil"  target="_blank" rel="noopener noreferrer">coingecko.com/en/coins/veil</a> .}
 
-Please check the Veil markets directly for the time being!
+Veil traders can, of course, check the Veil markets directly.
 - <a href="https://tradeogre.com/exchange/VEIL-BTC"  target="_blank" rel="noopener noreferrer">tradeogre.com/exchange/VEIL-BTC</a>
 - <a href="https://www.probit.com/app/exchange/VEIL-BTC"  target="_blank" rel="noopener noreferrer">Probit.com...VEIL/BTC</a>
 - <a href="https://www.probit.com/app/exchange/VEIL-USDT"  target="_blank" rel="noopener noreferrer">Probit.com...VEIL/USDT</a>
