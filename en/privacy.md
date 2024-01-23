@@ -13,12 +13,12 @@ Veil project is a strong advocate of user privacy, and so collects and retains i
 User data retained by Veil:
 
 | Data type | Circumstance | Additional info |
-|----|----|----|----|
+|----|----|----|
 | email address | signing up for newsletter | When signing up for the Veil newsletter, a user's e-mail address is added to a mailing list |
 | Username | taking on bounties | Users participating in bounties will have their username recorded in order to keep track of participation in, and successful completion of bounties |
 | Support ticket info | seeking support via Freshdesk | Support tickets may include any necessary information provided by users voluntarily, or requested as additional information by support staff in order to resolve issues faced by the user. This info may include PC specs, operating system info, wallet settings, dates and times, and some network settings  |
 | Wallet address | when payment is made to successful bounty | A wallet address is necessary for making payment on successful bounties, and retained by Veil as evidence of adherence to obligations. Best practices would have this address being one-time use, but the choice to reuse an address ultimately lies with the user |
-| Google analytics data | upon all webtraffic to Veil websites and webpages | Analytics data is recorded to help Veil staff identify ways to better engage the public. All IP addresses are anonymised, so no individual's identifying data will be retained |
+| Google analytics data | ~~upon all webtraffic to Veil websites and webpages~~ | We don't use Google Analytics or any other analytics on our web site! ~~Analytics data is recorded to help Veil staff identify ways to better engage the public. All IP addresses are anonymised, so no individual's identifying data will be retained~~ |
 | Device specs | support process, testing bounty | In the event Veil staff require device specs for either support or bounties involving testing, this info will be stored for the sake of helping users and improving Veil software as is deemed appropriate |
 | Social media handle | following, liking, commenting on etc. Veil's social media accounts | Any accounts choosing to engage with Veil via social media will by default leave a record of participation. This may include actions such as following, liking, or subscribing to Veil's social media accounts, which may be openly displayed to other users. Please consider policies of each social media service for more information |
 
