@@ -6,35 +6,37 @@
   completed: true
   title:
     en: New Proof-of-Work Algorithm Suite
-- date: 2021 Q2
+- date: 2024 Q4
   title:
     en: RingCT-staking Protocol
 - date: 2021 Q2
+  completed: true
   title:
     en: User-friendly Veil X Wallet
   desc:
     en:  
-- date: 2021 Q3  
+- date: 2023 Q4  
+  completed: true
   title:
     en: Mobile Wallets
   desc:
     en: 
-- date: 2021 Q3 
+- date: 2025 Q3 
   title:
     en: Complete SuperSonic Research
   desc:
     en: 
-- date: 2021 Q4 
+- date: 2024 Q4 
   title:
     en: Hardware Wallet Support
   desc:
     en: 
-- date: 2021 Q4 
+- date: 2025 Q4 
   title:
     en: SuperSonic Protocol Audit
   desc:
     en: 
-- date: 2022 Q1 
+- date: 2026 Q1 
   title:
     en: SuperSonic Protocol Release
   desc:
