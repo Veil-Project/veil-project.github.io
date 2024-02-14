@@ -34,11 +34,10 @@ The _light_ Veil Wallet also offers several languages, including some that are n
 ### How can I install it?
 
 See our user guides
- - Sideloading the Veil Light Wallet on iPhone using AltStore.
+ - [Sideloading the Veil Light Wallet on iPhone](/uploads/setup_guides/Veil-light-wallet-iPhone-sideload.html) using AltStore.
  - Installing the Veil Wallet via [the Google Play Store](https://play.google.com/store/apps/details?id=org.veilproject.wallet) is automatic. When starting it for the first time, set the language and any other initial settings and either create a new wallet or restore an existing one, remembering to always keep an encrypted or safely stored copy of your seed phrase when you set it up. The light wallet only uses Veil as RingCT. If you restore an old or existing wallet, if there is anything other than RingCT, such as basecoin, CT, or zerocoins, _the light wallet will only see and handle the RingCT balance._ This ensures your Veil remains fully private. **Exchanges that don't offer** stealth/RingCT Veil deposits and withdrawals using the sv (stealth Veil) address will be unavailable to you with this wallet. Not to worry! [NonKYC exchange](https://nonkyc.io) supports private deposits and withdrawals using the stealth Veil address! (Make sure to keep deposits above 300 Veil!)
- - Installing the Veil Light Wallet on Ubuntu Linux.
+ - Installing the [Veil Light Wallet on Ubuntu Linux](/uploads/setup_guides/Veil-light-wallet-Linux.html).
  - Installing the Veil Light Wallet in Windows and macOS should also be pretty straightforward, but there isn't a special guide for it yet.
-**UP TO HERE**
 
 ## Veil is still on our three exchanges. Don't buy "Veil" on any other or you may not be buying the real Veil.
 
