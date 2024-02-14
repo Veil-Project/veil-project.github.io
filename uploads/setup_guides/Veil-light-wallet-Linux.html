@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Installing the Veil Light Wallet on Linux (Ubuntu)</title>
+    <link href="ohcee_guides.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Installing the Veil Light Wallet on Linux (Ubuntu)</h1>
+    <h4>Follow this guide to install the Veil Light Wallet on your Linux machine running Ubuntu.</h4>
+
+    <ol>
+        <h3>For this guide, we'll be using Ubuntu 22.04.3 LTS.</h3>  
+    </ol>
+
+    <h2>Requirements:</h2>
+    <ol>
+        <li>A computer running Ubuntu.</li>
+        <li>A stable internet connection.</li>
+    </ol>
+
+    <h2>Downloading the Veil Light Wallet:</h2>
+    <ol>
+        <li>Visit the GitHub repository to obtain the latest version of the light wallet: <a href="https://github.com/steel97/veil_wallet/releases" target="_blank" rel="noopener noreferrer">Veil Light Wallet Releases</a>.</li>
+        <ul>For Linux, look for the appropriate release for Ubuntu.</ul>
+        <figure>
+            <img src="light-wallet-pictures/veil_wallet_linux.png" alt="veil_wallet_linux_photo">
+            <figcaption>Select the Linux version.</figcaption>
+        </figure>
+        <li>Download the package suitable for Ubuntu.</li>
+    </ol>
+
+    <h2>Installing the Veil Light Wallet:</h2>
+    <ol>
+        <li>Unzip the package to a location you know. For this example I'm saving it to my desktop for simplicity.</li>
+        <li>If the files are not in a folder, create a new folder and drag the files into it.</li>
+        <figure>
+            <img src="light-wallet-pictures/new_folder_w_files.png" alt="new_folder_w_files">
+            <figcaption>New folder on top.<br>
+            Downloaded wallet files on bottom.</figcaption>
+        </figure>
+        <li>Open the terminal and navigate to your wallet location. If you have the folder on your desktop, <br>
+            type <code>cd Desktop</code> and then <code>cd veil\ light\ wallet/</code> (or whatever you named the folder).</li>
+            <figure>
+                <img src="light-wallet-pictures/light_wallet_example2.png" alt="light_wallet_example">
+            </figure>
+        <li>Once in the folder, type <code>chmod +x veil-wallet</code> to make the veil-wallet file executable.</li>
+            <figure>
+                <img src="light-wallet-pictures/chmod_example.png" alt="chmod_example"> 
+            </figure>
+    </ol>
+
+    <h2>Launching Veil Light Wallet:</h2>
+    <ol>
+        <li>To start the wallet in the terminal, use <code>./veil-wallet</code>.</li>
+            <figure>
+                <img src="light-wallet-pictures/cd_Desktop.png" alt="cd_Desktop">
+                <figcaption>Wallet start example.</figcaption>
+            </figure>
+        <li>Alternatively, close the terminal and double-click the veil-wallet gear icon in your veil light wallet folder.</li>
+            <figure>
+                <img src="light-wallet-pictures/veil_wallet_gear_icon.png" alt="veil_wallet_gear_icon">
+                <figcaption>Veil-wallet gear icon.</figcaption>
+            </figure>
+        <li>This should successfully launch your Veil Light Wallet.</li>
+        <li>Configure any initial settings, such as language.</li>
+        <li>Ensure you record and securely store your seed phrase generated during the setup. You can also enter a seed phrase from a previous Veil wallet.</li>
+        <li>After entering your wallet phrase correctly, let your wallet load.</li>
+        <li>The wallet should be ready to use in a few seconds up to a half-hour.</li>
+        <li>Note that since Veil is private by default, this light wallet uses RingCT, and basecoin will not be usable, visible, or available with this light wallet.</li>
+        <li>Mining and staking are not available with the Light Wallet.</li>
+        <li>The light wallet uses "sv1" addresses, not "bv1" basecoin addresses.</li>
+    </ol>
+
+    <h2>Updating the Wallet:</h2>
+    <ol>
+        <li>Check for updates on the official Veil website, Discord, or GitHub periodically.</li>
+    </ol>
+
+    <h2>Enhancements, Additions, or Issues:</h2>
+    <ol>
+        <h3>If you encounter issues or have suggestions for improvements, contribute on the official GitHub repository: <a href="https://github.com/steel97/veil_wallet/issues" target="_blank" rel="noopener noreferrer">Veil Light Wallet GitHub Issues</a>.</h3>
+    </ol>
+
+    <footer>
+        <hr>
+        <h3>For more assistance, visit the <a href="https://discord.veil-project.com" target="_blank" rel="noopener noreferrer">Veil Discord</a> or the <a href="https://veil.freshdesk.com/support/home" target="_blank" rel="noopener noreferrer">Help Desk</a>.</h3>
+        <h3><a href="https://veil-project.com/" target="_blank" rel="noopener noreferrer">Veil Project</a></h3>
+    </footer>
+</body>
+
+</html>
