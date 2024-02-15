@@ -3,9 +3,9 @@
 <!doctype html>
 <html class="no-js" lang="{{ page.lang }}">
 <head>
-  {%- if jekyll.environment == "production" -%}
-    {% include google_analytics.html %}
-  {%- endif -%}
+<!--  {%- if jekyll.environment == "production" -%}
+        {% include google_analytics.html %}
+      {%- endif -%} -->
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,7 +39,7 @@
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="{{ site.baseurl }}/dist/js/veil.js?v={{ site.data.cache_bust_js | truncate: 10, '' }}"></script>
 
-{% include simple-analytics.html %}
+<!-- {% include simple-analytics.html %} -->
 
 </body>
 </html>
