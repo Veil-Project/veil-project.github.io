@@ -24,7 +24,7 @@ description: 'Veil blockchain technology specifications. View Veil’s codebase,
 | --- | --- | --- |
 | Concensus mechanism | Hybrid Proof-of-Work and Proof-of-Stake model. | 
 | Proof-of-Work | [SHA-256D (ASICs), ProgPow (GPU), RandomX (CPU)](https://veil-project.com/blog/pow-update/) |
-| Proof-of-Stake | De-anonymized Zerocoin. (Will be anonymous RingCT-based in forthcoming V1.2) | 
+| Proof-of-Stake | De-anonymized Zerocoin. | 
 | Block time | 60 seconds, retargeting every block. |
 | Block schedule | Block rewards will stop in approximately 2037, when a max coin supply of 300 million VEIL is reached. After this hard cap is reached, network fees will continue to incentivize the network. | 
 | Transaction fees | Variable based on data size.  |

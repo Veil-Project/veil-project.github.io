@@ -17,11 +17,11 @@ The Veil Project is working to improve the state of privacy-focused cryptocurren
 
 - At its core, Veil is built on the world’s most secure blockchain software, **Bitcoin version 0.17.1**.
 
-- In order to provide for “always-on” privacy, Veil added **RingCT** privacy from Particl to its Basecoin transactions, such that all transaction components in the Veil network are  as anonymous as technology today can provide for.
+- To strengthen on-chain privacy, Veil integrated **RingCT** from Particl, allowing Basecoin transactions to be converted for full anonymity. This ensures that users can transact privately while benefiting from the most advanced privacy technology available today.
 
-- Veil originally integrated the **Zerocoin** protocol, based on **zero-knowledge proofs**. However, this technology is currently being deprecated in the Veil network, due to the [Zerocoin insecurities discovered in 2019](/blog/2019-09-07-exploit-update/).
+- Veil originally integrated the **Zerocoin** protocol, leveraging **zero-knowledge proofs** for enhanced privacy. While direct Zerocoin transactions are being phased out due to [security concerns discovered in 2019](/blog/2019-09-07-exploit-update/), the Veil network continues to support Zerocoin through **minting via RingCT**, ensuring full privacy while staking.
 
-- The existing version of Veil includes a de-anonymized, safe, implementation of Zerocoin; however, a development version of Veil is testing the removal of Zerocoin completely, to move to an **industry-first, fully anonymous RingCT-based staking implementation**.
+- The existing version of Veil includes a de-anonymized, safe, implementation of Zerocoin.
 
 - Veil implements a hybrid **Proof-of-Work** (PoW) and **Proof-of-Stake** (PoS) consensus system, providing both fair distribution, and an unprecedented level of protocol security.
 
