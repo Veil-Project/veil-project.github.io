@@ -1,5 +1,32 @@
-_site
-.DS_Store
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-assets
+
+# Bundler local dependencies
+vendor/
+.bundle/
+
+# Environment specific
+.DS_Store
+.env
+
+# Ruby environment
+.ruby-version
+.ruby-gemset
+
+# Node.js dependencies
 node_modules
+package-lock.json  # Added for local Node safety
+
+# Local assets (if not in parent)
+assets
+
+# macOS-specific Ruby/Jekyll updates
+Gemfile.lock
+rbenv-1.3.2
+Gemfile
+package-lock.json
+Gemfile.lock
+Gemfile
