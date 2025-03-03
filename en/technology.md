@@ -45,7 +45,7 @@ And ready for use with the RingCT protocol release (where spending and staking a
 
 ![](/uploads/emission-schedule-white-is_obsolete_.jpg)
 
-[Edit December 2022: Correcting the emissions schedule to account for well-publicised events in 2019 relating to zerocoins, and leading to the founder giving up the founder reward. _For the benefit of newer Veil users, and a reminder to old, here is the announcement relating to it:_ [2019-08-exploit](/news/2019-08-exploit/).] Related details also are in: [2019-07-07-exploit-update](/blog/2019-09-07-exploit-update/). To see how this has played out in the actual Veil Superblocks, and where the founder reward was eliminated, check this retrospective superblocks data ([spreadsheet PDF](/uploads/Superblocks.202402.pdf)). 
+[Edit December 2022: Correcting the emissions schedule to account for well-publicised events in 2019 relating to zerocoins, and leading to the founder giving up the founder reward. _For the benefit of newer Veil users, and a reminder to old, here is the announcement relating to it:_ [2019-08-exploit](/news/2019-08-exploit/).] Related details also are in: [2019-07-07-exploit-update](/blog/2019-09-07-exploit-update/). To see how this has played out in the actual Veil Superblocks, and where the founder reward was eliminated, check this retrospective superblocks data ([spreadsheet PDF](/uploads/Superblocks.202502.pdf)). 
 
 As summarized in the table, the Veil coin emission schedule includes:
 
