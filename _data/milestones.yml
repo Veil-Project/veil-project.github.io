@@ -1,41 +1,41 @@
-- date: January 2019
+- date: "2024-01-01"
   completed: true
   title:
-    en: Project Veil Launched
-- date: 2020 Q4
-  completed: true
-  title:
-    en: New Proof-of-Work Algorithm Suite
-- date: 2021 Q2
-  completed: true
-  title:
-    en: User-friendly Veil X Wallet
+    en: "Network stability & maintenance"
   desc:
-    en:  
-- date: 2023 Q4  
-  completed: true
-  title:
-    en: Mobile Wallets
-  desc:
-    en: 
-- date: 2025 Q3 
-  title:
-    en: Complete SuperSonic Research
-  desc:
-    en: 
-- date: 2024 Q4 
-  title:
-    en: Hardware Wallet Support
-  desc:
-    en: 
-- date: 2025 Q4 
-  title:
-    en: SuperSonic Protocol Audit
-  desc:
-    en: 
-- date: 2026 Q1 
-  title:
-    en: SuperSonic Protocol Release
-  desc:
-    en: 
+    en: "Ongoing protocol upkeep, bug fixes, and consensus safety improvements."
 
+- date: "2024-06-01"
+  completed: true
+  title:
+    en: "Wallet performance & sync improvements"
+  desc:
+    en: "Faster sync times, reduced resource usage, and reliability fixes."
+
+- date: "2024-10-01"
+  completed: true
+  title:
+    en: "Mining ecosystem revival"
+  desc:
+    en: "Restoring and stabilizing PoW mining across supported algorithms."
+
+- date: "2025-01-01"
+  completed: false
+  title:
+    en: "Infrastructure & tooling refresh"
+  desc:
+    en: "Updating explorers, APIs, build systems, and developer tooling."
+
+- date: "2025-04-01"
+  completed: false
+  title:
+    en: "Privacy research & protocol review"
+  desc:
+    en: "Reviewing existing privacy primitives and evaluating future improvements."
+
+- date: "2025-07-01"
+  completed: false
+  title:
+    en: "Open roadmap expansion"
+  desc:
+    en: "Community-driven proposals, bounties, and ecosystem growth."

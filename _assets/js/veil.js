@@ -1,4 +1,4 @@
-var MARKET_ENDPOINT = "https://api.coingecko.com/api/v3/simple/price?ids=veil&vs_currencies=usd&include_market_cap=true&include_24hr_change=true";
+var MARKET_ENDPOINT = "https://api.coingecko.com/api/v3/simple/price?ids=veil&vs_currencies=usd&include_24hr_change=true&include_market_cap=true";
 var SUPPLY_ENDPOINT = "https://explorer.veil-project.com/api/index/";
 
 up.compiler('[data-price]', function($element) {
@@ -42,45 +42,91 @@ up.compiler('[data-price]', function($element) {
 });
 
 up.compiler('[data-bounties]', function($element) {
-  $.get(encodeURI("https://api.github.com/repos/veil-project/veil/issues?labels=Bounty: Open")).done(function(data) {
-    $element.html("");
-    for (var i = 0; i < data.length; i++) {
-      var bounty = data[i];
-      var statusLabel = bounty.labels.find(function(label) {
-        return label.name.toLowerCase().indexOf("dev status:") > -1;
-      })
-      var status = statusLabel && statusLabel.name.split(":")[1].trim();
-      $element.append(
-        '<div class="flex-none w-full md:w-1/2 p-2">' +
-          '<a href="' + bounty.html_url + '" class="block p-6 text-black hover:text-blue no-underline bg-grey-lighter rounded" target="_blank">' +
-            '<div class="font-medium leading-none mb-2 text-md">' + bounty.title + '</div>' +
-            '<div class="text-sm text-black opacity-75 leading-none">' +
-              [
-                '<span class="font-medium">' + (status || 'Help Wanted') + ' </span>',
-                '#' + bounty.number,
-                new Date(bounty.created_at).toLocaleDateString(),
-                'Reward: <span id="reward_' + bounty.number + '"></span> Veil',
-              ].filter(function(obj) { return obj }).join(' &middot; ') +
-            '</div>' +
-          '</a>' +
+  // Labels are case-sensitive on GitHub, and spaces should be encoded.
+  // Tip: If you later migrate labels to "bounty: open", just update LABEL below.
+  var OWNER = 'veil-project';
+  var REPO  = 'veil';
+  var LABEL = 'Bounty: Open';
+
+  // Pull only open issues, newest activity first. (Older bounties still show up if recently updated.)
+  var ISSUES_URL =
+    'https://api.github.com/repos/' + OWNER + '/' + REPO + '/issues' +
+    '?state=open' +
+    '&labels=' + encodeURIComponent(LABEL) +
+    '&sort=updated' +
+    '&direction=desc' +
+    '&per_page=30';
+
+  $element.html('<div class="p-2">Loading…</div>');
+
+  $.get(ISSUES_URL)
+    .done(function(issues) {
+      // GitHub returns PRs in /issues too; filter those out.
+      issues = (issues || []).filter(function(i) { return !i.pull_request; });
+
+      if (!issues.length) {
+        $element.html(
+          '<div class="p-2 opacity-75">' +
+            'No open bounties are listed right now. ' +
+            'If you want to help, check the GitHub issues or ask in Discord for current priorities.' +
+          '</div>'
+        );
+        return;
+      }
+
+      $element.html('');
+
+      issues.forEach(function(issue) {
+        var devStatusLabel = (issue.labels || []).find(function(l) {
+          return l && l.name && l.name.toLowerCase().indexOf('dev status:') !== -1;
+        });
+        var statusText = devStatusLabel ? devStatusLabel.name.split(':')[1].trim() : 'Help Wanted';
+
+        $element.append(
+          '<div class="flex-none w-full md:w-1/2 p-2">' +
+            '<a href="' + issue.html_url + '" class="block p-6 text-black hover:text-blue no-underline bg-grey-lighter rounded" target="_blank" rel="noopener noreferrer">' +
+              '<div class="font-medium leading-none mb-2 text-md">' + issue.title + '</div>' +
+              '<div class="text-sm text-black opacity-75 leading-none">' +
+                [
+                  '<span class="font-medium">' + statusText + '</span>',
+                  '#' + issue.number,
+                  'Updated: ' + new Date(issue.updated_at).toLocaleDateString(),
+                  'Reward: <span id="reward_' + issue.number + '">TBD</span> VEIL'
+                ].join(' &middot; ') +
+              '</div>' +
+            '</a>' +
+          '</div>'
+        );
+
+        // Reward parser:
+        // - Looks for "bounty price: 1234" (legacy)
+        // - Also supports "$VEIL: 1234" or "reward: 1234" (newer, more natural)
+        $.get(issue.comments_url).done(function(comments) {
+          var reward;
+
+          for (var i = 0; i < (comments || []).length; i++) {
+            var body = (comments[i].body || '');
+
+            var m1 = body.match(/bounty\s*price:\s*([0-9]+(?:\.[0-9]+)?)/i);
+            var m2 = body.match(/\$?veil\s*:\s*([0-9]+(?:\.[0-9]+)?)/i);
+            var m3 = body.match(/reward\s*:\s*([0-9]+(?:\.[0-9]+)?)/i);
+
+            var hit = (m1 && m1[1]) || (m2 && m2[1]) || (m3 && m3[1]);
+            if (hit) { reward = hit; break; }
+          }
+
+          $('#reward_' + issue.number).html(reward || 'TBD');
+        });
+      });
+    })
+    .fail(function() {
+      $element.html(
+        '<div class="p-2 opacity-75">' +
+          'Could not load bounties from GitHub right now (rate limit or network issue). ' +
+          'Please check the GitHub repo directly, or try again later.' +
         '</div>'
       );
-      (function(bounty) {
-        $.get(bounty.comments_url).done(function(data) {
-          var price;
-          for (var i = 0; i < data.length; i++) {
-            var comment = data[i];
-            var priceMatch = comment.body.match(/bounty price: ([0-9.]*)/i);
-            if (priceMatch) {
-              price = priceMatch[1];
-              break;
-            }
-          }
-          $('#reward_' + bounty.number).html(price || 'TBD');
-        })
-      })(bounty)
-    }
-  })
+    });
 });
 
 up.compiler('[data-date]', function($element) {
