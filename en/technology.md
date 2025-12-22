@@ -3,54 +3,42 @@ layout: page
 lang: en
 ref: technology
 permalink: /technology/
-title: Veil Technology
-description: 'Veil is a privacy-focused cryptocurrency built on Bitcoin, with RingCT for private transfers and a hybrid PoW/PoS consensus.'
-lead: 'Discover how Veil combines Bitcoin’s security with modern privacy tooling and a hybrid consensus design.'
+title: The Veil Stack
+description: 'A resilient, privacy-first ecosystem built for stability and long-term viability.'
+lead: 'RingCT is the network standard. Discover the technology powering the Veil economy.'
 ---
 
-## Introduction & objectives
+## Resilience by Design
 
-Across the landscape of privacy-focused cryptocurrencies, a number of general approaches have been taken—each with its own benefits and trade-offs.
+In a landscape of shifting privacy standards, Veil provides a constant: a secure, highly usable privacy coin where anonymous transacting is the standard. 
 
-Veil’s goal is to deliver a secure, usable privacy coin where private usage is practical for everyday users, while keeping a conservative foundation and a focus on long-term maintainability.
+The mission is to deliver a practical digital cash experience that maintains a conservative security foundation. Veil is engineered as a self-sustaining network designed for permanent maintainability, high-integrity privacy, and absolute user control.
 
-## Technology
+---
 
-- At its core, Veil is built on **Bitcoin 0.17.1**, providing a proven and conservative foundation.
+## Core Pillars of the Stack
 
-- For on-chain privacy, Veil integrated **RingCT** (from Particl), enabling amounts to be hidden and allowing users to transact using **stealth (“sv…”) addresses**.
+### RingCT: The Ecosystem Standard
+RingCT is the primary layer for the Veil ecosystem. It is the standard for all currently supported exchanges and light wallets providing full-time privacy by masking both transaction amounts and participant identities. While the network supports multiple coin types for specialized use, RingCT is the engine of the Veil economy.
 
-- Veil uses **light Zerocoin** as its current **staking mechanism**. Light Zerocoin is designed for staking and **does not provide transaction privacy by itself**.  
-  However, when users **mint light Zerocoin from RingCT funds**, the original source of funds is **less linkable on-chain prior to staking**, because the mint is funded by a RingCT transaction. (Veil also supports non-RingCT funds such as Basecoin/stealth balances, so minting can be done from different sources depending on a user’s wallet state and workflow.)
+### Hybrid Consensus and Distribution
+Security is balanced through a dual-layer consensus. By combining Proof-of-Work (PoW) for fair distribution with Proof-of-Stake (PoS) for energy-efficient validation, Veil creates a network that is resistant to centralization.
 
-- Veil includes a **de-anonymized, safety-focused Zerocoin implementation** compared to legacy “fully anonymous Zerocoin” designs, reflecting security lessons from the broader Zerocoin ecosystem.
+### Network Routing
+Privacy goes beyond the transaction. With Dandelion integration, Veil obscures the origin of every broadcast. By scrambling the path a transaction takes across the network, it becomes significantly harder for outside observers to trace activity back to a specific IP address.
 
-- Veil implements a hybrid **Proof-of-Work (PoW)** and **Proof-of-Stake (PoS)** consensus system, supporting fair distribution and strong protocol security.
+---
 
-- Veil supports **three separate PoW algorithms** alongside PoS, to encourage broader participation across different hardware classes. See: [PoW update](/blog/pow-update/).
+## The User Experience
 
-- Veil uses **Dandelion** to reduce the ability to trace a transaction back to its originating network node.
+High-level privacy should not be a technical hurdle. 
 
-- The adoption of **Bulletproofs** has been explored as a way to reduce transaction sizes.
+* **Light Wallet Performance:** Veil light wallets are optimized for RingCT, providing a fast streamlined experience focused on secure transacting. These wallets are designed for everyday use without the storage requirements of a full node.
+* **The Single-Seed Standard:** Using BIP-0039/BIP-0044, your financial history from mined Basecoin to private RingCT is secured by one recovery phrase.
+* **Deterministic Security:** Restore your whole wallet without managing multiple keys or complex backups.
 
-- Research has also tracked advanced proof systems (including **Supersonic**) as part of long-term exploration of smaller, efficiently verifiable zero-knowledge proofs.
+---
 
-## User experience
-
-Veil places great emphasis on user experience. For example, the Veil Core wallet supports a single BIP-0039/BIP-0044 **Deterministic Seed** from which its entire wallet can be restored. We still recommend occasional file backups (available by clicking “Backup Wallet” in the Settings screen) for faster restoration.
-
-## The Veil emission schedule
-
-![](/uploads/emission-schedule-white-is_obsolete_.jpg)
-
-[Edit December 2022: Correcting the emissions schedule to account for well-publicised events in 2019 relating to zerocoins, and leading to the founder giving up the founder reward. _For the benefit of newer Veil users, and a reminder to old, here is the announcement relating to it:_ [2019-08-exploit](/news/2019-08-exploit/).] Related details also are in: [2019-07-07-exploit-update](/blog/2019-09-07-exploit-update/). To see how this has played out in the actual Veil Superblocks, and where the founder reward was eliminated, check this retrospective superblocks data ([spreadsheet PDF](/uploads/Superblocks.202502.pdf)).
-
-As summarized in the table, the Veil coin emission schedule includes:
-
-- A declining and capped contribution to the **founder**, to recover the seed investment from which the project has been bootstrapped. _The final Founder reward was paid in the first anniversary Superblock on January 6th, 2020 for reasons specified above._
-
-- A declining but uncapped contribution to the **Veil Labs**, a separate entity that will be established to provide ongoing research and development in privacy technologies related to cryptocurrencies.
-
-- A front-heavy, declining and uncapped contribution to the **Veil operations budget**, funding operations activities such as core network and wallet development, project management, online user support, bounties, marketing and partnerships.
-
-- It should be noted that the funds allocated to the Labs and operations budgets *will not stake*, meaning those funds will not disadvantage those staking in the network. Salaries paid are however free to stake.
+### Links
+* [View Technical Specifications](/specs/)
+* [GitHub Repository](https://github.com/Veil-Project/veil)

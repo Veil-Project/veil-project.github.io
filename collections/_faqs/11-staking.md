@@ -2,8 +2,8 @@
 title: What is “staking”, and how does it work?
 ref: staking
 ---
-Veil’s hybrid consensus systems includes “Proof-of-Stake”, in which individual coin holders, who have “staking” enabled in their wallets, can compete to process the network’s transaction blocks. After each one-minute block processing period, actively staking wallets compete for validation based on the amount of veil that is staked in the wallet. The chosen wallet, after successfully validating the current block of network transactions, receives veil as compensation for the work done.
+Veil uses a hybrid consensus model that combines Proof-of-Work mining with Zerocoin-based Proof-of-Stake.
 
-To stake, all you have to do is be fully synced and unlock your wallet for staking. This will allow your Zerocoin veil to stake.
+In Veil’s staking system Zerocoins are used to participate in block validation. Wallets holding eligible Zerocoins that are online, fully synced, and unlocked for staking automatically compete to validate new blocks.
 
-If your zerocoins have been minted from RingCT in Veil, then the privacy benefits of RingCT will flow-down to your zerocoin staking rewards.
+When a wallet successfully stakes a block, it receives a staking reward as compensation for helping secure the network.

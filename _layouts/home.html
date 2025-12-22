@@ -1,17 +1,17 @@
 ---
 layout: base
 ---
-{% assign latest_news = site.documents | where:"lang", page.lang | where_exp:"item", "item.collection != 'lori'" | sort:"date" | reverse | first %}
+<!-- {% assign latest_news = site.documents | where:"lang", page.lang | where_exp:"item", "item.collection != 'lori'" | sort:"date" | reverse | first %} -->
 {% capture header %}
   <div class="min-h-screen pt-24 flex items-center">
     <div class="container py-12 md:pt-0">
-      <a href="{{ latest_news.url }}" class="hidden md:inline-flex leading-none pt-3 pb-2 px-4 items-center mb-8 bg-blue-darker hover:bg-blue-darkest rounded-full text-sm font-medium text-white">
+      <!-- <a href="{{ latest_news.url }}" class="hidden md:inline-flex leading-none pt-3 pb-2 px-4 items-center mb-8 bg-blue-darker hover:bg-blue-darkest rounded-full text-sm font-medium text-white">
         <span class="text-teal mr-2">
           {{ latest_news.date | date:"%b %d" }}
         </span>
         <span class="mr-2">{{ latest_news.title }}</span>
         <span>{% include icon.html name="chevron-right" class="w-2 h-2" %}</span>
-      </a>
+      </a> -->
 
       <h1 class="text-3xl md:text-5xl uppercase text-white">
         {{ page.title }}

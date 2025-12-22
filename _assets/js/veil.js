@@ -1,4 +1,4 @@
-var MARKET_ENDPOINT = "https://api.coingecko.com/api/v3/simple/price?ids=veil&vs_currencies=usd&include_24hr_change=true&include_market_cap=true";
+var MARKET_ENDPOINT = "";
 var SUPPLY_ENDPOINT = "https://explorer.veil-project.com/api/index/";
 
 up.compiler('[data-price]', function($element) {
