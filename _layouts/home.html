@@ -12,7 +12,7 @@ layout: base
         <span class="mr-2">{{ latest_news.title }}</span>
         <span>{% include icon.html name="chevron-right" class="w-2 h-2" %}</span>
       </a> -->
-
+      
       <h1 class="text-3xl md:text-5xl uppercase text-white">
         {{ page.title }}
       </h1>
@@ -20,16 +20,31 @@ layout: base
         {{ page.lead }}
       </p>
 
-      <p class="mt-8 flex flex-col md:mt-12 md:flex-row items-start md:items-center">
+      <div class="mt-8 flex flex-col md:mt-12 md:flex-row items-start md:items-center">
         <!-- 
           <a href="/video/" up-history="false" up-modal=".video" class="relative inline-block leading-none text-center pt-4 pb-3 pr-6 pl-12 rounded-full border border-teal bg-teal hover:bg-white hover:border-white text-blue-dark text-sm font-medium uppercase tracking-wide">
           {% include icon.html name="video" class="w-5 h-5 absolute pin-l pin-t m-3 ml-4" %} Watch the Video
           </a>
          -->
+        <div class="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-8 text-white opacity-75 text-xl">
+          <div>
+            <div class="uppercase text-teal font-medium tracking-wide mb-1">Protocol level privacy</div>
+            <div>RingCT + stealth addresses by default</div>
+          </div>
+          <div>
+            <div class="uppercase text-teal font-medium tracking-wide mb-1">Decentralized security</div>
+            <div>Hybrid PoW + PoS, open participation</div>
+          </div>
+          <div>
+            <div class="uppercase text-teal font-medium tracking-wide mb-1">Built to endure</div>
+            <div>Conservative design, sustainable funding</div>
+          </div>
+        </div>
+        <br>  
         <a href="#overview" class="relative inline-block leading-none text-center pt-4 pb-3 px-6 mt-4 md:mt-0 md:ml-4 rounded-full border-2 border-teal hover:border-white text-teal hover:text-white text-sm font-medium uppercase tracking-wide">
           Learn more
         </a>
-      </p>
+      </div>
 
       <div class="w-48 mt-16">
         <div class="mb-1 opacity-75 uppercase text-sm font-medium tracking-wide">Participate & Follow:</div>

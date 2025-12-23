@@ -1,4 +1,4 @@
-var MARKET_ENDPOINT = "";
+var MARKET_ENDPOINT = "https://api.coingecko.com/api/v3/simple/price?ids=veil&vs_currencies=usd&include_market_cap=true&include_24hr_change=true";
 var SUPPLY_ENDPOINT = "https://explorer.veil-project.com/api/index/";
 
 up.compiler('[data-price]', function($element) {
@@ -42,13 +42,11 @@ up.compiler('[data-price]', function($element) {
 });
 
 up.compiler('[data-bounties]', function($element) {
-  // Labels are case-sensitive on GitHub, and spaces should be encoded.
-  // Tip: If you later migrate labels to "bounty: open", just update LABEL below.
+
   var OWNER = 'veil-project';
   var REPO  = 'veil';
   var LABEL = 'Bounty: Open';
 
-  // Pull only open issues, newest activity first. (Older bounties still show up if recently updated.)
   var ISSUES_URL =
     'https://api.github.com/repos/' + OWNER + '/' + REPO + '/issues' +
     '?state=open' +
@@ -98,9 +96,6 @@ up.compiler('[data-bounties]', function($element) {
           '</div>'
         );
 
-        // Reward parser:
-        // - Looks for "bounty price: 1234" (legacy)
-        // - Also supports "$VEIL: 1234" or "reward: 1234" (newer, more natural)
         $.get(issue.comments_url).done(function(comments) {
           var reward;
 
