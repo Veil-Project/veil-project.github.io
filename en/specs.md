@@ -59,7 +59,6 @@ The Veil protocol follows a pre-programmed schedule designed to maintain long-te
 
 ## Network Performance
 
-* **Bulletproofs:** Integrated to reduce RingCT transaction data sizes by nearly 50%, maintaining low fees and high performance.
 * **Light Wallets:** RingCT-only; optimized for mobile and desktop use where portability is prioritized over staking.
 * **Deterministic Backup:** All coin types are managed and recovered via a single BIP 39/44 seed phrase.
 
