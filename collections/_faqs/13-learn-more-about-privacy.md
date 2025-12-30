@@ -1,19 +1,22 @@
 ---
-title: Where can I learn more about the privacy technologies implemented in Veil?
+title: Where can I learn more about the privacy technologies used in Veil?
 ref: learn_privacy
 ---
 
-- [RingCT research paper](https://web.getmonero.org/resources/research-lab/pubs/MRL-0005.pdf)
-- [Dandelion research paper](https://arxiv.org/pdf/1805.11060.pdf)
-- [Stealth addresses in the Cryptonote whitepaper](https://bytecoin.org/old/whitepaper.pdf#page=6)
-- [Bulletproofs research paper](https://eprint.iacr.org/2017/1066.pdf)
+Veil’s privacy model is built around RingCT, which forms the core anonymity layer for everyday transactions. RingCT hides transaction amounts and obscures links between inputs and outputs.
 
-**Replacing Zerocoin as a core technology**
+Research: [RingCT research paper](https://web.getmonero.org/resources/research-lab/pubs/MRL-0005.pdf)
 
-Half a year after the launch of Veil in 2019, a series of vulnerabilities were discovered in the Zerocoin library which sits at the core of most Zerocoin-based protocol implementations, including Veil’s. In order to immediately protect Veil user funds, the project released an update that preserves the functional characterics of Zerocoin, but removes its unlinkability to original mints. 
+Veil also uses stealth addresses to prevent address reuse and reduce transaction linkability.
 
-After review, and community discussion, the Veil project, along with a number of others, concluded that Zerocoin can not be relied upon to form the anonymity core of the protocol, and at the time of this writing, the project is [assessing a number of alternatives](https://veil-project.com/blog/2019-05-09-state-of-veil/).
+Background: [Stealth Addresses in Cryptonote whitepaper](https://bytecoin.org/old/whitepaper.pdf#page=6)
 
-Zerocoins minted in Veil from RingCT, still carry the anonymity inherent in RingCT, and so during the interim Veil users have some level of anonymity in spending and staking with Zerocoin if originally minted from RingCT.
+At the network layer, Dandelion helps limit the ability to associate transactions with originating IP addresses during propagation.
 
-The remainder of this page describes how Zerocoin is used in the Veil network *today*, but the reader should be aware that at some point, likely during 2019, Zerocoin will be replaced.
+Research: [Dandelion research paper](https://arxiv.org/pdf/1805.11060.pdf)
+
+To improve efficiency and scalability, Veil incorporates Bulletproofs, which significantly reduce the size and verification cost of confidential transactions.
+
+Research: https://eprint.iacr.org/2017/1066.pdf
+
+Zerocoin is not used as Veil’s primary anonymity layer. Instead, it's role within the protocol is staking, while RingCT provides the core transaction privacy.

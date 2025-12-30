@@ -4,41 +4,58 @@ lang: en
 ref: mining
 permalink: /mining/
 title: Veil Mining
-intro: To provide for wide distribution, the Veil network has launched with a hybrid consensus approach including both Proof-of-Stake and Proof-of-Work mining.
-description: 'Veil Project specs—Veil blockchain technology specifications. View Veil’s codebase, GitHub repository address, mining algorithm, consensus, license, minting, and other data.'
+intro: Veil uses a triple mining model combining ProgPow-Veil (35%), RandomX-Veil (10%), and Sha256D-Veil (5%) to equal 50% of the total daily block reward.
+description: 'Mine VEIL using supported PoW algorithms. Find compatible mining software, pools, explorers, and solo mining tools.'
 ---
+
 <div class="content">
 
   <p>
-    The following is a list of the current Veil mining software and pools, for those wishing to immediately participate in mining. Detailed instructions may be found in the <a href="/blog/2020-mineafterhardfork/">blog post from the launch of the current mining protocols</a>.
+    The following is a list of the current Veil mining software and pools, for those wishing to participate in mining. 
   </p>
+
   <h2>Block explorers</h2>
   <ul>
     <li><a href="https://explorer.veil-project.com/" target="_blank" rel="noopener noreferrer">Mainnet</a></li>
     <li><a href="https://testnet.veil-project.com/" target="_blank" rel="noopener noreferrer">Testnet</a></li>
-
-
   </ul>
 
   <h2>Mining software</h2>
+
+  <h3>ProgPow-Veil</h3>
   <ul>
     <li><a href="https://github.com/trexminer/T-Rex/releases" target="_blank" rel="noopener noreferrer">T-Rex (NVIDIA)</a></li>
-    <li><a href="https://github.com/andru-kun/wildrig-multi/releases/" target="_blank" rel="noopener noreferrer">Wildrig (AMD)</a></li>
+    <li><a href="https://github.com/andru-kun/wildrig-multi/releases/tag/0.40.6" target="_blank" rel="noopener noreferrer">Wildrig (AMD — last known working version)</a></li>
+    <!-- SHOULD BE WORKING AGAIN SOON
     <li><a href="https://github.com/TrailingStop/TT-Miner-release" target="_blank" rel="noopener noreferrer">TT-Miner (NVIDIA)</a></li>
-    <li><a href="https://github.com/us77ipis/xmrig-veil" target="_blank" rel="noopener noreferrer">Xmrig (CPU)</a></li>
+    -->
+  </ul>
+
+  <h3>RandomX-Veil</h3>
+  <ul>
+    <li><a href="https://github.com/us77ipis/xmrig-veil" target="_blank" rel="noopener noreferrer">Xmrig-Veil (CPU)</a></li>
+  </ul>
+
+  <h3>Sha256D-Veil</h3>
+  <ul>
+    <li><a href="https://github.com/Rakni1988/cpuminer-opt-veil" target="_blank" rel="noopener noreferrer">Cpuminer-Opt-Veil (CPU)</a></li>
   </ul>
 
   <h2>Mining pools</h2>
   <ul>
     <li><a href="https://fastpool.xyz/veil-rx/" target="_blank" rel="noopener noreferrer">FastPool (RandomX)</a></li>
+    <li><a href="http://veil.yadaminers.pl" target="_blank" rel="noopener noreferrer">Veil Multi-Algo Pool (All mining algorithms)</a></li>
   </ul>
 
   <h2>Stratum proxy for solo mining</h2>
-  <p>To enable solo mining with third party software (such as the T-Rex miner and Xmrig) running the ProgPow or RandomX algorithm without a pool connection, try this stratum proxy, <a href="https://github.com/us77ipis/veil-node-stratum-proxy" target="_blank" rel="noopener noreferrer">veil node stratum proxy</a></p>
+  <p>
+    To enable solo mining with third party software (such as T-Rex or XMRig) running ProgPow or RandomX without a pool connection, try this stratum proxy:
+    <a href="https://github.com/us77ipis/veil-node-stratum-proxy" target="_blank" rel="noopener noreferrer">veil node stratum proxy</a>
+  </p>
 
   <h2>Profitability calculator</h2>
   <ul>
-    <li><a href="https://whattomine.com/coins/286-veil-progpow" target="_blank" rel="noopener noreferrer">whattomine</a></li>
+    <li><a href="https://whattomine.com/coins/286-veil-progpow" target="_blank" rel="noopener noreferrer">WhatToMine (ProgPow)</a></li>
   </ul>
 
 </div>

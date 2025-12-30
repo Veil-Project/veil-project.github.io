@@ -1,45 +1,69 @@
 ---
 layout: page
 lang: en
-ref: technology
+ref: specs
 permalink: /specs/
-title: Detailed Specifications
-description: 'Veil blockchain technology specifications. View Veil’s codebase, GitHub repository address, mining algorithm, consensus, license, minting, and other data.'
+title: Network Specifications
+description: 'Detailed technical data for the Veil network: Hybrid consensus, fixed 10 VEIL rewards, and superblock funding.'
 ---
 
-## Veil Technical Specs
+## Infrastructure Data
 
-| Development Data | |
+| Identity | Details |
+| --- | --- |
+| **Launch Date** | January 1, 2019 |
+| **License** | MIT License |
+| **Explorer** | [Official Network Explorer](https://explorer.veil-project.com/) |
+| **Supply Cap** | 300,000,000 VEIL |
+
+---
+
+## The Monetary Stack
+
+Veil utilizes a tiered system to separate network generation from daily utility and exchange liquidity.
+
+| Coin Type | Role | Usage |
 | --- | --- | --- |
-| Genesis block date | Jan 1, 2019 |
-| Code repository | [https://github.com/Veil-Project/veil](https://github.com/Veil-Project/veil) |
-| Codebase | Bitcoin Core version 0.17.1 |
-| Supported OSs | Windows, macOS, Linux, paper wallet |
-| Source model | Open Source |
-| License | MIT License |
-| Website | [https://veil-project.com/](https://veil-project.com/) |
-| Explorer | [https://explorer.veil-project.com/](https://explorer.veil-project.com/) |
+| **RingCT** | **Network Standard** | The primary layer for exchanges, light wallets, and all private transfers. |
+| **Basecoin** | **Generation Layer** | The current output of PoW mining. |
+| **Stealth** | **Identity Layer** | Provides masked recipient identities; accessible via the Core Wallet. |
 
-| Blockchain Data | |
-| --- | --- | --- |
-| Concensus mechanism | Hybrid Proof-of-Work and Proof-of-Stake model. | 
-| Proof-of-Work | [SHA-256D (ASICs), ProgPow (GPU), RandomX (CPU)](https://veil-project.com/blog/pow-update/) |
-| Proof-of-Stake | De-anonymized Zerocoin. | 
-| Block time | 60 seconds, retargeting every block. |
-| Block schedule | Block rewards will stop in approximately 2037, when a max coin supply of 300 million VEIL is reached. After this hard cap is reached, network fees will continue to incentivize the network. | 
-| Transaction fees | Variable based on data size.  |
-| Privacy technology | Veil uses mandatory RingCT+stealth addresses to anonymize the Basecoin layer. |
-| [Dandelion](/faqs/#dandelion) | Veil will use multiple stems, rather than one, to increase the level of IP anonymity and privacy. Inspired by BIP 156. |
+**Precision Control:** The Veil Core Wallet is the exclusive hub for moving funds between these layers. Manual conversion gives users full precision over their balances and privacy timing.
 
+---
 
-| Zerocoin [De-Anonymized](https://veil-project.com/blog/2019-09-07-exploit-update/) | |
-| --- | --- | --- |
-| Zerocoin mint fee | Fixed to start, then variable at a later date.  |
-| User-Controlled Coin Minting | Autominting has been turned off to avoid user confusion with the different types of Veil coins. Now, users must manually mint their desired coins. Autominting can be turned back on if needed. When enabled, all available balances are automatically converted to Zerocoin Veil with certain exceptions. Exceptions may be special use cases for exchanges and other services, as well as a designated Basecoin address for each user where Basecoin Veil will not be automatically converted into Zerocoin Veil. |
-| Multi-transaction Zerocoin spending | This allows a transaction to be spread over multiple blocks. Since Zerocoin spending is computationally expensive, only up to 20 Zerocoin denominations can be sent at once in a single transaction. If 21 or more Zerocoin denominations are being sent in one transaction, it is automatically split into two or more transactions by the Multi-Transaction Zerocoin spend feature. |
-| Bulletproofs | Without Bulletproofs, Zerocoin spend sizes are over 20 kilobytes, but with the implementation of Bulletproofs, we now have the Zerocoin spend sizes down to ~11.3 kilobytes. This makes for cheaper transactions. With Veil Labs, a major goal is to reduce this figure even further. |
+## Blockchain Data
 
+| Feature | Specification |
+| --- | --- |
+| **Consensus Model** | Hybrid Proof-of-Work (PoW 50%) and Proof-of-Stake (PoS 50%) | 
+| **PoW Algorithms** | SHA-256D-Veil (CPU), ProgPow-Veil (GPU), RandomX-Veil (CPU) |
+| **PoS Staking** | Secured via **Light Zerocoin** within the Core Wallet | 
+| **Block Reward** | 10 VEIL |
+| **Funding Mechanism** | Monthly Superblock (Operations & Development) |
+| **Block Time** | 60-second targets (DGW retargeting) |
+| **Network Routing** | Dandelion Protocol for IP anonymity |
 
-| Miscellaneous | |
-| --- | --- | --- |
-| Wallet backup | The Zerocoin deterministic wallet will be integrated with Bitcoin Improvement Proposals 39 and 44 (BIP 39/44). The seed for both the Zerocoin wallet and Basecoin wallet will be the same, requiring users to only backup a single seed. |
+---
+
+## Economics and Funding Logic
+
+The Veil protocol follows a pre-programmed schedule designed to maintain long-term network stability.
+
+* **The Reward State:** The network produces a stable 10 VEIL per block. This is locked until the maximum supply of 300 million is reached.
+* **The Monthly Superblock:** This is the project’s payout mechanism. It automates the funding of network operations, project management, and developer support once per month.
+* **Fair Staking:** Project-held operational funds do not stake. This ensures that community stakers are never disadvantaged or diluted by the project's own funding.
+* **Founder Reward Status:** Successfully concluded on January 6th, 2020. The reward was terminated early by the founder to offset the 2019 exploit, protecting the 300M coin cap.
+
+---
+
+## Network Performance
+
+* **Light Wallets:** RingCT-only; optimized for mobile and desktop use where portability is prioritized over staking.
+* **Deterministic Backup:** All coin types are managed and recovered via a single BIP 39/44 seed phrase.
+
+---
+
+### Resources
+* [Mining Update](/blog/pow-update/)
+* [Project Releases](https://github.com/Veil-Project/veil/releases)
