@@ -15,8 +15,4 @@ At the network layer, Dandelion helps limit the ability to associate transaction
 
 Research: [Dandelion research paper](https://arxiv.org/pdf/1805.11060.pdf)
 
-To improve efficiency and scalability, Veil incorporates Bulletproofs, which significantly reduce the size and verification cost of confidential transactions.
-
-Research: https://eprint.iacr.org/2017/1066.pdf
-
 Zerocoin is not used as Veil’s primary anonymity layer. Instead, it's role within the protocol is staking, while RingCT provides the core transaction privacy.
